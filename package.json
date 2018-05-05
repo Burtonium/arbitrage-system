@@ -1,0 +1,31 @@
+{
+  "name": "ez-arb",
+  "version": "1.0.0",
+  "description": "Arbing system for ezbtc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ccxt": "^1.13.59",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "express-async-errors": "^2.1.2",
+    "helmet": "^3.12.0",
+    "knex": "^0.14.6",
+    "lodash": "^4.17.10",
+    "node-persist": "2.1.0",
+    "objection": "^1.1.7",
+    "objection-guid": "^3.0.1",
+    "objection-timestamp": "^1.1.0",
+    "pg": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}

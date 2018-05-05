@@ -1,0 +1,11798 @@
+[
+	{
+		"code": "BTC",
+		"type": "crypto",
+		"label": "Bitcoin"
+	},
+	{
+		"code": "ETH",
+		"type": "crypto",
+		"label": "Ethereum"
+	},
+	{
+		"code": "LTC",
+		"type": "crypto",
+		"label": "Litecoin"
+	},
+	{
+		"code": "BNB",
+		"type": "crypto",
+		"label": "Binance Coin"
+	},
+	{
+		"code": "NEO",
+		"type": "crypto",
+		"label": "NEO"
+	},
+	{
+		"code": "QTUM",
+		"type": "crypto",
+		"label": "QTUM"
+	},
+	{
+		"code": "EOS",
+		"type": "crypto",
+		"label": "EOS"
+	},
+	{
+		"code": "SNT",
+		"type": "crypto",
+		"label": "Status Network Token"
+	},
+	{
+		"code": "BNT",
+		"type": "crypto",
+		"label": "Bancor Network Token"
+	},
+	{
+		"code": "BCH",
+		"type": "crypto",
+		"label": "Bitcoin Cash / BCC"
+	},
+	{
+		"code": "GAS",
+		"type": "crypto",
+		"label": "Gas"
+	},
+	{
+		"code": "USDT",
+		"type": "crypto",
+		"label": "Tether"
+	},
+	{
+		"code": "HSR",
+		"type": "crypto",
+		"label": "Hshare"
+	},
+	{
+		"code": "OAX",
+		"type": "crypto",
+		"label": "OpenANX"
+	},
+	{
+		"code": "DNT",
+		"type": "crypto",
+		"label": "district0x"
+	},
+	{
+		"code": "MCO",
+		"type": "crypto",
+		"label": "Monaco"
+	},
+	{
+		"code": "ICN",
+		"type": "crypto",
+		"label": "Iconomi"
+	},
+	{
+		"code": "WTC",
+		"type": "crypto",
+		"label": "Waltonchain"
+	},
+	{
+		"code": "LRC",
+		"type": "crypto",
+		"label": "Loopring"
+	},
+	{
+		"code": "YOYO",
+		"type": "crypto"
+	},
+	{
+		"code": "OMG",
+		"type": "crypto",
+		"label": "OmiseGo"
+	},
+	{
+		"code": "ZRX",
+		"type": "crypto",
+		"label": "0x"
+	},
+	{
+		"code": "STRAT",
+		"type": "crypto",
+		"label": "Stratis"
+	},
+	{
+		"code": "SNGLS",
+		"type": "crypto",
+		"label": "SingularDTV"
+	},
+	{
+		"code": "BQX",
+		"type": "crypto"
+	},
+	{
+		"code": "KNC",
+		"type": "crypto",
+		"label": "Kyber Network"
+	},
+	{
+		"code": "FUN",
+		"type": "crypto",
+		"label": "FunFair"
+	},
+	{
+		"code": "SNM",
+		"type": "crypto",
+		"label": "SONM"
+	},
+	{
+		"code": "IOTA",
+		"type": "crypto"
+	},
+	{
+		"code": "LINK",
+		"type": "crypto",
+		"label": "ChainLink"
+	},
+	{
+		"code": "XVG",
+		"type": "crypto",
+		"label": "Verge"
+	},
+	{
+		"code": "CTR",
+		"type": "crypto",
+		"label": "Centra"
+	},
+	{
+		"code": "SALT",
+		"type": "crypto",
+		"label": "Salt Lending"
+	},
+	{
+		"code": "MDA",
+		"type": "crypto",
+		"label": "Moeda"
+	},
+	{
+		"code": "MTL",
+		"type": "crypto",
+		"label": "Metal"
+	},
+	{
+		"code": "SUB",
+		"type": "crypto",
+		"label": "Substratum Network"
+	},
+	{
+		"code": "ETC",
+		"type": "crypto",
+		"label": "Ethereum Classic"
+	},
+	{
+		"code": "MTH",
+		"type": "crypto",
+		"label": "Monetha"
+	},
+	{
+		"code": "ENG",
+		"type": "crypto",
+		"label": "Enigma"
+	},
+	{
+		"code": "ZEC",
+		"type": "crypto",
+		"label": "ZCash"
+	},
+	{
+		"code": "AST",
+		"type": "crypto",
+		"label": "AirSwap"
+	},
+	{
+		"code": "DASH",
+		"type": "crypto",
+		"label": "DigitalCash"
+	},
+	{
+		"code": "BTG",
+		"type": "crypto",
+		"label": "Bitcoin Gold"
+	},
+	{
+		"code": "EVX",
+		"type": "crypto",
+		"label": "Everex"
+	},
+	{
+		"code": "REQ",
+		"type": "crypto",
+		"label": "Request Network"
+	},
+	{
+		"code": "VIB",
+		"type": "crypto",
+		"label": "Viberate"
+	},
+	{
+		"code": "TRX",
+		"type": "crypto",
+		"label": "Tronix"
+	},
+	{
+		"code": "POWR",
+		"type": "crypto",
+		"label": "Power Ledger"
+	},
+	{
+		"code": "ARK",
+		"type": "crypto",
+		"label": "ARK"
+	},
+	{
+		"code": "XRP",
+		"type": "crypto",
+		"label": "Ripple"
+	},
+	{
+		"code": "MOD",
+		"type": "crypto",
+		"label": "Modum"
+	},
+	{
+		"code": "ENJ",
+		"type": "crypto",
+		"label": "Enjin Coin"
+	},
+	{
+		"code": "STORJ",
+		"type": "crypto",
+		"label": "Storj"
+	},
+	{
+		"code": "VEN",
+		"type": "crypto",
+		"label": "Vechain"
+	},
+	{
+		"code": "KMD",
+		"type": "crypto",
+		"label": "Komodo"
+	},
+	{
+		"code": "NULS",
+		"type": "crypto",
+		"label": "Nuls"
+	},
+	{
+		"code": "RCN",
+		"type": "crypto",
+		"label": "Ripio"
+	},
+	{
+		"code": "RDN",
+		"type": "crypto",
+		"label": "RadonPay"
+	},
+	{
+		"code": "XMR",
+		"type": "crypto",
+		"label": "Monero"
+	},
+	{
+		"code": "DLT",
+		"type": "crypto",
+		"label": "Agrello Delta"
+	},
+	{
+		"code": "AMB",
+		"type": "crypto",
+		"label": "Ambrosus"
+	},
+	{
+		"code": "BAT",
+		"type": "crypto",
+		"label": "Basic Attention Token"
+	},
+	{
+		"code": "BCPT",
+		"type": "crypto",
+		"label": "BlockMason Credit Protocol"
+	},
+	{
+		"code": "ARN",
+		"type": "crypto",
+		"label": "Aeron"
+	},
+	{
+		"code": "GVT",
+		"type": "crypto",
+		"label": "Genesis Vision"
+	},
+	{
+		"code": "CDT",
+		"type": "crypto",
+		"label": "CoinDash"
+	},
+	{
+		"code": "GXS",
+		"type": "crypto",
+		"label": "GXShares"
+	},
+	{
+		"code": "POE",
+		"type": "crypto",
+		"label": "Po.et"
+	},
+	{
+		"code": "QSP",
+		"type": "crypto",
+		"label": "Quantstamp"
+	},
+	{
+		"code": "BTS",
+		"type": "crypto",
+		"label": "Bitshares"
+	},
+	{
+		"code": "XZC",
+		"type": "crypto",
+		"label": "ZCoin"
+	},
+	{
+		"code": "LSK",
+		"type": "crypto",
+		"label": "Lisk"
+	},
+	{
+		"code": "TNT",
+		"type": "crypto",
+		"label": "Tierion"
+	},
+	{
+		"code": "FUEL",
+		"type": "crypto",
+		"label": "Etherparty"
+	},
+	{
+		"code": "MANA",
+		"type": "crypto",
+		"label": "Decentraland"
+	},
+	{
+		"code": "BCD",
+		"type": "crypto",
+		"label": "Bitcoin Diamond"
+	},
+	{
+		"code": "DGD",
+		"type": "crypto",
+		"label": "Digix DAO"
+	},
+	{
+		"code": "ADX",
+		"type": "crypto",
+		"label": "AdEx"
+	},
+	{
+		"code": "ADA",
+		"type": "crypto",
+		"label": "Cardano"
+	},
+	{
+		"code": "PPT",
+		"type": "crypto",
+		"label": "Populous"
+	},
+	{
+		"code": "CMT",
+		"type": "crypto",
+		"label": "CometCoin"
+	},
+	{
+		"code": "XLM",
+		"type": "crypto",
+		"label": "Stellar"
+	},
+	{
+		"code": "CND",
+		"type": "crypto",
+		"label": "Cindicator"
+	},
+	{
+		"code": "LEND",
+		"type": "crypto",
+		"label": "EthLend"
+	},
+	{
+		"code": "WABI",
+		"type": "crypto",
+		"label": "WaBi"
+	},
+	{
+		"code": "TNB",
+		"type": "crypto",
+		"label": "Time New Bank"
+	},
+	{
+		"code": "WAVES",
+		"type": "crypto",
+		"label": "Waves"
+	},
+	{
+		"code": "GTO",
+		"type": "crypto",
+		"label": "GIFTO"
+	},
+	{
+		"code": "ICX",
+		"type": "crypto",
+		"label": "ICON Project"
+	},
+	{
+		"code": "OST",
+		"type": "crypto",
+		"label": "Simple Token"
+	},
+	{
+		"code": "ELF",
+		"type": "crypto",
+		"label": "aelf"
+	},
+	{
+		"code": "AION",
+		"type": "crypto",
+		"label": "Aion"
+	},
+	{
+		"code": "NEBL",
+		"type": "crypto",
+		"label": "Neblio"
+	},
+	{
+		"code": "BRD",
+		"type": "crypto",
+		"label": "Bread token"
+	},
+	{
+		"code": "EDO",
+		"type": "crypto",
+		"label": "Eidoo"
+	},
+	{
+		"code": "WINGS",
+		"type": "crypto",
+		"label": "Wings DAO"
+	},
+	{
+		"code": "NAV",
+		"type": "crypto",
+		"label": "NavCoin"
+	},
+	{
+		"code": "LUN",
+		"type": "crypto",
+		"label": "Lunyr"
+	},
+	{
+		"code": "TRIG",
+		"type": "crypto",
+		"label": "Trigger"
+	},
+	{
+		"code": "APPC",
+		"type": "crypto",
+		"label": "AppCoins"
+	},
+	{
+		"code": "VIBE",
+		"type": "crypto",
+		"label": "VIBEHub"
+	},
+	{
+		"code": "RLC",
+		"type": "crypto",
+		"label": "iEx.ec"
+	},
+	{
+		"code": "INS",
+		"type": "crypto",
+		"label": "INS Ecosystem"
+	},
+	{
+		"code": "PIVX",
+		"type": "crypto",
+		"label": "Private Instant Verified Transaction"
+	},
+	{
+		"code": "IOST",
+		"type": "crypto",
+		"label": "IOS token"
+	},
+	{
+		"code": "CHAT",
+		"type": "crypto",
+		"label": "ChatCoin"
+	},
+	{
+		"code": "STEEM",
+		"type": "crypto",
+		"label": "Steem"
+	},
+	{
+		"code": "NANO",
+		"type": "crypto"
+	},
+	{
+		"code": "VIA",
+		"type": "crypto",
+		"label": "ViaCoin"
+	},
+	{
+		"code": "BLZ",
+		"type": "crypto",
+		"label": "Bluzelle"
+	},
+	{
+		"code": "AE",
+		"type": "crypto",
+		"label": "Aeternity"
+	},
+	{
+		"code": "RPX",
+		"type": "crypto",
+		"label": "Red Pulse"
+	},
+	{
+		"code": "NCASH",
+		"type": "crypto"
+	},
+	{
+		"code": "POA",
+		"type": "crypto"
+	},
+	{
+		"code": "ZIL",
+		"type": "crypto",
+		"label": "Zilliqa"
+	},
+	{
+		"code": "ONT",
+		"type": "crypto"
+	},
+	{
+		"code": "USD",
+		"type": "fiat",
+		"label": "US Dollar",
+		"symbol": "$"
+	},
+	{
+		"code": "EUR",
+		"type": "fiat",
+		"label": "Euro",
+		"symbol": "€"
+	},
+	{
+		"code": "2GIVE",
+		"type": "crypto",
+		"label": "2GiveCoin"
+	},
+	{
+		"code": "ABY",
+		"type": "crypto",
+		"label": "ArtByte"
+	},
+	{
+		"code": "ADT",
+		"type": "crypto",
+		"label": "AdToken"
+	},
+	{
+		"code": "AEON",
+		"type": "crypto",
+		"label": "AeonCoin"
+	},
+	{
+		"code": "AMP",
+		"type": "crypto",
+		"label": "Synereo"
+	},
+	{
+		"code": "ANT",
+		"type": "crypto",
+		"label": "Aragon"
+	},
+	{
+		"code": "ARDR",
+		"type": "crypto",
+		"label": "Ardor"
+	},
+	{
+		"code": "AUR",
+		"type": "crypto",
+		"label": "Aurora Coin"
+	},
+	{
+		"code": "BAY",
+		"type": "crypto",
+		"label": "BitBay"
+	},
+	{
+		"code": "BCY",
+		"type": "crypto",
+		"label": "BitCrystals"
+	},
+	{
+		"code": "BITB",
+		"type": "crypto",
+		"label": "BitBean"
+	},
+	{
+		"code": "BLITZ",
+		"type": "crypto",
+		"label": "BlitzCoin"
+	},
+	{
+		"code": "BLK",
+		"type": "crypto",
+		"label": "BlackCoin"
+	},
+	{
+		"code": "BLOCK",
+		"type": "crypto",
+		"label": "BlockNet"
+	},
+	{
+		"code": "BRK",
+		"type": "crypto",
+		"label": "BreakoutCoin"
+	},
+	{
+		"code": "BRX",
+		"type": "crypto",
+		"label": "Breakout Stake"
+	},
+	{
+		"code": "BSD",
+		"type": "crypto",
+		"label": "BitSend"
+	},
+	{
+		"code": "BURST",
+		"type": "crypto",
+		"label": "BurstCoin"
+	},
+	{
+		"code": "BYC",
+		"type": "crypto",
+		"label": "ByteCent"
+	},
+	{
+		"code": "CANN",
+		"type": "crypto",
+		"label": "CannabisCoin"
+	},
+	{
+		"code": "CFI",
+		"type": "crypto",
+		"label": "Cofound.it"
+	},
+	{
+		"code": "CLAM",
+		"type": "crypto",
+		"label": "CLAMS"
+	},
+	{
+		"code": "CLOAK",
+		"type": "crypto",
+		"label": "CloakCoin"
+	},
+	{
+		"code": "CLUB",
+		"type": "crypto",
+		"label": " ClubCoin"
+	},
+	{
+		"code": "COVAL",
+		"type": "crypto",
+		"label": "Circuits of Value"
+	},
+	{
+		"code": "CPC",
+		"type": "crypto",
+		"label": "CapriCoin"
+	},
+	{
+		"code": "CRB",
+		"type": "crypto",
+		"label": "Creditbit "
+	},
+	{
+		"code": "CRW",
+		"type": "crypto",
+		"label": "Crown Coin"
+	},
+	{
+		"code": "CURE",
+		"type": "crypto",
+		"label": "Curecoin"
+	},
+	{
+		"code": "CVC",
+		"type": "crypto",
+		"label": "Civic"
+	},
+	{
+		"code": "DCR",
+		"type": "crypto",
+		"label": "Decred"
+	},
+	{
+		"code": "DCT",
+		"type": "crypto",
+		"label": "Decent"
+	},
+	{
+		"code": "DGB",
+		"type": "crypto",
+		"label": "DigiByte"
+	},
+	{
+		"code": "DMD",
+		"type": "crypto",
+		"label": "Diamond"
+	},
+	{
+		"code": "DOGE",
+		"type": "crypto",
+		"label": "Dogecoin"
+	},
+	{
+		"code": "DOPE",
+		"type": "crypto",
+		"label": "DopeCoin"
+	},
+	{
+		"code": "DTB",
+		"type": "crypto",
+		"label": "Databits"
+	},
+	{
+		"code": "DYN",
+		"type": "crypto",
+		"label": "Dynamic"
+	},
+	{
+		"code": "EBST",
+		"type": "crypto",
+		"label": "eBoost"
+	},
+	{
+		"code": "EDG",
+		"type": "crypto",
+		"label": "Edgeless"
+	},
+	{
+		"code": "EFL",
+		"type": "crypto",
+		"label": "E-Gulden"
+	},
+	{
+		"code": "EGC",
+		"type": "crypto",
+		"label": "EverGreenCoin"
+	},
+	{
+		"code": "EMC",
+		"type": "crypto",
+		"label": "Emercoin"
+	},
+	{
+		"code": "EMC2",
+		"type": "crypto",
+		"label": "Einsteinium"
+	},
+	{
+		"code": "ENRG",
+		"type": "crypto",
+		"label": "EnergyCoin"
+	},
+	{
+		"code": "ERC",
+		"type": "crypto",
+		"label": "EuropeCoin"
+	},
+	{
+		"code": "EXCL",
+		"type": "crypto",
+		"label": "Exclusive Coin"
+	},
+	{
+		"code": "EXP",
+		"type": "crypto",
+		"label": "Expanse"
+	},
+	{
+		"code": "FAIR",
+		"type": "crypto",
+		"label": "FairCoin"
+	},
+	{
+		"code": "FCT",
+		"type": "crypto",
+		"label": "Factoids"
+	},
+	{
+		"code": "FLDC",
+		"type": "crypto",
+		"label": "Folding Coin"
+	},
+	{
+		"code": "FLO",
+		"type": "crypto",
+		"label": "FlorinCoin"
+	},
+	{
+		"code": "FTC",
+		"type": "crypto",
+		"label": "FeatherCoin"
+	},
+	{
+		"code": "GAM",
+		"type": "crypto",
+		"label": "Gambit coin"
+	},
+	{
+		"code": "GAME",
+		"type": "crypto",
+		"label": "Gamecredits"
+	},
+	{
+		"code": "GBG",
+		"type": "crypto"
+	},
+	{
+		"code": "GBYTE",
+		"type": "crypto",
+		"label": "Byteball"
+	},
+	{
+		"code": "GCR",
+		"type": "crypto",
+		"label": "Global Currency Reserve"
+	},
+	{
+		"code": "GEO",
+		"type": "crypto",
+		"label": "GeoCoin"
+	},
+	{
+		"code": "GLD",
+		"type": "crypto",
+		"label": "GoldCoin"
+	},
+	{
+		"code": "GNO",
+		"type": "crypto",
+		"label": "Gnosis"
+	},
+	{
+		"code": "GNT",
+		"type": "crypto",
+		"label": "Golem Network Token"
+	},
+	{
+		"code": "GOLOS",
+		"type": "crypto",
+		"label": "Golos"
+	},
+	{
+		"code": "GRC",
+		"type": "crypto",
+		"label": "GridCoin"
+	},
+	{
+		"code": "GRS",
+		"type": "crypto",
+		"label": "Groestlcoin "
+	},
+	{
+		"code": "GUP",
+		"type": "crypto",
+		"label": "Guppy"
+	},
+	{
+		"code": "HMQ",
+		"type": "crypto",
+		"label": "Humaniq"
+	},
+	{
+		"code": "IGNIS",
+		"type": "crypto",
+		"label": "Ignis"
+	},
+	{
+		"code": "INCNT",
+		"type": "crypto",
+		"label": "Incent"
+	},
+	{
+		"code": "IOC",
+		"type": "crypto",
+		"label": "IOCoin"
+	},
+	{
+		"code": "ION",
+		"type": "crypto",
+		"label": "Ionomy"
+	},
+	{
+		"code": "IOP",
+		"type": "crypto",
+		"label": "Internet of People"
+	},
+	{
+		"code": "KORE",
+		"type": "crypto",
+		"label": "Kore"
+	},
+	{
+		"code": "LBC",
+		"type": "crypto",
+		"label": "LBRY Credits"
+	},
+	{
+		"code": "LGD",
+		"type": "crypto",
+		"label": "Legends Cryptocurrency"
+	},
+	{
+		"code": "LMC",
+		"type": "crypto",
+		"label": "LomoCoin"
+	},
+	{
+		"code": "MEME",
+		"type": "crypto",
+		"label": "Pepe"
+	},
+	{
+		"code": "MER",
+		"type": "crypto",
+		"label": "Mercury"
+	},
+	{
+		"code": "MLN",
+		"type": "crypto",
+		"label": "Melon"
+	},
+	{
+		"code": "MONA",
+		"type": "crypto",
+		"label": "MonaCoin"
+	},
+	{
+		"code": "MUE",
+		"type": "crypto",
+		"label": "MonetaryUnit"
+	},
+	{
+		"code": "MUSIC",
+		"type": "crypto",
+		"label": "Musicoin"
+	},
+	{
+		"code": "NBT",
+		"type": "crypto",
+		"label": "NuBits"
+	},
+	{
+		"code": "NEOS",
+		"type": "crypto",
+		"label": "NeosCoin"
+	},
+	{
+		"code": "NLG",
+		"type": "crypto",
+		"label": "Gulden"
+	},
+	{
+		"code": "NMR",
+		"type": "crypto",
+		"label": "Numerai"
+	},
+	{
+		"code": "NXC",
+		"type": "crypto",
+		"label": "Nexium"
+	},
+	{
+		"code": "NXS",
+		"type": "crypto",
+		"label": "Nexus"
+	},
+	{
+		"code": "NXT",
+		"type": "crypto",
+		"label": "Nxt"
+	},
+	{
+		"code": "OK",
+		"type": "crypto",
+		"label": "OKCash"
+	},
+	{
+		"code": "OMNI",
+		"type": "crypto",
+		"label": "Omni"
+	},
+	{
+		"code": "PART",
+		"type": "crypto",
+		"label": "Particl"
+	},
+	{
+		"code": "PAY",
+		"type": "crypto",
+		"label": "TenX"
+	},
+	{
+		"code": "PDC",
+		"type": "crypto",
+		"label": "Project Decorum"
+	},
+	{
+		"code": "PINK",
+		"type": "crypto",
+		"label": "PinkCoin"
+	},
+	{
+		"code": "PKB",
+		"type": "crypto",
+		"label": "ParkByte"
+	},
+	{
+		"code": "POT",
+		"type": "crypto",
+		"label": "PotCoin"
+	},
+	{
+		"code": "PPC",
+		"type": "crypto",
+		"label": "PeerCoin"
+	},
+	{
+		"code": "PTC",
+		"type": "crypto",
+		"label": "PesetaCoin"
+	},
+	{
+		"code": "PTOY",
+		"type": "crypto",
+		"label": "Patientory"
+	},
+	{
+		"code": "QRL",
+		"type": "crypto",
+		"label": "Quantum Resistant Ledger"
+	},
+	{
+		"code": "QWARK",
+		"type": "crypto",
+		"label": "Qwark"
+	},
+	{
+		"code": "RADS",
+		"type": "crypto",
+		"label": "Radium"
+	},
+	{
+		"code": "RBY",
+		"type": "crypto",
+		"label": "RubyCoin"
+	},
+	{
+		"code": "RDD",
+		"type": "crypto",
+		"label": "ReddCoin"
+	},
+	{
+		"code": "REP",
+		"type": "crypto",
+		"label": "Augur"
+	},
+	{
+		"code": "SBD",
+		"type": "crypto",
+		"label": "Steem Backed Dollars"
+	},
+	{
+		"code": "SC",
+		"type": "crypto",
+		"label": "Siacoin"
+	},
+	{
+		"code": "SEQ",
+		"type": "crypto",
+		"label": "Sequence"
+	},
+	{
+		"code": "SHIFT",
+		"type": "crypto",
+		"label": "Shift"
+	},
+	{
+		"code": "SIB",
+		"type": "crypto",
+		"label": "SibCoin"
+	},
+	{
+		"code": "SLR",
+		"type": "crypto",
+		"label": "SolarCoin"
+	},
+	{
+		"code": "SLS",
+		"type": "crypto",
+		"label": "SaluS"
+	},
+	{
+		"code": "SNRG",
+		"type": "crypto",
+		"label": "Synergy"
+	},
+	{
+		"code": "SPHR",
+		"type": "crypto",
+		"label": "Sphere Coin"
+	},
+	{
+		"code": "SPR",
+		"type": "crypto",
+		"label": "Spreadcoin"
+	},
+	{
+		"code": "SRN",
+		"type": "crypto",
+		"label": "SirinLabs"
+	},
+	{
+		"code": "START",
+		"type": "crypto",
+		"label": "StartCoin"
+	},
+	{
+		"code": "SWIFT",
+		"type": "crypto",
+		"label": "BitSwift"
+	},
+	{
+		"code": "SWT",
+		"type": "crypto",
+		"label": "Swarm City Token"
+	},
+	{
+		"code": "SYNX",
+		"type": "crypto",
+		"label": "Syndicate"
+	},
+	{
+		"code": "SYS",
+		"type": "crypto",
+		"label": "SysCoin"
+	},
+	{
+		"code": "THC",
+		"type": "crypto",
+		"label": "The Hempcoin"
+	},
+	{
+		"code": "TIX",
+		"type": "crypto",
+		"label": "Blocktix"
+	},
+	{
+		"code": "TKS",
+		"type": "crypto",
+		"label": "Tokes"
+	},
+	{
+		"code": "TRST",
+		"type": "crypto",
+		"label": "TrustCoin"
+	},
+	{
+		"code": "TRUST",
+		"type": "crypto",
+		"label": "TrustPlus"
+	},
+	{
+		"code": "TUSD",
+		"type": "crypto"
+	},
+	{
+		"code": "TX",
+		"type": "crypto",
+		"label": "Transfer"
+	},
+	{
+		"code": "UBQ",
+		"type": "crypto",
+		"label": "Ubiq"
+	},
+	{
+		"code": "UKG",
+		"type": "crypto",
+		"label": "UnikoinGold"
+	},
+	{
+		"code": "UNB",
+		"type": "crypto",
+		"label": "UnbreakableCoin"
+	},
+	{
+		"code": "VEE",
+		"type": "crypto",
+		"label": "BLOCKv"
+	},
+	{
+		"code": "VOX",
+		"type": "crypto",
+		"label": "Voxels"
+	},
+	{
+		"code": "VRC",
+		"type": "crypto",
+		"label": "VeriCoin"
+	},
+	{
+		"code": "VRM",
+		"type": "crypto",
+		"label": "Verium"
+	},
+	{
+		"code": "VTC",
+		"type": "crypto",
+		"label": "VertCoin"
+	},
+	{
+		"code": "VTR",
+		"type": "crypto",
+		"label": "Vtorrent"
+	},
+	{
+		"code": "WAX",
+		"type": "crypto",
+		"label": "Worldwide Asset eXchange"
+	},
+	{
+		"code": "XCP",
+		"type": "crypto",
+		"label": "CounterParty"
+	},
+	{
+		"code": "XDN",
+		"type": "crypto",
+		"label": "DigitalNote "
+	},
+	{
+		"code": "XEL",
+		"type": "crypto",
+		"label": "Elastic"
+	},
+	{
+		"code": "XEM",
+		"type": "crypto",
+		"label": "NEM"
+	},
+	{
+		"code": "XMG",
+		"type": "crypto",
+		"label": "Coin Magi"
+	},
+	{
+		"code": "XMY",
+		"type": "crypto",
+		"label": "MyriadCoin"
+	},
+	{
+		"code": "XST",
+		"type": "crypto",
+		"label": "StealthCoin"
+	},
+	{
+		"code": "XVC",
+		"type": "crypto",
+		"label": "Vcash"
+	},
+	{
+		"code": "XWC",
+		"type": "crypto",
+		"label": "WhiteCoin"
+	},
+	{
+		"code": "ZCL",
+		"type": "crypto",
+		"label": "ZClassic"
+	},
+	{
+		"code": "ZEN",
+		"type": "crypto",
+		"label": "ZenCash"
+	},
+	{
+		"code": "AUD",
+		"type": "fiat",
+		"label": "Australian Dollar",
+		"symbol": "AU$"
+	},
+	{
+		"code": "NZD",
+		"type": "fiat",
+		"label": "New Zealand Dollar",
+		"symbol": "NZ$"
+	},
+	{
+		"code": "CAD",
+		"type": "fiat",
+		"label": "Canadian Dollar",
+		"symbol": "CA$"
+	},
+	{
+		"code": "GBP",
+		"type": "fiat",
+		"label": "British Pound Sterling",
+		"symbol": "£"
+	},
+	{
+		"code": "JPY",
+		"type": "crypto",
+		"label": "Japanese Yen",
+		"symbol": "¥"
+	},
+	{
+		"code": "XDG",
+		"type": "crypto"
+	},
+	{
+		"code": "KCS",
+		"type": "crypto",
+		"label": "Kucoin"
+	},
+	{
+		"code": "OCN",
+		"type": "crypto",
+		"label": "Odyssey"
+	},
+	{
+		"code": "FOTA",
+		"type": "crypto",
+		"label": "Fortuna"
+	},
+	{
+		"code": "CS",
+		"type": "crypto",
+		"label": "CryptoSpots"
+	},
+	{
+		"code": "EXY",
+		"type": "crypto",
+		"label": "Experty"
+	},
+	{
+		"code": "GLA",
+		"type": "crypto",
+		"label": "Gladius"
+	},
+	{
+		"code": "IHT",
+		"type": "crypto"
+	},
+	{
+		"code": "J8T",
+		"type": "crypto"
+	},
+	{
+		"code": "KICK",
+		"type": "crypto",
+		"label": "KickCoin"
+	},
+	{
+		"code": "TIME",
+		"type": "crypto",
+		"label": "Time"
+	},
+	{
+		"code": "COV",
+		"type": "crypto",
+		"label": "Covesting"
+	},
+	{
+		"code": "STK",
+		"type": "crypto",
+		"label": "STK Token"
+	},
+	{
+		"code": "ZPT",
+		"type": "crypto",
+		"label": "Zeepin"
+	},
+	{
+		"code": "CHSB",
+		"type": "crypto",
+		"label": "SwissBorg"
+	},
+	{
+		"code": "DADI",
+		"type": "crypto",
+		"label": "DADI"
+	},
+	{
+		"code": "BPT",
+		"type": "crypto",
+		"label": "Blockport"
+	},
+	{
+		"code": "SAY",
+		"type": "crypto"
+	},
+	{
+		"code": "TKY",
+		"type": "crypto",
+		"label": "THEKEY Token"
+	},
+	{
+		"code": "TNC",
+		"type": "crypto",
+		"label": "Trinity Network Credit"
+	},
+	{
+		"code": "XRB",
+		"type": "crypto",
+		"label": "Nano"
+	},
+	{
+		"code": "CAPP",
+		"type": "crypto",
+		"label": "Cappasity"
+	},
+	{
+		"code": "POLY",
+		"type": "crypto",
+		"label": "PolyBit"
+	},
+	{
+		"code": "AXP",
+		"type": "crypto",
+		"label": "aXpire"
+	},
+	{
+		"code": "CXO",
+		"type": "crypto",
+		"label": "CargoX"
+	},
+	{
+		"code": "DTA",
+		"type": "crypto",
+		"label": "Data"
+	},
+	{
+		"code": "ING",
+		"type": "crypto",
+		"label": "Iungo"
+	},
+	{
+		"code": "MTN",
+		"type": "crypto",
+		"label": "TrackNetToken"
+	},
+	{
+		"code": "SNC",
+		"type": "crypto",
+		"label": "SunContract"
+	},
+	{
+		"code": "TEL",
+		"type": "crypto",
+		"label": "Telcoin"
+	},
+	{
+		"code": "COFI",
+		"type": "crypto",
+		"label": "CoinFi"
+	},
+	{
+		"code": "PARETO",
+		"type": "crypto",
+		"label": "Pareto Network Token"
+	},
+	{
+		"code": "ADB",
+		"type": "crypto",
+		"label": "Adbank"
+	},
+	{
+		"code": "BOS",
+		"type": "crypto",
+		"label": "BOScoin"
+	},
+	{
+		"code": "HAT",
+		"type": "crypto",
+		"label": "Hawala.Today"
+	},
+	{
+		"code": "HKN",
+		"type": "crypto",
+		"label": "Hacken"
+	},
+	{
+		"code": "HPB",
+		"type": "crypto",
+		"label": "High Performance Blockchain"
+	},
+	{
+		"code": "ARY",
+		"type": "crypto",
+		"label": "Block Array"
+	},
+	{
+		"code": "DBC",
+		"type": "crypto",
+		"label": "DeepBrain Chain"
+	},
+	{
+		"code": "KEY",
+		"type": "crypto",
+		"label": "SelfKey"
+	},
+	{
+		"code": "GAT",
+		"type": "crypto",
+		"label": "GATCOIN"
+	},
+	{
+		"code": "R",
+		"type": "crypto",
+		"label": "Revain"
+	},
+	{
+		"code": "CV",
+		"type": "crypto",
+		"label": "CarVertical"
+	},
+	{
+		"code": "QLC",
+		"type": "crypto",
+		"label": "QLINK"
+	},
+	{
+		"code": "TIO",
+		"type": "crypto",
+		"label": "Trade.io"
+	},
+	{
+		"code": "ACAT",
+		"type": "crypto"
+	},
+	{
+		"code": "DRGN",
+		"type": "crypto",
+		"label": "Dragonchain"
+	},
+	{
+		"code": "ITC",
+		"type": "crypto",
+		"label": "IoT Chain"
+	},
+	{
+		"code": "AGI",
+		"type": "crypto",
+		"label": "SingularityNET"
+	},
+	{
+		"code": "MWAT",
+		"type": "crypto",
+		"label": "RED MegaWatt"
+	},
+	{
+		"code": "DENT",
+		"type": "crypto",
+		"label": "Dent"
+	},
+	{
+		"code": "LOCI",
+		"type": "crypto",
+		"label": "LociCoin"
+	},
+	{
+		"code": "CAT",
+		"type": "crypto",
+		"label": "BitClave"
+	},
+	{
+		"code": "ACT",
+		"type": "crypto",
+		"label": "ACT"
+	},
+	{
+		"code": "CAN",
+		"type": "crypto",
+		"label": "CanYaCoin"
+	},
+	{
+		"code": "JNT",
+		"type": "crypto",
+		"label": "Jibrel Network Token"
+	},
+	{
+		"code": "MEE",
+		"type": "crypto"
+	},
+	{
+		"code": "PLAY",
+		"type": "crypto",
+		"label": "HEROcoin"
+	},
+	{
+		"code": "DNA",
+		"type": "crypto",
+		"label": "Encrypgen"
+	},
+	{
+		"code": "PRL",
+		"type": "crypto",
+		"label": "Oyster Pearl"
+	},
+	{
+		"code": "UTK",
+		"type": "crypto",
+		"label": "Utrust"
+	},
+	{
+		"code": "EBTC",
+		"type": "crypto",
+		"label": "eBitcoin"
+	},
+	{
+		"code": "CAG",
+		"type": "crypto",
+		"label": "Change"
+	},
+	{
+		"code": "SPF",
+		"type": "crypto",
+		"label": "SportyFi"
+	},
+	{
+		"code": "BNTY",
+		"type": "crypto",
+		"label": "Bounty0x"
+	},
+	{
+		"code": "ELIX",
+		"type": "crypto",
+		"label": "Elixir"
+	},
+	{
+		"code": "AIX",
+		"type": "crypto",
+		"label": "Aigang"
+	},
+	{
+		"code": "DAT",
+		"type": "crypto",
+		"label": "Datum"
+	},
+	{
+		"code": "SNOV",
+		"type": "crypto",
+		"label": "Snovio"
+	},
+	{
+		"code": "BTM",
+		"type": "crypto",
+		"label": "BitMark"
+	},
+	{
+		"code": "XLR",
+		"type": "crypto",
+		"label": "Solaris"
+	},
+	{
+		"code": "RHOC",
+		"type": "crypto",
+		"label": "RChain"
+	},
+	{
+		"code": "XAS",
+		"type": "crypto",
+		"label": "Asch"
+	},
+	{
+		"code": "POLL",
+		"type": "crypto",
+		"label": "ClearPoll"
+	},
+	{
+		"code": "TFL",
+		"type": "crypto",
+		"label": "True Flip Lottery"
+	},
+	{
+		"code": "FLIXX",
+		"type": "crypto",
+		"label": "Flixxo"
+	},
+	{
+		"code": "LA",
+		"type": "crypto",
+		"label": "LATOKEN"
+	},
+	{
+		"code": "ONION",
+		"type": "crypto",
+		"label": "DeepOnion"
+	},
+	{
+		"code": "PBL",
+		"type": "crypto",
+		"label": "Publica"
+	},
+	{
+		"code": "HST",
+		"type": "crypto",
+		"label": "Decision Token"
+	},
+	{
+		"code": "PURA",
+		"type": "crypto",
+		"label": "Pura"
+	},
+	{
+		"code": "STX",
+		"type": "crypto",
+		"label": "Stox"
+	},
+	{
+		"code": "CFD",
+		"type": "crypto",
+		"label": "Confido"
+	},
+	{
+		"code": "BHC",
+		"type": "crypto",
+		"label": "BighanCoin"
+	},
+	{
+		"code": "BCN",
+		"type": "crypto",
+		"label": "ByteCoin"
+	},
+	{
+		"code": "BELA",
+		"type": "crypto",
+		"label": "BelaCoin"
+	},
+	{
+		"code": "BTCD",
+		"type": "crypto",
+		"label": "BitcoinDark"
+	},
+	{
+		"code": "Bitmark",
+		"type": "crypto"
+	},
+	{
+		"code": "HUC",
+		"type": "crypto",
+		"label": "HunterCoin"
+	},
+	{
+		"code": "MAID",
+		"type": "crypto",
+		"label": "MaidSafe Coin"
+	},
+	{
+		"code": "NMC",
+		"type": "crypto",
+		"label": "NameCoin"
+	},
+	{
+		"code": "RIC",
+		"type": "crypto",
+		"label": "Riecoin"
+	},
+	{
+		"code": "XBC",
+		"type": "crypto",
+		"label": "BitcoinPlus"
+	},
+	{
+		"code": "XPM",
+		"type": "crypto",
+		"label": "PrimeCoin"
+	},
+	{
+		"code": "PASC",
+		"type": "crypto",
+		"label": "Pascal Coin"
+	},
+	{
+		"code": "SGD",
+		"type": "fiat",
+		"label": "Singapore Dollar",
+		"symbol": "S$"
+	},
+	{
+		"code": "RKT",
+		"type": "crypto"
+	},
+	{
+		"code": "UBTC",
+		"type": "crypto",
+		"label": "UnitedBitcoin"
+	},
+	{
+		"code": "IDR",
+		"type": "fiat",
+		"label": "Indonesian Rupiah",
+		"symbol": "Rp"
+	},
+	{
+		"code": "CNY",
+		"type": "fiat",
+		"label": "Chinese Yuan",
+		"symbol": "CN¥"
+	},
+	{
+		"code": "INR",
+		"type": "fiat",
+		"label": "Indian Rupee",
+		"symbol": "Rs"
+	},
+	{
+		"code": "QASH",
+		"type": "crypto",
+		"label": "Quoine Liquid"
+	},
+	{
+		"code": "HKD",
+		"type": "fiat",
+		"label": "Hong Kong Dollar",
+		"symbol": "HK$"
+	},
+	{
+		"code": "PHP",
+		"type": "fiat",
+		"label": "Philippine Peso",
+		"symbol": "₱"
+	},
+	{
+		"code": "AED",
+		"type": "fiat",
+		"label": "United Arab Emirates Dirham",
+		"symbol": "AED"
+	},
+	{
+		"code": "AFN",
+		"type": "fiat",
+		"label": "Afghan Afghani",
+		"symbol": "Af"
+	},
+	{
+		"code": "ALL",
+		"type": "fiat",
+		"label": "Albanian Lek",
+		"symbol": "ALL"
+	},
+	{
+		"code": "AMD",
+		"type": "fiat",
+		"label": "Armenian Dram",
+		"symbol": "AMD"
+	},
+	{
+		"code": "ARS",
+		"type": "fiat",
+		"label": "Argentine Peso",
+		"symbol": "AR$"
+	},
+	{
+		"code": "AZN",
+		"type": "fiat",
+		"label": "Azerbaijani Manat",
+		"symbol": "man."
+	},
+	{
+		"code": "BAM",
+		"type": "fiat",
+		"label": "BAM",
+		"symbol": "KM"
+	},
+	{
+		"code": "BDT",
+		"type": "fiat",
+		"label": "Bangladeshi Taka",
+		"symbol": "Tk"
+	},
+	{
+		"code": "BGN",
+		"type": "fiat",
+		"label": "Bulgarian Lev",
+		"symbol": "BGN"
+	},
+	{
+		"code": "BHD",
+		"type": "fiat",
+		"label": "Bahraini Dinar",
+		"symbol": "BD"
+	},
+	{
+		"code": "BIF",
+		"type": "fiat",
+		"label": "Burundian Franc",
+		"symbol": "FBu"
+	},
+	{
+		"code": "BND",
+		"type": "fiat",
+		"label": "Brunei Dollar",
+		"symbol": "BN$"
+	},
+	{
+		"code": "BOB",
+		"type": "fiat",
+		"label": "Bob Coin",
+		"symbol": "Bs"
+	},
+	{
+		"code": "BRL",
+		"type": "fiat",
+		"label": "Brazilian Real",
+		"symbol": "R$"
+	},
+	{
+		"code": "BWP",
+		"type": "fiat",
+		"label": "Botswanan Pula",
+		"symbol": "BWP"
+	},
+	{
+		"code": "BYR",
+		"type": "fiat",
+		"label": "Belarusian Ruble",
+		"symbol": "BYR"
+	},
+	{
+		"code": "BZD",
+		"type": "fiat",
+		"label": "Belize Dollar",
+		"symbol": "BZ$"
+	},
+	{
+		"code": "CDF",
+		"type": "fiat",
+		"label": "Congolese Franc",
+		"symbol": "CDF"
+	},
+	{
+		"code": "CHF",
+		"type": "fiat",
+		"label": "Swiss Franc",
+		"symbol": "CHF"
+	},
+	{
+		"code": "CLP",
+		"type": "fiat",
+		"label": "Chilean Peso",
+		"symbol": "CL$"
+	},
+	{
+		"code": "COP",
+		"type": "fiat",
+		"label": "Colombian Peso",
+		"symbol": "CO$"
+	},
+	{
+		"code": "CRC",
+		"type": "fiat",
+		"label": "CrowdCoin",
+		"symbol": "₡"
+	},
+	{
+		"code": "CVE",
+		"type": "fiat",
+		"label": "Cape Verdean Escudo",
+		"symbol": "CV$"
+	},
+	{
+		"code": "CZK",
+		"type": "fiat",
+		"label": "Czech Republic Koruna",
+		"symbol": "Kč"
+	},
+	{
+		"code": "DJF",
+		"type": "fiat",
+		"label": "Djiboutian Franc",
+		"symbol": "Fdj"
+	},
+	{
+		"code": "DKK",
+		"type": "fiat",
+		"label": "Danish Krone",
+		"symbol": "Dkr"
+	},
+	{
+		"code": "DOP",
+		"type": "fiat",
+		"label": "Dominican Peso",
+		"symbol": "RD$"
+	},
+	{
+		"code": "DZD",
+		"type": "fiat",
+		"label": "Algerian Dinar",
+		"symbol": "DA"
+	},
+	{
+		"code": "EEK",
+		"type": "fiat",
+		"label": "Estonian Kroon",
+		"symbol": "Ekr"
+	},
+	{
+		"code": "EGP",
+		"type": "fiat",
+		"label": "Egyptian Pound",
+		"symbol": "EGP"
+	},
+	{
+		"code": "ERN",
+		"type": "fiat",
+		"label": "Eritrean Nakfa",
+		"symbol": "Nfk"
+	},
+	{
+		"code": "ETB",
+		"type": "fiat",
+		"label": "Ethiopian Birr",
+		"symbol": "Br"
+	},
+	{
+		"code": "GEL",
+		"type": "fiat",
+		"label": "Georgian Lari",
+		"symbol": "GEL"
+	},
+	{
+		"code": "GHS",
+		"type": "fiat",
+		"label": "Giga Hash",
+		"symbol": "GH₵"
+	},
+	{
+		"code": "GNF",
+		"type": "fiat",
+		"label": "Guinean Franc",
+		"symbol": "FG"
+	},
+	{
+		"code": "GTQ",
+		"type": "fiat",
+		"label": "Guatemalan Quetzal",
+		"symbol": "GTQ"
+	},
+	{
+		"code": "HNL",
+		"type": "fiat",
+		"label": "Honduran Lempira",
+		"symbol": "HNL"
+	},
+	{
+		"code": "HRK",
+		"type": "fiat",
+		"label": "Croatian Kuna",
+		"symbol": "kn"
+	},
+	{
+		"code": "HUF",
+		"type": "fiat",
+		"label": "Hungarian Forint",
+		"symbol": "Ft"
+	},
+	{
+		"code": "ILS",
+		"type": "fiat",
+		"label": "Israeli New Sheqel",
+		"symbol": "₪"
+	},
+	{
+		"code": "IQD",
+		"type": "fiat",
+		"label": "Iraqi Dinar",
+		"symbol": "IQD"
+	},
+	{
+		"code": "IRR",
+		"type": "fiat",
+		"label": "Iranian Rial",
+		"symbol": "IRR"
+	},
+	{
+		"code": "ISK",
+		"type": "fiat",
+		"label": "Icelandic Króna",
+		"symbol": "Ikr"
+	},
+	{
+		"code": "JMD",
+		"type": "fiat",
+		"label": "Jamaican Dollar",
+		"symbol": "J$"
+	},
+	{
+		"code": "JOD",
+		"type": "fiat",
+		"label": "Jordanian Dinar",
+		"symbol": "JD"
+	},
+	{
+		"code": "KES",
+		"type": "fiat",
+		"label": "Kenyan Shilling",
+		"symbol": "Ksh"
+	},
+	{
+		"code": "KHR",
+		"type": "fiat",
+		"label": "Cambodian Riel",
+		"symbol": "KHR"
+	},
+	{
+		"code": "KMF",
+		"type": "fiat",
+		"label": "Comorian Franc",
+		"symbol": "CF"
+	},
+	{
+		"code": "KRW",
+		"type": "fiat",
+		"label": "South Korean Won",
+		"symbol": "₩"
+	},
+	{
+		"code": "KWD",
+		"type": "fiat",
+		"label": "Kuwaiti Dinar",
+		"symbol": "KD"
+	},
+	{
+		"code": "KZT",
+		"type": "fiat",
+		"label": "Kazakhstani Tenge",
+		"symbol": "KZT"
+	},
+	{
+		"code": "LBP",
+		"type": "fiat",
+		"label": "Lebanese Pound",
+		"symbol": "LB£"
+	},
+	{
+		"code": "LKR",
+		"type": "fiat",
+		"label": "Sri Lankan Rupee",
+		"symbol": "SLRs"
+	},
+	{
+		"code": "LTL",
+		"type": "fiat",
+		"label": "Lithuanian Litas",
+		"symbol": "Lt"
+	},
+	{
+		"code": "LVL",
+		"type": "fiat",
+		"label": "Latvian Lats",
+		"symbol": "Ls"
+	},
+	{
+		"code": "LYD",
+		"type": "fiat",
+		"label": "Libyan Dinar",
+		"symbol": "LD"
+	},
+	{
+		"code": "MAD",
+		"type": "fiat",
+		"label": "SatoshiMadness",
+		"symbol": "MAD"
+	},
+	{
+		"code": "MDL",
+		"type": "fiat",
+		"label": "Modulum",
+		"symbol": "MDL"
+	},
+	{
+		"code": "MGA",
+		"type": "fiat",
+		"label": "Malagasy Ariary",
+		"symbol": "MGA"
+	},
+	{
+		"code": "MKD",
+		"type": "fiat",
+		"label": "Macedonian Denar",
+		"symbol": "MKD"
+	},
+	{
+		"code": "MMK",
+		"type": "fiat",
+		"label": "Myanma Kyat",
+		"symbol": "MMK"
+	},
+	{
+		"code": "MOP",
+		"type": "fiat",
+		"label": "Macanese Pataca",
+		"symbol": "MOP$"
+	},
+	{
+		"code": "MUR",
+		"type": "fiat",
+		"label": "Mauritian Rupee",
+		"symbol": "MURs"
+	},
+	{
+		"code": "MXN",
+		"type": "fiat",
+		"label": "Mexican Peso",
+		"symbol": "MX$"
+	},
+	{
+		"code": "MYR",
+		"type": "fiat",
+		"label": "Malaysian Ringgit",
+		"symbol": "RM"
+	},
+	{
+		"code": "MZN",
+		"type": "fiat",
+		"label": "Mozambican Metical",
+		"symbol": "MTn"
+	},
+	{
+		"code": "NAD",
+		"type": "fiat",
+		"label": "Namibian Dollar",
+		"symbol": "N$"
+	},
+	{
+		"code": "NGN",
+		"type": "fiat",
+		"label": "Nigerian Naira",
+		"symbol": "₦"
+	},
+	{
+		"code": "NIO",
+		"type": "fiat",
+		"label": "Autonio",
+		"symbol": "C$"
+	},
+	{
+		"code": "NOK",
+		"type": "fiat",
+		"label": "Norwegian Krone",
+		"symbol": "Nkr"
+	},
+	{
+		"code": "NPR",
+		"type": "fiat",
+		"label": "Nepalese Rupee",
+		"symbol": "NPRs"
+	},
+	{
+		"code": "OMR",
+		"type": "fiat",
+		"label": "Omani Rial",
+		"symbol": "OMR"
+	},
+	{
+		"code": "PAB",
+		"type": "fiat",
+		"label": "Panamanian Balboa",
+		"symbol": "B/."
+	},
+	{
+		"code": "PEN",
+		"type": "fiat",
+		"label": "PenCoin",
+		"symbol": "S/."
+	},
+	{
+		"code": "PKR",
+		"type": "fiat",
+		"label": "Pakistani Rupee",
+		"symbol": "PKRs"
+	},
+	{
+		"code": "PLN",
+		"type": "fiat",
+		"label": "Polish Zloty",
+		"symbol": "zł"
+	},
+	{
+		"code": "PYG",
+		"type": "fiat",
+		"label": "Paraguayan Guarani",
+		"symbol": "₲"
+	},
+	{
+		"code": "QAR",
+		"type": "fiat",
+		"label": "Qatari Rial",
+		"symbol": "QR"
+	},
+	{
+		"code": "RON",
+		"type": "fiat",
+		"label": "Romanian Leu",
+		"symbol": "RON"
+	},
+	{
+		"code": "RSD",
+		"type": "fiat",
+		"label": "Serbian Dinar",
+		"symbol": "din."
+	},
+	{
+		"code": "RUB",
+		"type": "fiat",
+		"label": "Russian Ruble",
+		"symbol": "RUB"
+	},
+	{
+		"code": "RWF",
+		"type": "fiat",
+		"label": "Rwandan Franc",
+		"symbol": "RWF"
+	},
+	{
+		"code": "SAR",
+		"type": "fiat",
+		"label": "SARCoin",
+		"symbol": "SR"
+	},
+	{
+		"code": "SDG",
+		"type": "fiat",
+		"label": "Sudanese Pound",
+		"symbol": "SDG"
+	},
+	{
+		"code": "SEK",
+		"type": "fiat",
+		"label": "Swedish Krona",
+		"symbol": "Skr"
+	},
+	{
+		"code": "SOS",
+		"type": "fiat",
+		"label": "Somali Shilling",
+		"symbol": "Ssh"
+	},
+	{
+		"code": "SYP",
+		"type": "fiat",
+		"label": "Syrian Pound",
+		"symbol": "SY£"
+	},
+	{
+		"code": "THB",
+		"type": "fiat",
+		"label": "Thai Baht",
+		"symbol": "฿"
+	},
+	{
+		"code": "TND",
+		"type": "fiat",
+		"label": "Tunisian Dinar",
+		"symbol": "DT"
+	},
+	{
+		"code": "TOP",
+		"type": "fiat",
+		"label": "Tongan Paʻanga",
+		"symbol": "T$"
+	},
+	{
+		"code": "TRY",
+		"type": "fiat",
+		"label": "Turkish Lira",
+		"symbol": "TL"
+	},
+	{
+		"code": "TTD",
+		"type": "fiat",
+		"label": "Trinidad and Tobago Dollar",
+		"symbol": "TT$"
+	},
+	{
+		"code": "TWD",
+		"type": "fiat",
+		"label": "New Taiwan Dollar",
+		"symbol": "NT$"
+	},
+	{
+		"code": "TZS",
+		"type": "fiat",
+		"label": "Tanzanian Shilling",
+		"symbol": "TSh"
+	},
+	{
+		"code": "UAH",
+		"type": "fiat",
+		"label": "Ukrainian Hryvnia",
+		"symbol": "₴"
+	},
+	{
+		"code": "UGX",
+		"type": "fiat",
+		"label": "Ugandan Shilling",
+		"symbol": "USh"
+	},
+	{
+		"code": "UYU",
+		"type": "fiat",
+		"label": "Uruguayan Peso",
+		"symbol": "$U"
+	},
+	{
+		"code": "UZS",
+		"type": "fiat",
+		"label": "Uzbekistan Som",
+		"symbol": "UZS"
+	},
+	{
+		"code": "VEF",
+		"type": "fiat",
+		"label": "Venezuelan Bolívar",
+		"symbol": "Bs.F."
+	},
+	{
+		"code": "VND",
+		"type": "fiat",
+		"label": "Vietnamese Dong",
+		"symbol": "₫"
+	},
+	{
+		"code": "XAF",
+		"type": "fiat",
+		"label": "CFA Franc BEAC",
+		"symbol": "FCFA"
+	},
+	{
+		"code": "XOF",
+		"type": "fiat",
+		"label": "CFA Franc BCEAO",
+		"symbol": "CFA"
+	},
+	{
+		"code": "YER",
+		"type": "fiat",
+		"label": "Yemeni Rial",
+		"symbol": "YR"
+	},
+	{
+		"code": "ZAR",
+		"type": "fiat",
+		"label": "South African Rand",
+		"symbol": "R"
+	},
+	{
+		"code": "ZMK",
+		"type": "fiat",
+		"label": "Zambian Kwacha",
+		"symbol": "ZK"
+	},
+	{
+		"code": "42",
+		"type": "fiat",
+		"label": "42 Coin"
+	},
+	{
+		"code": "300",
+		"type": "fiat",
+		"label": "300 token"
+	},
+	{
+		"code": "365",
+		"type": "fiat",
+		"label": "365Coin"
+	},
+	{
+		"code": "404",
+		"type": "fiat",
+		"label": "404Coin"
+	},
+	{
+		"code": "611",
+		"type": "fiat",
+		"label": "SixEleven"
+	},
+	{
+		"code": "808",
+		"type": "fiat",
+		"label": "808"
+	},
+	{
+		"code": "888",
+		"type": "fiat",
+		"label": "Octocoin"
+	},
+	{
+		"code": "1337",
+		"type": "fiat",
+		"label": "1337"
+	},
+	{
+		"code": "2015",
+		"type": "fiat",
+		"label": "2015 coin"
+	},
+	{
+		"code": "ARC*",
+		"type": "fiat",
+		"label": " Arcade City"
+	},
+	{
+		"code": "007",
+		"type": "fiat",
+		"label": "007 coin"
+	},
+	{
+		"code": "BIT16",
+		"type": "fiat",
+		"label": "16BitCoin"
+	},
+	{
+		"code": "MCT",
+		"type": "fiat",
+		"label": "1717 Masonic Commemorative Token"
+	},
+	{
+		"code": "1CR",
+		"type": "fiat",
+		"label": "1Credit"
+	},
+	{
+		"code": "CHAO",
+		"type": "fiat",
+		"label": "23 Skidoo"
+	},
+	{
+		"code": "2BACCO",
+		"type": "fiat",
+		"label": "2BACCO Coin"
+	},
+	{
+		"code": "32BIT",
+		"type": "fiat",
+		"label": "32Bitcoin"
+	},
+	{
+		"code": "3DES",
+		"type": "fiat",
+		"label": "3DES"
+	},
+	{
+		"code": "8BT",
+		"type": "fiat",
+		"label": "8 Circuit Studios"
+	},
+	{
+		"code": "8BIT",
+		"type": "fiat",
+		"label": "8BIT Coin"
+	},
+	{
+		"code": "ATKN",
+		"type": "fiat",
+		"label": "A-Token"
+	},
+	{
+		"code": "ABC",
+		"type": "fiat",
+		"label": "AB-Chain"
+	},
+	{
+		"code": "AC3",
+		"type": "fiat",
+		"label": "AC3"
+	},
+	{
+		"code": "ACOIN",
+		"type": "fiat",
+		"label": "ACoin"
+	},
+	{
+		"code": "AIDOC",
+		"type": "fiat",
+		"label": "AI Doctor"
+	},
+	{
+		"code": "XAI*",
+		"type": "fiat",
+		"label": "AICoin"
+	},
+	{
+		"code": "AIT",
+		"type": "fiat",
+		"label": "AIT Token"
+	},
+	{
+		"code": "AXT",
+		"type": "fiat",
+		"label": "AIX"
+	},
+	{
+		"code": "ALIS",
+		"type": "fiat",
+		"label": "ALISmedia"
+	},
+	{
+		"code": "ALT",
+		"type": "fiat",
+		"label": "ALTcoin"
+	},
+	{
+		"code": "AMIS",
+		"type": "fiat",
+		"label": "AMIS"
+	},
+	{
+		"code": "ARNA",
+		"type": "fiat",
+		"label": "ARNA Panacea"
+	},
+	{
+		"code": "ATB",
+		"type": "fiat",
+		"label": "ATB coin"
+	},
+	{
+		"code": "ATCC",
+		"type": "fiat",
+		"label": "ATC Coin"
+	},
+	{
+		"code": "ATFS",
+		"type": "fiat",
+		"label": "ATFS Project"
+	},
+	{
+		"code": "ATL",
+		"type": "fiat",
+		"label": "ATLANT"
+	},
+	{
+		"code": "ATM",
+		"type": "fiat",
+		"label": "ATMChain"
+	},
+	{
+		"code": "AXR",
+		"type": "fiat",
+		"label": "AXRON"
+	},
+	{
+		"code": "ACC*",
+		"type": "fiat",
+		"label": "Accelerator Network"
+	},
+	{
+		"code": "ACCO",
+		"type": "fiat",
+		"label": "Accolade"
+	},
+	{
+		"code": "AEC",
+		"type": "fiat",
+		"label": "AcesCoin"
+	},
+	{
+		"code": "ACES",
+		"type": "fiat",
+		"label": "AcesCoin"
+	},
+	{
+		"code": "ACT*",
+		"type": "fiat",
+		"label": "Achain"
+	},
+	{
+		"code": "ACID",
+		"type": "fiat",
+		"label": "AcidCoin"
+	},
+	{
+		"code": "AMT",
+		"type": "fiat",
+		"label": "Acumen"
+	},
+	{
+		"code": "ACC",
+		"type": "fiat",
+		"label": "AdCoin"
+	},
+	{
+		"code": "ADBL",
+		"type": "fiat",
+		"label": "Adblurb"
+	},
+	{
+		"code": "ADL",
+		"type": "fiat",
+		"label": "Adelphoi"
+	},
+	{
+		"code": "ADST",
+		"type": "fiat",
+		"label": "Adshares"
+	},
+	{
+		"code": "ABT",
+		"type": "fiat",
+		"label": "Advanced Browsing Token"
+	},
+	{
+		"code": "AIB",
+		"type": "fiat",
+		"label": "AdvancedInternetBlock"
+	},
+	{
+		"code": "ADZ",
+		"type": "fiat",
+		"label": "Adzcoin"
+	},
+	{
+		"code": "AGS",
+		"type": "fiat",
+		"label": "Aegis"
+	},
+	{
+		"code": "AERM",
+		"type": "fiat",
+		"label": "Aerium"
+	},
+	{
+		"code": "AERO",
+		"type": "fiat",
+		"label": "Aero Coin"
+	},
+	{
+		"code": "AM",
+		"type": "fiat",
+		"label": "AeroMe"
+	},
+	{
+		"code": "AGRS",
+		"type": "fiat",
+		"label": "Agoras Token"
+	},
+	{
+		"code": "AHT",
+		"type": "fiat",
+		"label": "Ahoolee"
+	},
+	{
+		"code": "AID",
+		"type": "fiat",
+		"label": "AidCoin"
+	},
+	{
+		"code": "ADN",
+		"type": "fiat",
+		"label": "Aiden"
+	},
+	{
+		"code": "AIR",
+		"type": "fiat",
+		"label": "AirToken"
+	},
+	{
+		"code": "AIR*",
+		"type": "fiat",
+		"label": "Aircoin"
+	},
+	{
+		"code": "ALEX",
+		"type": "fiat",
+		"label": "Alexandrite"
+	},
+	{
+		"code": "PLM",
+		"type": "fiat",
+		"label": "Algo.Land"
+	},
+	{
+		"code": "ALN",
+		"type": "fiat",
+		"label": "AlienCoin"
+	},
+	{
+		"code": "ASAFE2",
+		"type": "fiat",
+		"label": "Allsafe"
+	},
+	{
+		"code": "APC",
+		"type": "fiat",
+		"label": "AlpaCoin"
+	},
+	{
+		"code": "ALF",
+		"type": "fiat",
+		"label": "AlphaCoin"
+	},
+	{
+		"code": "ALQO",
+		"type": "fiat",
+		"label": "Alqo"
+	},
+	{
+		"code": "ALTCOM",
+		"type": "fiat",
+		"label": "AltCommunity Coin"
+	},
+	{
+		"code": "ALTOCAR",
+		"type": "fiat",
+		"label": "AltoCar"
+	},
+	{
+		"code": "AMBER",
+		"type": "fiat",
+		"label": "AmberCoin"
+	},
+	{
+		"code": "AMC",
+		"type": "fiat",
+		"label": "AmericanCoin"
+	},
+	{
+		"code": "AMMO",
+		"type": "fiat",
+		"label": "Ammo Rewards"
+	},
+	{
+		"code": "AMS",
+		"type": "fiat",
+		"label": "Amsterdam Coin"
+	},
+	{
+		"code": "AMY",
+		"type": "fiat",
+		"label": "Amygws"
+	},
+	{
+		"code": "ANCP",
+		"type": "fiat",
+		"label": "Anacrypt"
+	},
+	{
+		"code": "ANAL",
+		"type": "fiat",
+		"label": "AnalCoin"
+	},
+	{
+		"code": "ACP",
+		"type": "fiat",
+		"label": "Anarchists Prime"
+	},
+	{
+		"code": "AND",
+		"type": "fiat",
+		"label": "AndromedaCoin"
+	},
+	{
+		"code": "ANC",
+		"type": "fiat",
+		"label": "Anoncoin"
+	},
+	{
+		"code": "RYZ",
+		"type": "fiat",
+		"label": "Anryze"
+	},
+	{
+		"code": "ANTI",
+		"type": "fiat",
+		"label": "Anti Bitcoin"
+	},
+	{
+		"code": "ANTC",
+		"type": "fiat",
+		"label": "AntiLitecoin"
+	},
+	{
+		"code": "APEX",
+		"type": "fiat",
+		"label": "ApexCoin"
+	},
+	{
+		"code": "APT",
+		"type": "fiat",
+		"label": "Aptcoin"
+	},
+	{
+		"code": "APX",
+		"type": "fiat",
+		"label": "Apx"
+	},
+	{
+		"code": "ARCO",
+		"type": "fiat",
+		"label": "AquariusCoin"
+	},
+	{
+		"code": "AR*",
+		"type": "fiat",
+		"label": "Ar.cash"
+	},
+	{
+		"code": "ALC",
+		"type": "fiat",
+		"label": "Arab League Coin"
+	},
+	{
+		"code": "ARBI",
+		"type": "fiat",
+		"label": "Arbi"
+	},
+	{
+		"code": "ARB",
+		"type": "fiat",
+		"label": "Arbit Coin"
+	},
+	{
+		"code": "ARCT",
+		"type": "fiat",
+		"label": "ArbitrageCT"
+	},
+	{
+		"code": "ARCH",
+		"type": "fiat",
+		"label": "ArchCoin"
+	},
+	{
+		"code": "ARC",
+		"type": "fiat",
+		"label": "ArcticCoin"
+	},
+	{
+		"code": "ARENA",
+		"type": "fiat",
+		"label": "Arena"
+	},
+	{
+		"code": "ARG",
+		"type": "fiat",
+		"label": "Argentum"
+	},
+	{
+		"code": "ARGUS",
+		"type": "fiat",
+		"label": "ArgusCoin"
+	},
+	{
+		"code": "ARI",
+		"type": "fiat",
+		"label": "AriCoin"
+	},
+	{
+		"code": "BOTS",
+		"type": "fiat",
+		"label": "ArkDAO"
+	},
+	{
+		"code": "ARM",
+		"type": "fiat",
+		"label": "Armory Coin"
+	},
+	{
+		"code": "ARPA",
+		"type": "fiat",
+		"label": "ArpaCoin"
+	},
+	{
+		"code": "ATX",
+		"type": "fiat",
+		"label": "ArtexCoin"
+	},
+	{
+		"code": "AUA",
+		"type": "fiat",
+		"label": "ArubaCoin"
+	},
+	{
+		"code": "ASN",
+		"type": "fiat",
+		"label": "Ascension Coin"
+	},
+	{
+		"code": "AC",
+		"type": "fiat",
+		"label": "Asia Coin"
+	},
+	{
+		"code": "ADCN",
+		"type": "fiat",
+		"label": "Asiadigicoin"
+	},
+	{
+		"code": "AST*",
+		"type": "fiat",
+		"label": "Astral"
+	},
+	{
+		"code": "ASTRO",
+		"type": "fiat",
+		"label": "Astronaut"
+	},
+	{
+		"code": "ATMS",
+		"type": "fiat",
+		"label": "Atmos"
+	},
+	{
+		"code": "ATOM",
+		"type": "fiat",
+		"label": "Atomic Coin"
+	},
+	{
+		"code": "ADC",
+		"type": "fiat",
+		"label": "AudioCoin"
+	},
+	{
+		"code": "AURS",
+		"type": "fiat",
+		"label": "Aureus"
+	},
+	{
+		"code": "AURA",
+		"type": "fiat",
+		"label": "Aurora"
+	},
+	{
+		"code": "AUTH",
+		"type": "fiat",
+		"label": "Authoreon"
+	},
+	{
+		"code": "ATS",
+		"type": "fiat",
+		"label": "Authorship"
+	},
+	{
+		"code": "AUT",
+		"type": "fiat",
+		"label": "Autoria"
+	},
+	{
+		"code": "ATM*",
+		"type": "fiat",
+		"label": "Autumncoin"
+	},
+	{
+		"code": "AVA",
+		"type": "fiat",
+		"label": "Avalon"
+	},
+	{
+		"code": "AV",
+		"type": "fiat",
+		"label": "Avatar Coin"
+	},
+	{
+		"code": "AVT",
+		"type": "fiat",
+		"label": "AventCoin"
+	},
+	{
+		"code": "AVE",
+		"type": "fiat",
+		"label": "Avesta"
+	},
+	{
+		"code": "ACN",
+		"type": "fiat",
+		"label": "AvonCoin"
+	},
+	{
+		"code": "AXIOM",
+		"type": "fiat",
+		"label": "Axiom Coin"
+	},
+	{
+		"code": "B2BX",
+		"type": "fiat",
+		"label": "B2B"
+	},
+	{
+		"code": "B3",
+		"type": "fiat",
+		"label": "B3 Coin"
+	},
+	{
+		"code": "KB3",
+		"type": "fiat",
+		"label": "B3Coin"
+	},
+	{
+		"code": "BANCA",
+		"type": "fiat",
+		"label": "BANCA"
+	},
+	{
+		"code": "BKX",
+		"type": "fiat",
+		"label": "BANKEX"
+	},
+	{
+		"code": "BERN",
+		"type": "fiat",
+		"label": "BERNcash"
+	},
+	{
+		"code": "BFT",
+		"type": "fiat",
+		"label": "BF Token (BFT)"
+	},
+	{
+		"code": "BMT",
+		"type": "fiat",
+		"label": "BMChain"
+	},
+	{
+		"code": "BOOM",
+		"type": "fiat",
+		"label": "BOOM Coin"
+	},
+	{
+		"code": "BQC",
+		"type": "fiat",
+		"label": "BQCoin"
+	},
+	{
+		"code": "BTCL",
+		"type": "fiat",
+		"label": "BTC Lite"
+	},
+	{
+		"code": "BTCM",
+		"type": "fiat",
+		"label": "BTCMoon"
+	},
+	{
+		"code": "BAN",
+		"type": "fiat",
+		"label": "Babes and Nerds"
+	},
+	{
+		"code": "NANAS",
+		"type": "fiat",
+		"label": "BananaBits"
+	},
+	{
+		"code": "B@",
+		"type": "fiat",
+		"label": "BankCoin"
+	},
+	{
+		"code": "BNK",
+		"type": "fiat",
+		"label": "Bankera"
+	},
+	{
+		"code": "BCOIN",
+		"type": "fiat",
+		"label": "BannerCoin"
+	},
+	{
+		"code": "BBCC",
+		"type": "fiat",
+		"label": "BaseballCardCoin"
+	},
+	{
+		"code": "BTA",
+		"type": "fiat",
+		"label": "Bata"
+	},
+	{
+		"code": "BCX",
+		"type": "fiat",
+		"label": "BattleCoin"
+	},
+	{
+		"code": "BSTK",
+		"type": "fiat",
+		"label": "BattleStake"
+	},
+	{
+		"code": "SAND",
+		"type": "fiat",
+		"label": "BeachCoin"
+	},
+	{
+		"code": "BRDD",
+		"type": "fiat",
+		"label": "BeardDollars"
+	},
+	{
+		"code": "XBTS",
+		"type": "fiat",
+		"label": "Beats"
+	},
+	{
+		"code": "BVC",
+		"type": "fiat",
+		"label": "BeaverCoin"
+	},
+	{
+		"code": "ARI*",
+		"type": "fiat",
+		"label": "BeckSang"
+	},
+	{
+		"code": "BEE",
+		"type": "fiat",
+		"label": "Bee Token"
+	},
+	{
+		"code": "BNC",
+		"type": "fiat",
+		"label": "Benjacoin"
+	},
+	{
+		"code": "BEN",
+		"type": "fiat",
+		"label": "Benjamins"
+	},
+	{
+		"code": "BENJI",
+		"type": "fiat",
+		"label": "BenjiRolls"
+	},
+	{
+		"code": "BEST",
+		"type": "fiat",
+		"label": "BestChain"
+	},
+	{
+		"code": "BET",
+		"type": "fiat",
+		"label": "BetaCoin"
+	},
+	{
+		"code": "BETR",
+		"type": "fiat",
+		"label": "BetterBetting"
+	},
+	{
+		"code": "BBP",
+		"type": "fiat",
+		"label": "BiblePay"
+	},
+	{
+		"code": "HUGE",
+		"type": "fiat",
+		"label": "BigCoin"
+	},
+	{
+		"code": "LFC",
+		"type": "fiat",
+		"label": "BigLifeCoin"
+	},
+	{
+		"code": "BIGUP",
+		"type": "fiat",
+		"label": "BigUp"
+	},
+	{
+		"code": "BIC",
+		"type": "fiat",
+		"label": "Bikercoins"
+	},
+	{
+		"code": "BLRY",
+		"type": "fiat",
+		"label": "BillaryCoin"
+	},
+	{
+		"code": "XBL",
+		"type": "fiat",
+		"label": "Billionaire Token"
+	},
+	{
+		"code": "BRC*",
+		"type": "fiat",
+		"label": "BinaryCoin"
+	},
+	{
+		"code": "BIOB",
+		"type": "fiat",
+		"label": "BioBar"
+	},
+	{
+		"code": "BIO",
+		"type": "fiat",
+		"label": "Biocoin"
+	},
+	{
+		"code": "BIOS",
+		"type": "fiat",
+		"label": "BiosCrypto"
+	},
+	{
+		"code": "BIP",
+		"type": "fiat",
+		"label": "BipCoin"
+	},
+	{
+		"code": "BIS",
+		"type": "fiat",
+		"label": "Bismuth"
+	},
+	{
+		"code": "BAS",
+		"type": "fiat",
+		"label": "BitAsean"
+	},
+	{
+		"code": "BTB",
+		"type": "fiat",
+		"label": "BitBar"
+	},
+	{
+		"code": "BBT",
+		"type": "fiat",
+		"label": "BitBoost"
+	},
+	{
+		"code": "BOSS",
+		"type": "fiat",
+		"label": "BitBoss"
+	},
+	{
+		"code": "BRONZ",
+		"type": "fiat",
+		"label": "BitBronze"
+	},
+	{
+		"code": "BCD*",
+		"type": "fiat",
+		"label": "BitCAD"
+	},
+	{
+		"code": "COAL",
+		"type": "fiat",
+		"label": "BitCoal"
+	},
+	{
+		"code": "BCCOIN",
+		"type": "fiat",
+		"label": "BitConnect Coin"
+	},
+	{
+		"code": "BCR",
+		"type": "fiat",
+		"label": "BitCredit"
+	},
+	{
+		"code": "BTCRY",
+		"type": "fiat",
+		"label": "BitCrystal"
+	},
+	{
+		"code": "BTCR",
+		"type": "fiat",
+		"label": "BitCurrency"
+	},
+	{
+		"code": "BDG",
+		"type": "fiat",
+		"label": "BitDegree"
+	},
+	{
+		"code": "CSNO",
+		"type": "fiat",
+		"label": "BitDice"
+	},
+	{
+		"code": "BFX",
+		"type": "fiat",
+		"label": "BitFinex Tokens"
+	},
+	{
+		"code": "FLIP",
+		"type": "fiat",
+		"label": "BitFlip"
+	},
+	{
+		"code": "BTG*",
+		"type": "fiat",
+		"label": "BitGem"
+	},
+	{
+		"code": "HIRE*",
+		"type": "fiat",
+		"label": "BitHIRE"
+	},
+	{
+		"code": "STU",
+		"type": "fiat",
+		"label": "BitJob"
+	},
+	{
+		"code": "BTLC",
+		"type": "fiat",
+		"label": "BitLuckCoin"
+	},
+	{
+		"code": "LUX*",
+		"type": "fiat",
+		"label": "BitLux"
+	},
+	{
+		"code": "BTMI",
+		"type": "fiat",
+		"label": "BitMiles"
+	},
+	{
+		"code": "BM",
+		"type": "fiat",
+		"label": "BitMoon"
+	},
+	{
+		"code": "BITOK",
+		"type": "fiat",
+		"label": "BitOKX"
+	},
+	{
+		"code": "BTQ",
+		"type": "fiat",
+		"label": "BitQuark"
+	},
+	{
+		"code": "XSEED",
+		"type": "fiat",
+		"label": "BitSeeds"
+	},
+	{
+		"code": "BTE*",
+		"type": "fiat",
+		"label": "BitSerial"
+	},
+	{
+		"code": "BST",
+		"type": "fiat",
+		"label": "BitStone"
+	},
+	{
+		"code": "BXT",
+		"type": "fiat",
+		"label": "BitTokens"
+	},
+	{
+		"code": "VEG",
+		"type": "fiat",
+		"label": "BitVegan"
+	},
+	{
+		"code": "VOLT",
+		"type": "fiat",
+		"label": "BitVolt"
+	},
+	{
+		"code": "ZNY",
+		"type": "fiat",
+		"label": "BitZeny"
+	},
+	{
+		"code": "BTCA",
+		"type": "fiat",
+		"label": "Bitair"
+	},
+	{
+		"code": "BAC",
+		"type": "fiat",
+		"label": "BitalphaCoin"
+	},
+	{
+		"code": "BXC",
+		"type": "fiat",
+		"label": "Bitcedi"
+	},
+	{
+		"code": "BTD",
+		"type": "fiat",
+		"label": "Bitcloud"
+	},
+	{
+		"code": "BTDX",
+		"type": "fiat",
+		"label": "Bitcloud 2.0"
+	},
+	{
+		"code": "BCA",
+		"type": "fiat",
+		"label": "Bitcoin Atom"
+	},
+	{
+		"code": "CDY",
+		"type": "fiat",
+		"label": "Bitcoin Candy"
+	},
+	{
+		"code": "BTPL",
+		"type": "fiat",
+		"label": "Bitcoin Planet"
+	},
+	{
+		"code": "BTCP",
+		"type": "fiat",
+		"label": "Bitcoin Private"
+	},
+	{
+		"code": "BTCRED",
+		"type": "fiat",
+		"label": "Bitcoin Red"
+	},
+	{
+		"code": "RBTC",
+		"type": "fiat",
+		"label": "Bitcoin Revolution"
+	},
+	{
+		"code": "BTCS",
+		"type": "fiat",
+		"label": "Bitcoin Scrypt"
+	},
+	{
+		"code": "BT2",
+		"type": "fiat",
+		"label": "Bitcoin SegWit2X"
+	},
+	{
+		"code": "BCF",
+		"type": "fiat",
+		"label": "BitcoinFast"
+	},
+	{
+		"code": "BIFI",
+		"type": "fiat",
+		"label": "BitcoinFile"
+	},
+	{
+		"code": "BTX*",
+		"type": "fiat",
+		"label": "BitcoinTX"
+	},
+	{
+		"code": "BTW",
+		"type": "fiat",
+		"label": "BitcoinWhite"
+	},
+	{
+		"code": "BCX*",
+		"type": "fiat",
+		"label": "BitcoinX"
+	},
+	{
+		"code": "BTCZ",
+		"type": "fiat",
+		"label": "BitcoinZ"
+	},
+	{
+		"code": "BM*",
+		"type": "fiat",
+		"label": "Bitcomo"
+	},
+	{
+		"code": "BTX",
+		"type": "fiat",
+		"label": "Bitcore"
+	},
+	{
+		"code": "BDL",
+		"type": "fiat",
+		"label": "Bitdeal"
+	},
+	{
+		"code": "BT1",
+		"type": "fiat",
+		"label": "Bitfinex Bitcoin Future"
+	},
+	{
+		"code": "BTCL*",
+		"type": "fiat",
+		"label": "BitluckCoin"
+	},
+	{
+		"code": "BMXT",
+		"type": "fiat",
+		"label": "Bitmxittz"
+	},
+	{
+		"code": "BQ",
+		"type": "fiat",
+		"label": "Bitqy"
+	},
+	{
+		"code": "BRO",
+		"type": "fiat",
+		"label": "Bitradio"
+	},
+	{
+		"code": "BITSD",
+		"type": "fiat",
+		"label": "Bits Digit"
+	},
+	{
+		"code": "XBS",
+		"type": "fiat",
+		"label": "Bitstake"
+	},
+	{
+		"code": "BITS",
+		"type": "fiat",
+		"label": "BitstarCoin"
+	},
+	{
+		"code": "BITZ",
+		"type": "fiat",
+		"label": "Bitz Coin"
+	},
+	{
+		"code": "BTZ",
+		"type": "fiat",
+		"label": "BitzCoin"
+	},
+	{
+		"code": "XBP",
+		"type": "fiat",
+		"label": "Black Pearl Coin"
+	},
+	{
+		"code": "BS",
+		"type": "fiat",
+		"label": "BlackShadowCoin"
+	},
+	{
+		"code": "BHC*",
+		"type": "fiat",
+		"label": "BlackholeCoin"
+	},
+	{
+		"code": "BMC",
+		"type": "fiat",
+		"label": "Blackmoon Crypto"
+	},
+	{
+		"code": "BSTAR",
+		"type": "fiat",
+		"label": "Blackstar"
+	},
+	{
+		"code": "BLC",
+		"type": "fiat",
+		"label": "BlakeCoin"
+	},
+	{
+		"code": "BLAS",
+		"type": "fiat",
+		"label": "BlakeStar"
+	},
+	{
+		"code": "BLAZR",
+		"type": "fiat",
+		"label": "BlazerCoin"
+	},
+	{
+		"code": "CAT*",
+		"type": "fiat",
+		"label": "BlockCAT"
+	},
+	{
+		"code": "BCDN",
+		"type": "fiat",
+		"label": "BlockCDN "
+	},
+	{
+		"code": "LNC",
+		"type": "fiat",
+		"label": "BlockLancer"
+	},
+	{
+		"code": "BLOCKPAY",
+		"type": "fiat",
+		"label": "BlockPay"
+	},
+	{
+		"code": "BPL",
+		"type": "fiat",
+		"label": "BlockPool"
+	},
+	{
+		"code": "BCAP",
+		"type": "fiat",
+		"label": "Blockchain Capital"
+	},
+	{
+		"code": "BLX",
+		"type": "fiat",
+		"label": "Blockchain Index"
+	},
+	{
+		"code": "BTF",
+		"type": "fiat",
+		"label": "Blockchain Traded Fund"
+	},
+	{
+		"code": "BLT",
+		"type": "fiat",
+		"label": "Bloom Token"
+	},
+	{
+		"code": "BLU",
+		"type": "fiat",
+		"label": "BlueCoin"
+	},
+	{
+		"code": "BDR",
+		"type": "fiat",
+		"label": "BlueDragon"
+	},
+	{
+		"code": "BNX",
+		"type": "fiat",
+		"label": "BnrtxCoin"
+	},
+	{
+		"code": "BNB*",
+		"type": "fiat",
+		"label": "Boats and Bitches"
+	},
+	{
+		"code": "BOT",
+		"type": "fiat",
+		"label": "Bodhi"
+	},
+	{
+		"code": "BOG",
+		"type": "fiat",
+		"label": "Bogcoin"
+	},
+	{
+		"code": "BLN",
+		"type": "fiat",
+		"label": "Bolenum"
+	},
+	{
+		"code": "BOLI",
+		"type": "fiat",
+		"label": "BolivarCoin"
+	},
+	{
+		"code": "BOMB",
+		"type": "fiat",
+		"label": "BombCoin"
+	},
+	{
+		"code": "BON*",
+		"type": "fiat",
+		"label": "BonesCoin"
+	},
+	{
+		"code": "BON",
+		"type": "fiat",
+		"label": "Bonpay"
+	},
+	{
+		"code": "BBR",
+		"type": "fiat",
+		"label": "Boolberry"
+	},
+	{
+		"code": "BOST",
+		"type": "fiat",
+		"label": "BoostCoin"
+	},
+	{
+		"code": "BOSON",
+		"type": "fiat",
+		"label": "BosonCoin"
+	},
+	{
+		"code": "CAP",
+		"type": "fiat",
+		"label": "BottleCaps"
+	},
+	{
+		"code": "BTO",
+		"type": "fiat",
+		"label": "Bottos"
+	},
+	{
+		"code": "BOU",
+		"type": "fiat",
+		"label": "Boulle"
+	},
+	{
+		"code": "XBTY",
+		"type": "fiat",
+		"label": "Bounty"
+	},
+	{
+		"code": "AHT*",
+		"type": "fiat",
+		"label": "Bowhead Health"
+	},
+	{
+		"code": "BSC",
+		"type": "fiat",
+		"label": "BowsCoin"
+	},
+	{
+		"code": "BOXY",
+		"type": "fiat",
+		"label": "BoxyCoin"
+	},
+	{
+		"code": "BRAIN",
+		"type": "fiat",
+		"label": "BrainCoin"
+	},
+	{
+		"code": "BRAT",
+		"type": "fiat",
+		"label": "Brat"
+	},
+	{
+		"code": "BBT*",
+		"type": "fiat",
+		"label": "BrickBlock"
+	},
+	{
+		"code": "BCO",
+		"type": "fiat",
+		"label": "BridgeCoin"
+	},
+	{
+		"code": "BRC",
+		"type": "fiat",
+		"label": "BrightCoin"
+	},
+	{
+		"code": "BRIT",
+		"type": "fiat",
+		"label": "BritCoin"
+	},
+	{
+		"code": "BT",
+		"type": "fiat",
+		"label": "BuildTeam"
+	},
+	{
+		"code": "BULLS",
+		"type": "fiat",
+		"label": "BullshitCoin"
+	},
+	{
+		"code": "BWK",
+		"type": "fiat",
+		"label": "Bulwark"
+	},
+	{
+		"code": "BUN",
+		"type": "fiat",
+		"label": "BunnyCoin"
+	},
+	{
+		"code": "BUZZ",
+		"type": "fiat",
+		"label": "BuzzCoin"
+	},
+	{
+		"code": "BTE",
+		"type": "fiat",
+		"label": "ByteCoin"
+	},
+	{
+		"code": "BTH",
+		"type": "fiat",
+		"label": "Bytether "
+	},
+	{
+		"code": "BTM*",
+		"type": "fiat",
+		"label": "Bytom"
+	},
+	{
+		"code": "XCT",
+		"type": "fiat",
+		"label": "C-Bits"
+	},
+	{
+		"code": "CAIx",
+		"type": "fiat",
+		"label": "CAIx"
+	},
+	{
+		"code": "CBD",
+		"type": "fiat",
+		"label": "CBD Crystals"
+	},
+	{
+		"code": "CCC",
+		"type": "fiat",
+		"label": "CCCoin"
+	},
+	{
+		"code": "CETI",
+		"type": "fiat",
+		"label": "CETUS Coin"
+	},
+	{
+		"code": "CHIPS",
+		"type": "fiat",
+		"label": "CHIPS"
+	},
+	{
+		"code": "CINNI",
+		"type": "fiat",
+		"label": "CINNICOIN"
+	},
+	{
+		"code": "CMS",
+		"type": "fiat",
+		"label": "COMSA"
+	},
+	{
+		"code": "CPY",
+		"type": "fiat",
+		"label": "COPYTRACK"
+	},
+	{
+		"code": "COSS",
+		"type": "fiat",
+		"label": "COSS"
+	},
+	{
+		"code": "CPC*",
+		"type": "fiat",
+		"label": "CPChain"
+	},
+	{
+		"code": "MLS",
+		"type": "fiat",
+		"label": "CPROP"
+	},
+	{
+		"code": "CAB",
+		"type": "fiat",
+		"label": "CabbageUnit"
+	},
+	{
+		"code": "CACH",
+		"type": "fiat",
+		"label": "Cachecoin"
+	},
+	{
+		"code": "CF",
+		"type": "fiat",
+		"label": "Californium"
+	},
+	{
+		"code": "CALC",
+		"type": "fiat",
+		"label": "CaliphCoin"
+	},
+	{
+		"code": "CAM",
+		"type": "fiat",
+		"label": "Camcoin"
+	},
+	{
+		"code": "CMPCO",
+		"type": "fiat",
+		"label": "CampusCoin"
+	},
+	{
+		"code": "CND*",
+		"type": "fiat",
+		"label": "Canada eCoin"
+	},
+	{
+		"code": "CDN",
+		"type": "fiat",
+		"label": "Canada eCoin"
+	},
+	{
+		"code": "CCN",
+		"type": "fiat",
+		"label": "CannaCoin"
+	},
+	{
+		"code": "XCI",
+		"type": "fiat",
+		"label": "Cannabis Industry Coin"
+	},
+	{
+		"code": "XCD",
+		"type": "fiat",
+		"label": "Capdax"
+	},
+	{
+		"code": "CTX",
+		"type": "fiat",
+		"label": "CarTaxi"
+	},
+	{
+		"code": "CARBON",
+		"type": "fiat",
+		"label": "Carboncoin"
+	},
+	{
+		"code": "CARE",
+		"type": "fiat",
+		"label": "Care Token"
+	},
+	{
+		"code": "DIEM",
+		"type": "fiat",
+		"label": "CarpeDiemCoin"
+	},
+	{
+		"code": "CTC",
+		"type": "fiat",
+		"label": "CarterCoin"
+	},
+	{
+		"code": "CNBC",
+		"type": "fiat",
+		"label": "Cash & Back Coin"
+	},
+	{
+		"code": "CASH*",
+		"type": "fiat",
+		"label": "Cash Poker Pro"
+	},
+	{
+		"code": "CASH",
+		"type": "fiat",
+		"label": "CashCoin"
+	},
+	{
+		"code": "CSH",
+		"type": "fiat",
+		"label": "CashOut"
+	},
+	{
+		"code": "CAS",
+		"type": "fiat",
+		"label": "Cashaa"
+	},
+	{
+		"code": "CSC",
+		"type": "fiat",
+		"label": "CasinoCoin"
+	},
+	{
+		"code": "CSTL",
+		"type": "fiat",
+		"label": "Castle"
+	},
+	{
+		"code": "CAT1",
+		"type": "fiat",
+		"label": "Catcoin"
+	},
+	{
+		"code": "CAV",
+		"type": "fiat",
+		"label": "Caviar"
+	},
+	{
+		"code": "CNT",
+		"type": "fiat",
+		"label": "Centurion"
+	},
+	{
+		"code": "XCE",
+		"type": "fiat",
+		"label": "Cerium"
+	},
+	{
+		"code": "CHC",
+		"type": "fiat",
+		"label": "ChainCoin"
+	},
+	{
+		"code": "CHAN",
+		"type": "fiat",
+		"label": "ChanCoin"
+	},
+	{
+		"code": "CHA",
+		"type": "fiat",
+		"label": "Charity Coin"
+	},
+	{
+		"code": "CXC",
+		"type": "fiat",
+		"label": "CheckCoin"
+	},
+	{
+		"code": "CHESS",
+		"type": "fiat",
+		"label": "ChessCoin"
+	},
+	{
+		"code": "CHILD",
+		"type": "fiat",
+		"label": "ChildCoin"
+	},
+	{
+		"code": "CNC",
+		"type": "fiat",
+		"label": "ChinaCoin"
+	},
+	{
+		"code": "CHIP",
+		"type": "fiat",
+		"label": "Chip"
+	},
+	{
+		"code": "CHOOF",
+		"type": "fiat",
+		"label": "ChoofCoin"
+	},
+	{
+		"code": "DAY",
+		"type": "fiat",
+		"label": "Chronologic"
+	},
+	{
+		"code": "CRX",
+		"type": "fiat",
+		"label": "ChronosCoin"
+	},
+	{
+		"code": "CIN",
+		"type": "fiat",
+		"label": "CinderCoin"
+	},
+	{
+		"code": "CIR",
+		"type": "fiat",
+		"label": "CircuitCoin"
+	},
+	{
+		"code": "CLV",
+		"type": "fiat",
+		"label": "CleverCoin"
+	},
+	{
+		"code": "CHASH",
+		"type": "fiat",
+		"label": "CleverHash"
+	},
+	{
+		"code": "CLICK",
+		"type": "fiat",
+		"label": "Clickcoin"
+	},
+	{
+		"code": "CLINT",
+		"type": "fiat",
+		"label": "Clinton"
+	},
+	{
+		"code": "CKC",
+		"type": "fiat",
+		"label": "Clockcoin"
+	},
+	{
+		"code": "CLD",
+		"type": "fiat",
+		"label": "Cloud"
+	},
+	{
+		"code": "CLOUT",
+		"type": "fiat",
+		"label": "Clout"
+	},
+	{
+		"code": "CLUD",
+		"type": "fiat",
+		"label": "CludCoin"
+	},
+	{
+		"code": "COE",
+		"type": "fiat",
+		"label": "CoEval"
+	},
+	{
+		"code": "COB",
+		"type": "fiat",
+		"label": "Cobinhood"
+	},
+	{
+		"code": "COX",
+		"type": "fiat",
+		"label": "CobraCoin"
+	},
+	{
+		"code": "CTT",
+		"type": "fiat",
+		"label": "CodeTract"
+	},
+	{
+		"code": "CFC",
+		"type": "fiat",
+		"label": "CoffeeCoin"
+	},
+	{
+		"code": "COIN*",
+		"type": "fiat",
+		"label": "Coin"
+	},
+	{
+		"code": "BTTF",
+		"type": "fiat",
+		"label": "Coin to the Future"
+	},
+	{
+		"code": "C2",
+		"type": "fiat",
+		"label": "Coin.2"
+	},
+	{
+		"code": "XCJ",
+		"type": "fiat",
+		"label": "CoinJob"
+	},
+	{
+		"code": "CL",
+		"type": "fiat",
+		"label": "CoinLancer"
+	},
+	{
+		"code": "LAB*",
+		"type": "fiat",
+		"label": "CoinWorksCoin"
+	},
+	{
+		"code": "CTIC",
+		"type": "fiat",
+		"label": "Coinmatic"
+	},
+	{
+		"code": "CNO",
+		"type": "fiat",
+		"label": "Coino"
+	},
+	{
+		"code": "CNMT",
+		"type": "fiat",
+		"label": "Coinomat"
+	},
+	{
+		"code": "CXT",
+		"type": "fiat",
+		"label": "Coinonat"
+	},
+	{
+		"code": "XCXT",
+		"type": "fiat",
+		"label": "CoinonatX"
+	},
+	{
+		"code": "COLX",
+		"type": "fiat",
+		"label": "ColossusCoinXT"
+	},
+	{
+		"code": "CBT",
+		"type": "fiat",
+		"label": "CommerceBlock Token"
+	},
+	{
+		"code": "CDX",
+		"type": "fiat",
+		"label": "Commodity Ad Network"
+	},
+	{
+		"code": "COMM",
+		"type": "fiat",
+		"label": "Community Coin"
+	},
+	{
+		"code": "COC",
+		"type": "fiat",
+		"label": "Community Coin"
+	},
+	{
+		"code": "CMP",
+		"type": "fiat",
+		"label": "Compcoin"
+	},
+	{
+		"code": "CPN",
+		"type": "fiat",
+		"label": "CompuCoin"
+	},
+	{
+		"code": "CYC",
+		"type": "fiat",
+		"label": "ConSpiracy Coin "
+	},
+	{
+		"code": "CNL",
+		"type": "fiat",
+		"label": "ConcealCoin"
+	},
+	{
+		"code": "RAIN",
+		"type": "fiat",
+		"label": "Condensate"
+	},
+	{
+		"code": "CJT",
+		"type": "fiat",
+		"label": "ConnectJob Token"
+	},
+	{
+		"code": "CQST",
+		"type": "fiat",
+		"label": "ConquestCoin"
+	},
+	{
+		"code": "CUZ",
+		"type": "fiat",
+		"label": "Cool Cousin"
+	},
+	{
+		"code": "COOL",
+		"type": "fiat",
+		"label": "CoolCoin"
+	},
+	{
+		"code": "CCX",
+		"type": "fiat",
+		"label": "CoolDarkCoin"
+	},
+	{
+		"code": "XCPO",
+		"type": "fiat",
+		"label": "Copico"
+	},
+	{
+		"code": "CLR",
+		"type": "fiat",
+		"label": "CopperLark"
+	},
+	{
+		"code": "CORAL",
+		"type": "fiat",
+		"label": "CoralPay"
+	},
+	{
+		"code": "CORE",
+		"type": "fiat",
+		"label": "Core Group Asset"
+	},
+	{
+		"code": "COR",
+		"type": "fiat",
+		"label": "Corion"
+	},
+	{
+		"code": "CSMIC",
+		"type": "fiat",
+		"label": "Cosmic"
+	},
+	{
+		"code": "ATOM*",
+		"type": "fiat",
+		"label": "Cosmos"
+	},
+	{
+		"code": "CMC",
+		"type": "fiat",
+		"label": "CosmosCoin"
+	},
+	{
+		"code": "COV*",
+		"type": "fiat",
+		"label": "CovenCoin"
+	},
+	{
+		"code": "CRAB",
+		"type": "fiat",
+		"label": "CrabCoin"
+	},
+	{
+		"code": "CRACK",
+		"type": "fiat",
+		"label": "CrackCoin"
+	},
+	{
+		"code": "CRC*",
+		"type": "fiat",
+		"label": "CraftCoin"
+	},
+	{
+		"code": "CRAFT",
+		"type": "fiat",
+		"label": "Craftcoin"
+	},
+	{
+		"code": "CFTY",
+		"type": "fiat",
+		"label": "Crafty"
+	},
+	{
+		"code": "CRAIG",
+		"type": "fiat",
+		"label": "CraigsCoin"
+	},
+	{
+		"code": "CRNK",
+		"type": "fiat",
+		"label": "CrankCoin"
+	},
+	{
+		"code": "CRAVE*",
+		"type": "fiat",
+		"label": "Crave-NG"
+	},
+	{
+		"code": "CRAVE",
+		"type": "fiat",
+		"label": "CraveCoin"
+	},
+	{
+		"code": "CZC",
+		"type": "fiat",
+		"label": "Crazy Coin"
+	},
+	{
+		"code": "CRM",
+		"type": "fiat",
+		"label": "Cream"
+	},
+	{
+		"code": "XCRE",
+		"type": "fiat",
+		"label": "Creatio"
+	},
+	{
+		"code": "CREA",
+		"type": "fiat",
+		"label": "CreativeChain"
+	},
+	{
+		"code": "CRDNC",
+		"type": "fiat",
+		"label": "Credence Coin"
+	},
+	{
+		"code": "CRE*",
+		"type": "fiat",
+		"label": "Creditcoin"
+	},
+	{
+		"code": "CRE",
+		"type": "fiat",
+		"label": "Credits"
+	},
+	{
+		"code": "CRDS",
+		"type": "fiat",
+		"label": "Credits"
+	},
+	{
+		"code": "CFT*",
+		"type": "fiat",
+		"label": "Credo"
+	},
+	{
+		"code": "CREDO",
+		"type": "fiat",
+		"label": "Credo"
+	},
+	{
+		"code": "CREVA",
+		"type": "fiat",
+		"label": "Creva Coin"
+	},
+	{
+		"code": "CROAT",
+		"type": "fiat",
+		"label": "Croat"
+	},
+	{
+		"code": "CCOS",
+		"type": "fiat",
+		"label": "CrowdCoinage"
+	},
+	{
+		"code": "WIZ",
+		"type": "fiat",
+		"label": "Crowdwiz"
+	},
+	{
+		"code": "CRC**",
+		"type": "fiat",
+		"label": "CryCash"
+	},
+	{
+		"code": "CRYPT",
+		"type": "fiat",
+		"label": "CryptCoin"
+	},
+	{
+		"code": "CRL",
+		"type": "fiat",
+		"label": "Cryptelo Coin"
+	},
+	{
+		"code": "CRPT",
+		"type": "fiat",
+		"label": "Crypterium"
+	},
+	{
+		"code": "XCR",
+		"type": "fiat",
+		"label": "Crypti"
+	},
+	{
+		"code": "CTO",
+		"type": "fiat",
+		"label": "Crypto"
+	},
+	{
+		"code": "CESC",
+		"type": "fiat",
+		"label": "Crypto Escudo"
+	},
+	{
+		"code": "TKT",
+		"type": "fiat",
+		"label": "Crypto Tickets"
+	},
+	{
+		"code": "CWIS",
+		"type": "fiat",
+		"label": "Crypto Wisdom Coin"
+	},
+	{
+		"code": "CWX",
+		"type": "fiat",
+		"label": "Crypto-X"
+	},
+	{
+		"code": "C20",
+		"type": "fiat",
+		"label": "Crypto20"
+	},
+	{
+		"code": "CABS",
+		"type": "fiat",
+		"label": "CryptoABS"
+	},
+	{
+		"code": "BUK",
+		"type": "fiat",
+		"label": "CryptoBuk"
+	},
+	{
+		"code": "CBX",
+		"type": "fiat",
+		"label": "CryptoBullion"
+	},
+	{
+		"code": "CCRB",
+		"type": "fiat",
+		"label": "CryptoCarbon"
+	},
+	{
+		"code": "CIRC",
+		"type": "fiat",
+		"label": "CryptoCircuits"
+	},
+	{
+		"code": "FCS",
+		"type": "fiat",
+		"label": "CryptoFocus"
+	},
+	{
+		"code": "CFT",
+		"type": "fiat",
+		"label": "CryptoForecast"
+	},
+	{
+		"code": "TKR",
+		"type": "fiat",
+		"label": "CryptoInsight"
+	},
+	{
+		"code": "CJ",
+		"type": "fiat",
+		"label": "CryptoJacks"
+	},
+	{
+		"code": "CJC",
+		"type": "fiat",
+		"label": "CryptoJournal"
+	},
+	{
+		"code": "CPAY",
+		"type": "fiat",
+		"label": "CryptoPay"
+	},
+	{
+		"code": "CRPS",
+		"type": "fiat",
+		"label": "CryptoPennies"
+	},
+	{
+		"code": "PING",
+		"type": "fiat",
+		"label": "CryptoPing"
+	},
+	{
+		"code": "CWV",
+		"type": "fiat",
+		"label": "CryptoWave"
+	},
+	{
+		"code": "CWXT",
+		"type": "fiat",
+		"label": "CryptoWorldXToken"
+	},
+	{
+		"code": "CDX*",
+		"type": "fiat",
+		"label": "Cryptodex"
+	},
+	{
+		"code": "CGA",
+		"type": "fiat",
+		"label": "Cryptographic Anomaly"
+	},
+	{
+		"code": "CYT",
+		"type": "fiat",
+		"label": "Cryptokenz"
+	},
+	{
+		"code": "CIX",
+		"type": "fiat",
+		"label": "Cryptonetix"
+	},
+	{
+		"code": "CNX",
+		"type": "fiat",
+		"label": "Cryptonex"
+	},
+	{
+		"code": "XCN",
+		"type": "fiat",
+		"label": "Cryptonite"
+	},
+	{
+		"code": "MN",
+		"type": "fiat",
+		"label": "Cryptsy Mining Contract"
+	},
+	{
+		"code": "POINTS",
+		"type": "fiat",
+		"label": "Cryptsy Points"
+	},
+	{
+		"code": "CRTM",
+		"type": "fiat",
+		"label": "Cryptum"
+	},
+	{
+		"code": "CVCOIN",
+		"type": "fiat",
+		"label": "Crypviser"
+	},
+	{
+		"code": "CCT",
+		"type": "fiat",
+		"label": "Crystal Clear Token "
+	},
+	{
+		"code": "QBT",
+		"type": "fiat",
+		"label": "Cubits"
+	},
+	{
+		"code": "XCS",
+		"type": "fiat",
+		"label": "CybCSec Coin"
+	},
+	{
+		"code": "CC",
+		"type": "fiat",
+		"label": "CyberCoin"
+	},
+	{
+		"code": "CMT*",
+		"type": "fiat",
+		"label": "CyberMiles"
+	},
+	{
+		"code": "CABS*",
+		"type": "fiat",
+		"label": "CyberTrust"
+	},
+	{
+		"code": "CYDER",
+		"type": "fiat",
+		"label": "Cyder Coin"
+	},
+	{
+		"code": "CYG",
+		"type": "fiat",
+		"label": "Cygnus"
+	},
+	{
+		"code": "CYP",
+		"type": "fiat",
+		"label": "CypherPunkCoin"
+	},
+	{
+		"code": "BET*",
+		"type": "fiat",
+		"label": "DAO.casino"
+	},
+	{
+		"code": "DAS",
+		"type": "fiat",
+		"label": "DAS"
+	},
+	{
+		"code": "DRP",
+		"type": "fiat",
+		"label": "DCORP"
+	},
+	{
+		"code": "DFS",
+		"type": "fiat",
+		"label": "DFSCoin"
+	},
+	{
+		"code": "DIM",
+		"type": "fiat",
+		"label": "DIMCOIN"
+	},
+	{
+		"code": "DMT",
+		"type": "fiat",
+		"label": "DMarket"
+	},
+	{
+		"code": "DNN",
+		"type": "fiat",
+		"label": "DNN Token"
+	},
+	{
+		"code": "DOVU",
+		"type": "fiat",
+		"label": "DOVU"
+	},
+	{
+		"code": "DRPU",
+		"type": "fiat",
+		"label": "DRP Utility"
+	},
+	{
+		"code": "DRACO",
+		"type": "fiat",
+		"label": "DT Token"
+	},
+	{
+		"code": "DAR",
+		"type": "fiat",
+		"label": "Darcrus"
+	},
+	{
+		"code": "DRC*",
+		"type": "fiat",
+		"label": "Darico"
+	},
+	{
+		"code": "DARK",
+		"type": "fiat",
+		"label": "Dark"
+	},
+	{
+		"code": "DISK",
+		"type": "fiat",
+		"label": "Dark Lisk"
+	},
+	{
+		"code": "MOOND",
+		"type": "fiat",
+		"label": "Dark Moon"
+	},
+	{
+		"code": "DB",
+		"type": "fiat",
+		"label": "DarkBit"
+	},
+	{
+		"code": "DRKC",
+		"type": "fiat",
+		"label": "DarkCash"
+	},
+	{
+		"code": "DCC",
+		"type": "fiat",
+		"label": "DarkCrave"
+	},
+	{
+		"code": "DETH",
+		"type": "fiat",
+		"label": "DarkEther"
+	},
+	{
+		"code": "DGDC",
+		"type": "fiat",
+		"label": "DarkGold"
+	},
+	{
+		"code": "DKC",
+		"type": "fiat",
+		"label": "DarkKnightCoin"
+	},
+	{
+		"code": "DANK",
+		"type": "fiat",
+		"label": "DarkKush"
+	},
+	{
+		"code": "DSB",
+		"type": "fiat",
+		"label": "DarkShibe"
+	},
+	{
+		"code": "DT",
+		"type": "fiat",
+		"label": "DarkToken"
+	},
+	{
+		"code": "DRKT",
+		"type": "fiat",
+		"label": "DarkTron"
+	},
+	{
+		"code": "DNET",
+		"type": "fiat",
+		"label": "Darknet"
+	},
+	{
+		"code": "DSH",
+		"type": "fiat",
+		"label": "Dashcoin"
+	},
+	{
+		"code": "DTT*",
+		"type": "fiat",
+		"label": "Data Trading"
+	},
+	{
+		"code": "DTX",
+		"type": "fiat",
+		"label": "DataBroker DAO"
+	},
+	{
+		"code": "DXT",
+		"type": "fiat",
+		"label": "DataWallet"
+	},
+	{
+		"code": "DTC*",
+		"type": "fiat",
+		"label": "Datacoin"
+	},
+	{
+		"code": "DTRC",
+		"type": "fiat",
+		"label": "Datarius"
+	},
+	{
+		"code": "DAV",
+		"type": "fiat",
+		"label": "DavorCoin"
+	},
+	{
+		"code": "DAXX",
+		"type": "fiat",
+		"label": "DaxxCoin"
+	},
+	{
+		"code": "DTC",
+		"type": "fiat",
+		"label": "DayTrader Coin"
+	},
+	{
+		"code": "XNA",
+		"type": "fiat",
+		"label": "DeOxyRibose"
+	},
+	{
+		"code": "DBTC",
+		"type": "fiat",
+		"label": "DebitCoin"
+	},
+	{
+		"code": "DEB",
+		"type": "fiat",
+		"label": "Debitum Token"
+	},
+	{
+		"code": "DBET",
+		"type": "fiat",
+		"label": "Decent.bet"
+	},
+	{
+		"code": "DUBI",
+		"type": "fiat",
+		"label": "Decentralized Universal Basic Income"
+	},
+	{
+		"code": "DEEP",
+		"type": "fiat",
+		"label": "Deep Gold"
+	},
+	{
+		"code": "DEA",
+		"type": "fiat",
+		"label": "Degas Coin"
+	},
+	{
+		"code": "DPAY",
+		"type": "fiat",
+		"label": "DelightPay"
+	},
+	{
+		"code": "DCRE",
+		"type": "fiat",
+		"label": "DeltaCredits"
+	},
+	{
+		"code": "DNR",
+		"type": "fiat",
+		"label": "Denarius"
+	},
+	{
+		"code": "DNO",
+		"type": "fiat",
+		"label": "Denaro"
+	},
+	{
+		"code": "DCN",
+		"type": "fiat",
+		"label": "Dentacoin"
+	},
+	{
+		"code": "DFBT",
+		"type": "fiat",
+		"label": "DentalFix"
+	},
+	{
+		"code": "DSR",
+		"type": "fiat",
+		"label": "Desire"
+	},
+	{
+		"code": "DES",
+		"type": "fiat",
+		"label": "Destiny"
+	},
+	{
+		"code": "DTCT",
+		"type": "fiat",
+		"label": "DetectorToken"
+	},
+	{
+		"code": "DVC",
+		"type": "fiat",
+		"label": "DevCoin"
+	},
+	{
+		"code": "EVE",
+		"type": "fiat",
+		"label": "Devery"
+	},
+	{
+		"code": "DCK",
+		"type": "fiat",
+		"label": "DickCoin"
+	},
+	{
+		"code": "DIGS",
+		"type": "fiat",
+		"label": "Diggits"
+	},
+	{
+		"code": "DGC",
+		"type": "fiat",
+		"label": "DigiCoin"
+	},
+	{
+		"code": "CUBE",
+		"type": "fiat",
+		"label": "DigiCube"
+	},
+	{
+		"code": "DEUR",
+		"type": "fiat",
+		"label": "DigiEuro"
+	},
+	{
+		"code": "DGPT",
+		"type": "fiat",
+		"label": "DigiPulse"
+	},
+	{
+		"code": "DGMS",
+		"type": "fiat",
+		"label": "Digigems"
+	},
+	{
+		"code": "DPP",
+		"type": "fiat",
+		"label": "Digital Assets Power Play"
+	},
+	{
+		"code": "DBG",
+		"type": "fiat",
+		"label": "Digital Bullion Gold"
+	},
+	{
+		"code": "DDF",
+		"type": "fiat",
+		"label": "Digital Developers Fund"
+	},
+	{
+		"code": "DRS",
+		"type": "fiat",
+		"label": "Digital Rupees"
+	},
+	{
+		"code": "DP",
+		"type": "fiat",
+		"label": "DigitalPrice"
+	},
+	{
+		"code": "DIME",
+		"type": "fiat",
+		"label": "DimeCoin"
+	},
+	{
+		"code": "DCY",
+		"type": "fiat",
+		"label": "Dinastycoin"
+	},
+	{
+		"code": "XDQ",
+		"type": "fiat",
+		"label": "Dirac Coin"
+	},
+	{
+		"code": "DIVX",
+		"type": "fiat",
+		"label": "Divi"
+	},
+	{
+		"code": "DTC**",
+		"type": "fiat",
+		"label": "DivotyCoin"
+	},
+	{
+		"code": "DLISK",
+		"type": "fiat",
+		"label": "Dlisk"
+	},
+	{
+		"code": "NOTE",
+		"type": "fiat",
+		"label": "Dnotes"
+	},
+	{
+		"code": "DOC",
+		"type": "fiat",
+		"label": "Doc Coin"
+	},
+	{
+		"code": "NRN",
+		"type": "fiat",
+		"label": "Doc.ai Neuron"
+	},
+	{
+		"code": "DOGED",
+		"type": "fiat",
+		"label": "DogeCoinDark"
+	},
+	{
+		"code": "DGORE",
+		"type": "fiat",
+		"label": "DogeGoreCoin"
+	},
+	{
+		"code": "XDP",
+		"type": "fiat",
+		"label": "DogeParty"
+	},
+	{
+		"code": "DLC",
+		"type": "fiat",
+		"label": "DollarCoin"
+	},
+	{
+		"code": "DLR",
+		"type": "fiat",
+		"label": "DollarOnline"
+	},
+	{
+		"code": "DRT",
+		"type": "fiat",
+		"label": "DomRaider"
+	},
+	{
+		"code": "DON",
+		"type": "fiat",
+		"label": "DonationCoin"
+	},
+	{
+		"code": "DOT",
+		"type": "fiat",
+		"label": "Dotcoin"
+	},
+	{
+		"code": "BOAT",
+		"type": "fiat",
+		"label": "Doubloon"
+	},
+	{
+		"code": "DRA",
+		"type": "fiat",
+		"label": "DraculaCoin"
+	},
+	{
+		"code": "DFT",
+		"type": "fiat",
+		"label": "Draftcoin"
+	},
+	{
+		"code": "DRG",
+		"type": "fiat",
+		"label": "Dragon Coin"
+	},
+	{
+		"code": "XDB",
+		"type": "fiat",
+		"label": "DragonSphere"
+	},
+	{
+		"code": "DRM8",
+		"type": "fiat",
+		"label": "Dream8Coin"
+	},
+	{
+		"code": "DTT",
+		"type": "fiat",
+		"label": "DreamTeam Token"
+	},
+	{
+		"code": "DRZ",
+		"type": "fiat",
+		"label": "Droidz"
+	},
+	{
+		"code": "DRC",
+		"type": "fiat",
+		"label": "Dropcoin"
+	},
+	{
+		"code": "DRXNE",
+		"type": "fiat",
+		"label": "Droxne"
+	},
+	{
+		"code": "DUB",
+		"type": "fiat",
+		"label": "DubCoin"
+	},
+	{
+		"code": "DBIC",
+		"type": "fiat",
+		"label": "DubaiCoin"
+	},
+	{
+		"code": "DBIX",
+		"type": "fiat",
+		"label": "DubaiCoin"
+	},
+	{
+		"code": "DUCK",
+		"type": "fiat",
+		"label": "DuckDuckCoin"
+	},
+	{
+		"code": "DUTCH",
+		"type": "fiat",
+		"label": "Dutch Coin"
+	},
+	{
+		"code": "DUX",
+		"type": "fiat",
+		"label": "DuxCoin"
+	},
+	{
+		"code": "DTR",
+		"type": "fiat",
+		"label": "Dynamic Trading Rights"
+	},
+	{
+		"code": "DBR",
+		"type": "fiat",
+		"label": "Düber"
+	},
+	{
+		"code": "ECC*",
+		"type": "fiat",
+		"label": "E-CurrencyCoin"
+	},
+	{
+		"code": "EDR",
+		"type": "fiat",
+		"label": "E-Dinar Coin"
+	},
+	{
+		"code": "EB3",
+		"type": "fiat",
+		"label": "EB3coin"
+	},
+	{
+		"code": "EBC",
+		"type": "fiat",
+		"label": "EBCoin"
+	},
+	{
+		"code": "ECC",
+		"type": "fiat",
+		"label": "ECC"
+	},
+	{
+		"code": "ECO",
+		"type": "fiat",
+		"label": "ECOcoin"
+	},
+	{
+		"code": "EDRC",
+		"type": "fiat",
+		"label": "EDRCoin"
+	},
+	{
+		"code": "EGO",
+		"type": "fiat",
+		"label": "EGOcoin"
+	},
+	{
+		"code": "ELTCOIN",
+		"type": "fiat",
+		"label": "ELTCOIN"
+	},
+	{
+		"code": "EQ",
+		"type": "fiat",
+		"label": "EQUI"
+	},
+	{
+		"code": "EQUI",
+		"type": "fiat",
+		"label": "EQUI Token"
+	},
+	{
+		"code": "ERB",
+		"type": "fiat",
+		"label": "ERBCoin"
+	},
+	{
+		"code": "EGAS",
+		"type": "fiat",
+		"label": "ETHGAS"
+	},
+	{
+		"code": "EXRN",
+		"type": "fiat",
+		"label": "EXRNchain"
+	},
+	{
+		"code": "EZC",
+		"type": "fiat",
+		"label": "EZCoin"
+	},
+	{
+		"code": "EZM",
+		"type": "fiat",
+		"label": "EZMarket"
+	},
+	{
+		"code": "EA",
+		"type": "fiat",
+		"label": "EagleCoin"
+	},
+	{
+		"code": "EAGS",
+		"type": "fiat",
+		"label": "EagsCoin"
+	},
+	{
+		"code": "EARTH",
+		"type": "fiat",
+		"label": "Earth Token"
+	},
+	{
+		"code": "EAC",
+		"type": "fiat",
+		"label": "EarthCoin"
+	},
+	{
+		"code": "EMT",
+		"type": "fiat",
+		"label": "EasyMine"
+	},
+	{
+		"code": "EBZ",
+		"type": "fiat",
+		"label": "Ebitz"
+	},
+	{
+		"code": "EBS",
+		"type": "fiat",
+		"label": "EbolaShare"
+	},
+	{
+		"code": "EKO",
+		"type": "fiat",
+		"label": "EchoLink"
+	},
+	{
+		"code": "EC",
+		"type": "fiat",
+		"label": "Eclipse"
+	},
+	{
+		"code": "ECOB",
+		"type": "fiat",
+		"label": "EcoBit"
+	},
+	{
+		"code": "EDDIE",
+		"type": "fiat",
+		"label": "Eddie coin"
+	},
+	{
+		"code": "EDGE",
+		"type": "fiat",
+		"label": "EdgeCoin"
+	},
+	{
+		"code": "EDC",
+		"type": "fiat",
+		"label": "EducoinV"
+	},
+	{
+		"code": "EGG",
+		"type": "fiat",
+		"label": "EggCoin"
+	},
+	{
+		"code": "ELC",
+		"type": "fiat",
+		"label": "Elacoin"
+	},
+	{
+		"code": "ELA",
+		"type": "fiat",
+		"label": "Elastos"
+	},
+	{
+		"code": "ECA",
+		"type": "fiat",
+		"label": "Electra"
+	},
+	{
+		"code": "ETN",
+		"type": "fiat",
+		"label": "Electroneum"
+	},
+	{
+		"code": "EKN",
+		"type": "fiat",
+		"label": "Elektron"
+	},
+	{
+		"code": "ELE",
+		"type": "fiat",
+		"label": "Elementrem"
+	},
+	{
+		"code": "ELM",
+		"type": "fiat",
+		"label": "Elements"
+	},
+	{
+		"code": "8S",
+		"type": "fiat",
+		"label": "Elite 888"
+	},
+	{
+		"code": "ELLA",
+		"type": "fiat",
+		"label": "Ellaism"
+	},
+	{
+		"code": "ELT",
+		"type": "fiat",
+		"label": "Eloplay"
+	},
+	{
+		"code": "ELS",
+		"type": "fiat",
+		"label": "Elysium"
+	},
+	{
+		"code": "EMB",
+		"type": "fiat",
+		"label": "EmberCoin"
+	},
+	{
+		"code": "MBRS",
+		"type": "fiat",
+		"label": "Embers"
+	},
+	{
+		"code": "EMD",
+		"type": "fiat",
+		"label": "Emerald"
+	},
+	{
+		"code": "EMIGR",
+		"type": "fiat",
+		"label": "EmiratesGoldCoin"
+	},
+	{
+		"code": "EPY*",
+		"type": "fiat",
+		"label": "Emphy"
+	},
+	{
+		"code": "EMPC",
+		"type": "fiat",
+		"label": "EmporiumCoin"
+	},
+	{
+		"code": "EPY",
+		"type": "fiat",
+		"label": "Empyrean"
+	},
+	{
+		"code": "ETT",
+		"type": "fiat",
+		"label": "EncryptoTel"
+	},
+	{
+		"code": "ENE",
+		"type": "fiat",
+		"label": "EneCoin"
+	},
+	{
+		"code": "ETK",
+		"type": "fiat",
+		"label": "Energi Token"
+	},
+	{
+		"code": "TSL",
+		"type": "fiat",
+		"label": "Energo"
+	},
+	{
+		"code": "XNG",
+		"type": "fiat",
+		"label": "Enigma"
+	},
+	{
+		"code": "ENTER",
+		"type": "fiat",
+		"label": "EnterCoin (ENTER)"
+	},
+	{
+		"code": "ENTRP",
+		"type": "fiat",
+		"label": "Entropy Token"
+	},
+	{
+		"code": "EVN",
+		"type": "fiat",
+		"label": "Envion"
+	},
+	{
+		"code": "EQUAL",
+		"type": "fiat",
+		"label": "EqualCoin"
+	},
+	{
+		"code": "EQT",
+		"type": "fiat",
+		"label": "EquiTrader"
+	},
+	{
+		"code": "EQB",
+		"type": "fiat",
+		"label": "Equibit"
+	},
+	{
+		"code": "EQM",
+		"type": "fiat",
+		"label": "Equilibrium Coin"
+	},
+	{
+		"code": "EFYT",
+		"type": "fiat",
+		"label": "Ergo"
+	},
+	{
+		"code": "ERO",
+		"type": "fiat",
+		"label": "Eroscoin"
+	},
+	{
+		"code": "ERR",
+		"type": "fiat",
+		"label": "ErrorCoin"
+	},
+	{
+		"code": "ERY",
+		"type": "fiat",
+		"label": "Eryllium"
+	},
+	{
+		"code": "ESP",
+		"type": "fiat",
+		"label": "Espers"
+	},
+	{
+		"code": "ERT",
+		"type": "fiat",
+		"label": "Esports.com"
+	},
+	{
+		"code": "ENT",
+		"type": "fiat",
+		"label": "Eternity"
+	},
+	{
+		"code": "EBET",
+		"type": "fiat",
+		"label": "EthBet"
+	},
+	{
+		"code": "ETBS",
+		"type": "fiat",
+		"label": "EthBits"
+	},
+	{
+		"code": "ETHB",
+		"type": "fiat",
+		"label": "EtherBTC"
+	},
+	{
+		"code": "EDT",
+		"type": "fiat",
+		"label": "EtherDelta"
+	},
+	{
+		"code": "DOGETH",
+		"type": "fiat",
+		"label": "EtherDoge"
+	},
+	{
+		"code": "ETL",
+		"type": "fiat",
+		"label": "EtherLite"
+	},
+	{
+		"code": "ETBT",
+		"type": "fiat",
+		"label": "Ethereum Black"
+	},
+	{
+		"code": "BLUE",
+		"type": "fiat",
+		"label": "Ethereum Blue"
+	},
+	{
+		"code": "ECASH",
+		"type": "fiat",
+		"label": "Ethereum Cash"
+	},
+	{
+		"code": "ETHD",
+		"type": "fiat",
+		"label": "Ethereum Dark"
+	},
+	{
+		"code": "ETG",
+		"type": "fiat",
+		"label": "Ethereum Gold"
+	},
+	{
+		"code": "LNK",
+		"type": "fiat",
+		"label": "Ethereum.Link"
+	},
+	{
+		"code": "BTCE",
+		"type": "fiat",
+		"label": "EthereumBitcoin"
+	},
+	{
+		"code": "ETF",
+		"type": "fiat",
+		"label": "EthereumFog"
+	},
+	{
+		"code": "ELITE",
+		"type": "fiat",
+		"label": "EthereumLite"
+	},
+	{
+		"code": "ETHS",
+		"type": "fiat",
+		"label": "EthereumScrypt"
+	},
+	{
+		"code": "RIYA",
+		"type": "fiat",
+		"label": "Etheriya"
+	},
+	{
+		"code": "DICE",
+		"type": "fiat",
+		"label": "Etheroll"
+	},
+	{
+		"code": "ESC",
+		"type": "fiat",
+		"label": "Ethersportcoin"
+	},
+	{
+		"code": "NEC*",
+		"type": "fiat",
+		"label": "Ethfinex Nectar Token"
+	},
+	{
+		"code": "HORSE",
+		"type": "fiat",
+		"label": "Ethorse "
+	},
+	{
+		"code": "ETHOS",
+		"type": "fiat",
+		"label": "Ethos"
+	},
+	{
+		"code": "ET4",
+		"type": "fiat",
+		"label": "Eticket4"
+	},
+	{
+		"code": "EUC",
+		"type": "fiat",
+		"label": "Eurocoin"
+	},
+	{
+		"code": "EVENT",
+		"type": "fiat",
+		"label": "Event Token"
+	},
+	{
+		"code": "EVC",
+		"type": "fiat",
+		"label": "Eventchain"
+	},
+	{
+		"code": "EVR",
+		"type": "fiat",
+		"label": "Everus"
+	},
+	{
+		"code": "EOC",
+		"type": "fiat",
+		"label": "EveryonesCoin"
+	},
+	{
+		"code": "EVIL",
+		"type": "fiat",
+		"label": "EvilCoin"
+	},
+	{
+		"code": "EXB",
+		"type": "fiat",
+		"label": "ExaByte (EXB)"
+	},
+	{
+		"code": "XUC",
+		"type": "fiat",
+		"label": "Exchange Union"
+	},
+	{
+		"code": "EXN",
+		"type": "fiat",
+		"label": "ExchangeN"
+	},
+	{
+		"code": "EXE",
+		"type": "fiat",
+		"label": "ExeCoin"
+	},
+	{
+		"code": "EXIT",
+		"type": "fiat",
+		"label": "ExitCoin"
+	},
+	{
+		"code": "XP",
+		"type": "fiat",
+		"label": "Experience Points"
+	},
+	{
+		"code": "EON",
+		"type": "fiat",
+		"label": "Exscudo"
+	},
+	{
+		"code": "XTRA",
+		"type": "fiat",
+		"label": "ExtraCredit"
+	},
+	{
+		"code": "XSB",
+		"type": "fiat",
+		"label": "Extreme Sportsbook"
+	},
+	{
+		"code": "XT",
+		"type": "fiat",
+		"label": "ExtremeCoin"
+	},
+	{
+		"code": "F16",
+		"type": "fiat",
+		"label": "F16Coin"
+	},
+	{
+		"code": "FX",
+		"type": "fiat",
+		"label": "FCoin"
+	},
+	{
+		"code": "FIBRE",
+		"type": "fiat",
+		"label": "FIBRE"
+	},
+	{
+		"code": "eFIC",
+		"type": "fiat",
+		"label": "FIC Network"
+	},
+	{
+		"code": "FLASH",
+		"type": "fiat",
+		"label": "FLASH coin"
+	},
+	{
+		"code": "FLIK",
+		"type": "fiat",
+		"label": "FLiK"
+	},
+	{
+		"code": "FC",
+		"type": "fiat",
+		"label": "Facecoin"
+	},
+	{
+		"code": "FAIR*",
+		"type": "fiat",
+		"label": "FairGame"
+	},
+	{
+		"code": "FAME",
+		"type": "fiat",
+		"label": "FameCoin"
+	},
+	{
+		"code": "FCN",
+		"type": "fiat",
+		"label": "FantomCoin "
+	},
+	{
+		"code": "FRD",
+		"type": "fiat",
+		"label": "Farad"
+	},
+	{
+		"code": "FST",
+		"type": "fiat",
+		"label": "FastCoin"
+	},
+	{
+		"code": "DROP",
+		"type": "fiat",
+		"label": "FaucetCoin"
+	},
+	{
+		"code": "FAZZ",
+		"type": "fiat",
+		"label": "FazzCoin"
+	},
+	{
+		"code": "FIL",
+		"type": "fiat",
+		"label": "FileCoin"
+	},
+	{
+		"code": "FNT",
+		"type": "fiat",
+		"label": "FinTab"
+	},
+	{
+		"code": "FIND",
+		"type": "fiat",
+		"label": "FindCoin"
+	},
+	{
+		"code": "FIRE",
+		"type": "fiat",
+		"label": "FireCoin"
+	},
+	{
+		"code": "FLOT",
+		"type": "fiat",
+		"label": "FireLotto"
+	},
+	{
+		"code": "FRC",
+		"type": "fiat",
+		"label": "FireRoosterCoin"
+	},
+	{
+		"code": "FFC",
+		"type": "fiat",
+		"label": "FireflyCoin"
+	},
+	{
+		"code": "1ST",
+		"type": "fiat",
+		"label": "FirstBlood"
+	},
+	{
+		"code": "FIRST",
+		"type": "fiat",
+		"label": "FirstCoin"
+	},
+	{
+		"code": "FRST",
+		"type": "fiat",
+		"label": "FirstCoin"
+	},
+	{
+		"code": "FIST",
+		"type": "fiat",
+		"label": "FistBump"
+	},
+	{
+		"code": "FIT",
+		"type": "fiat",
+		"label": "Fitcoin"
+	},
+	{
+		"code": "FLAP",
+		"type": "fiat",
+		"label": "Flappy Coin"
+	},
+	{
+		"code": "FLX",
+		"type": "fiat",
+		"label": "Flash"
+	},
+	{
+		"code": "FLVR",
+		"type": "fiat",
+		"label": "FlavorCoin"
+	},
+	{
+		"code": "FLT",
+		"type": "fiat",
+		"label": "FlutterCoin"
+	},
+	{
+		"code": "FLY",
+		"type": "fiat",
+		"label": "FlyCoin"
+	},
+	{
+		"code": "FYP",
+		"type": "fiat",
+		"label": "FlypMe"
+	},
+	{
+		"code": "FLLW",
+		"type": "fiat",
+		"label": "Follow Coin"
+	},
+	{
+		"code": "FONZ",
+		"type": "fiat",
+		"label": "FonzieCoin"
+	},
+	{
+		"code": "FOOD",
+		"type": "fiat",
+		"label": "FoodCoin"
+	},
+	{
+		"code": "XFT",
+		"type": "fiat",
+		"label": "Footy Cash"
+	},
+	{
+		"code": "FOR",
+		"type": "fiat",
+		"label": "Force Coin"
+	},
+	{
+		"code": "XFC",
+		"type": "fiat",
+		"label": "Forever Coin"
+	},
+	{
+		"code": "FOREX",
+		"type": "fiat",
+		"label": "ForexCoin"
+	},
+	{
+		"code": "FSBT",
+		"type": "fiat",
+		"label": "Forty Seven Bank"
+	},
+	{
+		"code": "FRAC",
+		"type": "fiat",
+		"label": "FractalCoin"
+	},
+	{
+		"code": "FRN",
+		"type": "fiat",
+		"label": "Francs"
+	},
+	{
+		"code": "FRK",
+		"type": "fiat",
+		"label": "Franko"
+	},
+	{
+		"code": "FRWC",
+		"type": "fiat",
+		"label": "Frankywillcoin"
+	},
+	{
+		"code": "FRAZ",
+		"type": "fiat",
+		"label": "FrazCoin"
+	},
+	{
+		"code": "FGZ",
+		"type": "fiat",
+		"label": "Free Game Zone"
+	},
+	{
+		"code": "FRE",
+		"type": "fiat",
+		"label": "FreeCoin"
+	},
+	{
+		"code": "FSC2",
+		"type": "fiat",
+		"label": "FriendshipCoin"
+	},
+	{
+		"code": "FUCK",
+		"type": "fiat",
+		"label": "Fuck Token"
+	},
+	{
+		"code": "FC2",
+		"type": "fiat",
+		"label": "Fuel2Coin"
+	},
+	{
+		"code": "FJC",
+		"type": "fiat",
+		"label": "FujiCoin"
+	},
+	{
+		"code": "NTO",
+		"type": "fiat",
+		"label": "Fujinto"
+	},
+	{
+		"code": "FLS",
+		"type": "fiat",
+		"label": "Fuloos Coin"
+	},
+	{
+		"code": "FUNC",
+		"type": "fiat",
+		"label": "FunCoin"
+	},
+	{
+		"code": "FND",
+		"type": "fiat",
+		"label": "FundRequest"
+	},
+	{
+		"code": "FYN",
+		"type": "fiat",
+		"label": "FundYourselfNow"
+	},
+	{
+		"code": "FSN",
+		"type": "fiat",
+		"label": "Fusion"
+	},
+	{
+		"code": "FSN*",
+		"type": "fiat",
+		"label": "Fusion"
+	},
+	{
+		"code": "FUTC",
+		"type": "fiat",
+		"label": "FutCoin"
+	},
+	{
+		"code": "FTP",
+		"type": "fiat",
+		"label": "FuturePoints"
+	},
+	{
+		"code": "FUZZ",
+		"type": "fiat",
+		"label": "Fuzzballs"
+	},
+	{
+		"code": "GAIA",
+		"type": "fiat",
+		"label": "GAIA Platform"
+	},
+	{
+		"code": "GAKH",
+		"type": "fiat",
+		"label": "GAKHcoin"
+	},
+	{
+		"code": "GBRC",
+		"type": "fiat",
+		"label": "GBR Coin"
+	},
+	{
+		"code": "GIZ",
+		"type": "fiat",
+		"label": "GIZMOcoin"
+	},
+	{
+		"code": "GPU",
+		"type": "fiat",
+		"label": "GPU Coin"
+	},
+	{
+		"code": "GSM",
+		"type": "fiat",
+		"label": "GSM Coin"
+	},
+	{
+		"code": "GNR",
+		"type": "fiat",
+		"label": "Gainer"
+	},
+	{
+		"code": "ORE",
+		"type": "fiat",
+		"label": "Galactrum"
+	},
+	{
+		"code": "GES",
+		"type": "fiat",
+		"label": "Galaxy eSolutions"
+	},
+	{
+		"code": "GLX",
+		"type": "fiat",
+		"label": "GalaxyCoin"
+	},
+	{
+		"code": "GTC",
+		"type": "fiat",
+		"label": "Game"
+	},
+	{
+		"code": "GBT",
+		"type": "fiat",
+		"label": "GameBetCoin"
+	},
+	{
+		"code": "GML",
+		"type": "fiat",
+		"label": "GameLeagueCoin"
+	},
+	{
+		"code": "UNITS",
+		"type": "fiat",
+		"label": "GameUnits"
+	},
+	{
+		"code": "GX",
+		"type": "fiat",
+		"label": "GameX"
+	},
+	{
+		"code": "FLP",
+		"type": "fiat",
+		"label": "Gameflip"
+	},
+	{
+		"code": "GNJ",
+		"type": "fiat",
+		"label": "GanjaCoin V2"
+	},
+	{
+		"code": "GAP",
+		"type": "fiat",
+		"label": "Gapcoin"
+	},
+	{
+		"code": "GRLC",
+		"type": "fiat",
+		"label": "Garlicoin"
+	},
+	{
+		"code": "GAY",
+		"type": "fiat",
+		"label": "GayCoin"
+	},
+	{
+		"code": "GEMZ",
+		"type": "fiat",
+		"label": "Gemz Social"
+	},
+	{
+		"code": "GXC*",
+		"type": "fiat",
+		"label": "GenXCoin"
+	},
+	{
+		"code": "GNX",
+		"type": "fiat",
+		"label": "Genaro Network"
+	},
+	{
+		"code": "GSY",
+		"type": "fiat",
+		"label": "GenesysCoin"
+	},
+	{
+		"code": "GEN",
+		"type": "fiat",
+		"label": "Genstake"
+	},
+	{
+		"code": "GUNS",
+		"type": "fiat",
+		"label": "GeoFunders"
+	},
+	{
+		"code": "GER",
+		"type": "fiat",
+		"label": "GermanCoin"
+	},
+	{
+		"code": "SPKTR",
+		"type": "fiat",
+		"label": "Ghost Coin"
+	},
+	{
+		"code": "GHC",
+		"type": "fiat",
+		"label": "GhostCoin"
+	},
+	{
+		"code": "GHOUL",
+		"type": "fiat",
+		"label": "Ghoul Coin"
+	},
+	{
+		"code": "GIFT",
+		"type": "fiat",
+		"label": "GiftNet"
+	},
+	{
+		"code": "GFT",
+		"type": "fiat",
+		"label": "Giftcoin"
+	},
+	{
+		"code": "GIG",
+		"type": "fiat",
+		"label": "GigCoin"
+	},
+	{
+		"code": "WTT",
+		"type": "fiat",
+		"label": "Giga Watt"
+	},
+	{
+		"code": "GGS",
+		"type": "fiat",
+		"label": "Gilgam"
+	},
+	{
+		"code": "GIM",
+		"type": "fiat",
+		"label": "Gimli"
+	},
+	{
+		"code": "GMR",
+		"type": "fiat",
+		"label": "Gimmer"
+	},
+	{
+		"code": "GOT",
+		"type": "fiat",
+		"label": "Giotto Coin"
+	},
+	{
+		"code": "GIVE",
+		"type": "fiat",
+		"label": "GiveCoin"
+	},
+	{
+		"code": "GLOBE",
+		"type": "fiat",
+		"label": "Global"
+	},
+	{
+		"code": "GJC",
+		"type": "fiat",
+		"label": "Global Jobcoin"
+	},
+	{
+		"code": "GTC*",
+		"type": "fiat",
+		"label": "Global Tour Coin"
+	},
+	{
+		"code": "BSTY",
+		"type": "fiat",
+		"label": "GlobalBoost"
+	},
+	{
+		"code": "GLC",
+		"type": "fiat",
+		"label": "GlobalCoin"
+	},
+	{
+		"code": "GLT",
+		"type": "fiat",
+		"label": "GlobalToken"
+	},
+	{
+		"code": "GSX",
+		"type": "fiat",
+		"label": "GlowShares"
+	},
+	{
+		"code": "GLYPH",
+		"type": "fiat",
+		"label": "GlyphCoin"
+	},
+	{
+		"code": "xGOx",
+		"type": "fiat",
+		"label": "Go!"
+	},
+	{
+		"code": "GBX",
+		"type": "fiat",
+		"label": "GoByte"
+	},
+	{
+		"code": "GOA",
+		"type": "fiat",
+		"label": "GoaCoin"
+	},
+	{
+		"code": "GOAT",
+		"type": "fiat",
+		"label": "Goat"
+	},
+	{
+		"code": "GPL",
+		"type": "fiat",
+		"label": "Gold Pressed Latinum"
+	},
+	{
+		"code": "GRX",
+		"type": "fiat",
+		"label": "Gold Reward Token"
+	},
+	{
+		"code": "GB",
+		"type": "fiat",
+		"label": "GoldBlocks"
+	},
+	{
+		"code": "MNT",
+		"type": "fiat",
+		"label": "GoldMint"
+	},
+	{
+		"code": "GP",
+		"type": "fiat",
+		"label": "GoldPieces"
+	},
+	{
+		"code": "XGR",
+		"type": "fiat",
+		"label": "GoldReserve"
+	},
+	{
+		"code": "GEA",
+		"type": "fiat",
+		"label": "Goldea"
+	},
+	{
+		"code": "XGB",
+		"type": "fiat",
+		"label": "GoldenBird"
+	},
+	{
+		"code": "GMX",
+		"type": "fiat",
+		"label": "Goldmaxcoin"
+	},
+	{
+		"code": "GOOD",
+		"type": "fiat",
+		"label": "GoodCoin"
+	},
+	{
+		"code": "GOON",
+		"type": "fiat",
+		"label": "Goonies"
+	},
+	{
+		"code": "BUCKS*",
+		"type": "fiat",
+		"label": "GorillaBucks"
+	},
+	{
+		"code": "GOTX",
+		"type": "fiat",
+		"label": "GothicCoin"
+	},
+	{
+		"code": "GRF",
+		"type": "fiat",
+		"label": "Graft Blockchain"
+	},
+	{
+		"code": "GRAM",
+		"type": "fiat",
+		"label": "Gram Coin"
+	},
+	{
+		"code": "GDC",
+		"type": "fiat",
+		"label": "GrandCoin"
+	},
+	{
+		"code": "GRT",
+		"type": "fiat",
+		"label": "Grantcoin"
+	},
+	{
+		"code": "GAI",
+		"type": "fiat",
+		"label": "GraphGrail AI"
+	},
+	{
+		"code": "GRAV",
+		"type": "fiat",
+		"label": "Graviton"
+	},
+	{
+		"code": "GBIT",
+		"type": "fiat",
+		"label": "GravityBit"
+	},
+	{
+		"code": "GRE",
+		"type": "fiat",
+		"label": "GreenCoin"
+	},
+	{
+		"code": "GREXIT",
+		"type": "fiat",
+		"label": "GrexitCoin"
+	},
+	{
+		"code": "GRID",
+		"type": "fiat",
+		"label": "Grid+"
+	},
+	{
+		"code": "GRM",
+		"type": "fiat",
+		"label": "GridMaster"
+	},
+	{
+		"code": "GRID*",
+		"type": "fiat",
+		"label": "GridPay"
+	},
+	{
+		"code": "GMC",
+		"type": "fiat",
+		"label": "Gridmaster"
+	},
+	{
+		"code": "GRO",
+		"type": "fiat",
+		"label": "Gron Digital"
+	},
+	{
+		"code": "GRWI",
+		"type": "fiat",
+		"label": "Growers International"
+	},
+	{
+		"code": "GROW",
+		"type": "fiat",
+		"label": "GrownCoin"
+	},
+	{
+		"code": "GRW",
+		"type": "fiat",
+		"label": "GrowthCoin"
+	},
+	{
+		"code": "GET",
+		"type": "fiat",
+		"label": "Guaranteed Entrance Token"
+	},
+	{
+		"code": "GCC",
+		"type": "fiat",
+		"label": "GuccioneCoin"
+	},
+	{
+		"code": "GUE",
+		"type": "fiat",
+		"label": "GuerillaCoin"
+	},
+	{
+		"code": "GUN",
+		"type": "fiat",
+		"label": "GunCoin"
+	},
+	{
+		"code": "GXC",
+		"type": "fiat",
+		"label": "Gx Coin"
+	},
+	{
+		"code": "HQX",
+		"type": "fiat",
+		"label": "HOQU"
+	},
+	{
+		"code": "HODL",
+		"type": "fiat",
+		"label": "HOdlcoin"
+	},
+	{
+		"code": "HTML",
+		"type": "fiat",
+		"label": "HTML Coin"
+	},
+	{
+		"code": "HTML5",
+		"type": "fiat",
+		"label": "HTML5 Coin"
+	},
+	{
+		"code": "HKG",
+		"type": "fiat",
+		"label": "Hacker Gold"
+	},
+	{
+		"code": "HAC",
+		"type": "fiat",
+		"label": "Hackspace Capital"
+	},
+	{
+		"code": "HALAL",
+		"type": "fiat",
+		"label": "Halal"
+	},
+	{
+		"code": "HLC",
+		"type": "fiat",
+		"label": "Halal-Chain"
+	},
+	{
+		"code": "HAL",
+		"type": "fiat",
+		"label": "Halcyon"
+	},
+	{
+		"code": "HALLO",
+		"type": "fiat",
+		"label": "Halloween Coin"
+	},
+	{
+		"code": "HAMS",
+		"type": "fiat",
+		"label": "HamsterCoin"
+	},
+	{
+		"code": "HION",
+		"type": "fiat",
+		"label": "Handelion"
+	},
+	{
+		"code": "HPC",
+		"type": "fiat",
+		"label": "HappyCoin"
+	},
+	{
+		"code": "HCC",
+		"type": "fiat",
+		"label": "HappyCreatorCoin "
+	},
+	{
+		"code": "HRB",
+		"type": "fiat",
+		"label": "Harbour DAO"
+	},
+	{
+		"code": "HGS",
+		"type": "fiat",
+		"label": "HashGains"
+	},
+	{
+		"code": "HZT",
+		"type": "fiat",
+		"label": "HazMatCoin"
+	},
+	{
+		"code": "HAZE",
+		"type": "fiat",
+		"label": "HazeCoin"
+	},
+	{
+		"code": "HHEM",
+		"type": "fiat",
+		"label": "Healthureum"
+	},
+	{
+		"code": "WORM",
+		"type": "fiat",
+		"label": "HealthyWorm"
+	},
+	{
+		"code": "HEAT",
+		"type": "fiat",
+		"label": "Heat Ledger"
+	},
+	{
+		"code": "HVC",
+		"type": "fiat",
+		"label": "HeavyCoin"
+	},
+	{
+		"code": "HDG",
+		"type": "fiat",
+		"label": "Hedge Token"
+	},
+	{
+		"code": "HEDG",
+		"type": "fiat",
+		"label": "Hedgecoin"
+	},
+	{
+		"code": "HEEL",
+		"type": "fiat",
+		"label": "HeelCoin"
+	},
+	{
+		"code": "HBZ",
+		"type": "fiat",
+		"label": "Helbiz"
+	},
+	{
+		"code": "HNC",
+		"type": "fiat",
+		"label": "Hellenic Coin"
+	},
+	{
+		"code": "HGT",
+		"type": "fiat",
+		"label": "Hello Gold"
+	},
+	{
+		"code": "HMP",
+		"type": "fiat",
+		"label": "HempCoin"
+	},
+	{
+		"code": "HXT",
+		"type": "fiat",
+		"label": "HextraCoin"
+	},
+	{
+		"code": "HXX",
+		"type": "fiat",
+		"label": "HexxCoin"
+	},
+	{
+		"code": "XHI",
+		"type": "fiat",
+		"label": "HiCoin"
+	},
+	{
+		"code": "HVCO",
+		"type": "fiat",
+		"label": "High Voltage Coin"
+	},
+	{
+		"code": "HIRE",
+		"type": "fiat",
+		"label": "HireMatch"
+	},
+	{
+		"code": "HTC",
+		"type": "fiat",
+		"label": "Hitcoin"
+	},
+	{
+		"code": "HIVE",
+		"type": "fiat",
+		"label": "Hive"
+	},
+	{
+		"code": "HVN",
+		"type": "fiat",
+		"label": "Hive Project"
+	},
+	{
+		"code": "HBN",
+		"type": "fiat",
+		"label": "HoboNickels"
+	},
+	{
+		"code": "HBC",
+		"type": "fiat",
+		"label": "HomeBlockCoin"
+	},
+	{
+		"code": "HONEY",
+		"type": "fiat",
+		"label": "Honey"
+	},
+	{
+		"code": "HZ",
+		"type": "fiat",
+		"label": "Horizon"
+	},
+	{
+		"code": "HSP",
+		"type": "fiat",
+		"label": "Horse Power"
+	},
+	{
+		"code": "HBT",
+		"type": "fiat",
+		"label": "Hubiit"
+	},
+	{
+		"code": "HNC*",
+		"type": "fiat",
+		"label": "Huncoin"
+	},
+	{
+		"code": "HT",
+		"type": "fiat",
+		"label": "Huobi Token"
+	},
+	{
+		"code": "HUSH",
+		"type": "fiat",
+		"label": "Hush"
+	},
+	{
+		"code": "H2O",
+		"type": "fiat",
+		"label": "Hydrominer"
+	},
+	{
+		"code": "HYPER",
+		"type": "fiat",
+		"label": "HyperCoin"
+	},
+	{
+		"code": "HYP",
+		"type": "fiat",
+		"label": "Hyperstake"
+	},
+	{
+		"code": "I0C",
+		"type": "fiat",
+		"label": "I0coin"
+	},
+	{
+		"code": "ICASH",
+		"type": "fiat",
+		"label": "ICASH"
+	},
+	{
+		"code": "ICOO",
+		"type": "fiat",
+		"label": "ICO OpenLedger"
+	},
+	{
+		"code": "ICOS",
+		"type": "fiat",
+		"label": "ICOBox"
+	},
+	{
+		"code": "ILC",
+		"type": "fiat",
+		"label": "ILCoin"
+	},
+	{
+		"code": "ILCT",
+		"type": "fiat",
+		"label": "ILCoin Token"
+	},
+	{
+		"code": "IML",
+		"type": "fiat",
+		"label": "IMMLA"
+	},
+	{
+		"code": "IOT",
+		"type": "fiat",
+		"label": "IOTA"
+	},
+	{
+		"code": "IOU",
+		"type": "fiat",
+		"label": "IOU1"
+	},
+	{
+		"code": "IPC*",
+		"type": "fiat",
+		"label": "IPChain"
+	},
+	{
+		"code": "IXC",
+		"type": "fiat",
+		"label": "IXcoin"
+	},
+	{
+		"code": "ROCK",
+		"type": "fiat",
+		"label": "Ice Rock Mining"
+	},
+	{
+		"code": "ICB",
+		"type": "fiat",
+		"label": "IceBergCoin"
+	},
+	{
+		"code": "ICOB",
+		"type": "fiat",
+		"label": "Icobid"
+	},
+	{
+		"code": "ICON",
+		"type": "fiat",
+		"label": "Iconic"
+	},
+	{
+		"code": "IMV",
+		"type": "fiat",
+		"label": "ImmVRse"
+	},
+	{
+		"code": "IMX",
+		"type": "fiat",
+		"label": "Impact"
+	},
+	{
+		"code": "IMPCH",
+		"type": "fiat",
+		"label": "Impeach"
+	},
+	{
+		"code": "IPC",
+		"type": "fiat",
+		"label": "ImperialCoin"
+	},
+	{
+		"code": "IMPS",
+		"type": "fiat",
+		"label": "Impulse Coin"
+	},
+	{
+		"code": "IN",
+		"type": "fiat",
+		"label": "InCoin"
+	},
+	{
+		"code": "INPAY",
+		"type": "fiat",
+		"label": "InPay"
+	},
+	{
+		"code": "NKA",
+		"type": "fiat",
+		"label": "IncaKoin"
+	},
+	{
+		"code": "INCP",
+		"type": "fiat",
+		"label": "InceptionCoin"
+	},
+	{
+		"code": "INC",
+		"type": "fiat",
+		"label": "Incrementum"
+	},
+	{
+		"code": "IDH",
+		"type": "fiat",
+		"label": "IndaHash"
+	},
+	{
+		"code": "IMS",
+		"type": "fiat",
+		"label": "Independent Money System"
+	},
+	{
+		"code": "ERC20",
+		"type": "fiat",
+		"label": "Index ERC20"
+	},
+	{
+		"code": "INDI",
+		"type": "fiat",
+		"label": "IndiCoin"
+	},
+	{
+		"code": "IND",
+		"type": "fiat",
+		"label": "Indorse"
+	},
+	{
+		"code": "IFC",
+		"type": "fiat",
+		"label": "Infinite Coin"
+	},
+	{
+		"code": "XIN",
+		"type": "fiat",
+		"label": "Infinity Economics"
+	},
+	{
+		"code": "INF8",
+		"type": "fiat",
+		"label": "Infinium-8"
+	},
+	{
+		"code": "IFLT",
+		"type": "fiat",
+		"label": "InflationCoin"
+	},
+	{
+		"code": "INFX",
+		"type": "fiat",
+		"label": "Influxcoin"
+	},
+	{
+		"code": "INK",
+		"type": "fiat",
+		"label": "Ink"
+	},
+	{
+		"code": "INN",
+		"type": "fiat",
+		"label": "Innova"
+	},
+	{
+		"code": "INSN",
+		"type": "fiat",
+		"label": "Insane Coin"
+	},
+	{
+		"code": "INSANE",
+		"type": "fiat",
+		"label": "InsaneCoin"
+	},
+	{
+		"code": "WOLF",
+		"type": "fiat",
+		"label": "Insanity Coin"
+	},
+	{
+		"code": "ICC",
+		"type": "fiat",
+		"label": "Insta Cash Coin"
+	},
+	{
+		"code": "MINE",
+		"type": "fiat",
+		"label": "Instamine Nuggets"
+	},
+	{
+		"code": "IPL",
+		"type": "fiat",
+		"label": "InsurePal"
+	},
+	{
+		"code": "IQB",
+		"type": "fiat",
+		"label": "Intelligence Quotient Benefit"
+	},
+	{
+		"code": "ITT",
+		"type": "fiat",
+		"label": "Intelligent Trading Technologies"
+	},
+	{
+		"code": "ITNS",
+		"type": "fiat",
+		"label": "IntenseCoin"
+	},
+	{
+		"code": "XID*",
+		"type": "fiat",
+		"label": "International Diamond Coin"
+	},
+	{
+		"code": "INT",
+		"type": "fiat",
+		"label": "Internet Node Token"
+	},
+	{
+		"code": "INXT",
+		"type": "fiat",
+		"label": "Internxt"
+	},
+	{
+		"code": "HOLD",
+		"type": "fiat",
+		"label": "Interstellar Holdings"
+	},
+	{
+		"code": "ITZ",
+		"type": "fiat",
+		"label": "Interzone"
+	},
+	{
+		"code": "IFT",
+		"type": "fiat",
+		"label": "InvestFeed"
+	},
+	{
+		"code": "INV",
+		"type": "fiat",
+		"label": "Invictus"
+	},
+	{
+		"code": "IVZ",
+		"type": "fiat",
+		"label": "InvisibleCoin"
+	},
+	{
+		"code": "IRL",
+		"type": "fiat",
+		"label": "IrishCoin"
+	},
+	{
+		"code": "ISL",
+		"type": "fiat",
+		"label": "IslaCoin"
+	},
+	{
+		"code": "IEC",
+		"type": "fiat",
+		"label": "IvugeoEvolutionCoin"
+	},
+	{
+		"code": "IWT",
+		"type": "fiat",
+		"label": "IwToken"
+	},
+	{
+		"code": "JPC*",
+		"type": "fiat",
+		"label": "J Coin"
+	},
+	{
+		"code": "JIO",
+		"type": "fiat",
+		"label": "JIO Token"
+	},
+	{
+		"code": "JPC",
+		"type": "fiat",
+		"label": "JackPotCoin"
+	},
+	{
+		"code": "JANE",
+		"type": "fiat",
+		"label": "JaneCoin"
+	},
+	{
+		"code": "JNS",
+		"type": "fiat",
+		"label": "Janus"
+	},
+	{
+		"code": "JVY",
+		"type": "fiat",
+		"label": "Javvy"
+	},
+	{
+		"code": "JC",
+		"type": "fiat",
+		"label": "JesusCoin"
+	},
+	{
+		"code": "JET",
+		"type": "fiat",
+		"label": "Jetcoin"
+	},
+	{
+		"code": "JWL",
+		"type": "fiat",
+		"label": "Jewels"
+	},
+	{
+		"code": "JIF",
+		"type": "fiat",
+		"label": "JiffyCoin"
+	},
+	{
+		"code": "JCR",
+		"type": "fiat",
+		"label": "Jincor"
+	},
+	{
+		"code": "JINN",
+		"type": "fiat",
+		"label": "Jinn"
+	},
+	{
+		"code": "JIO*",
+		"type": "fiat",
+		"label": "Jiocoin"
+	},
+	{
+		"code": "JOBS",
+		"type": "fiat",
+		"label": "JobsCoin"
+	},
+	{
+		"code": "J",
+		"type": "fiat",
+		"label": "JoinCoin"
+	},
+	{
+		"code": "JOK",
+		"type": "fiat",
+		"label": "JokerCoin"
+	},
+	{
+		"code": "XJO",
+		"type": "fiat",
+		"label": "JouleCoin"
+	},
+	{
+		"code": "JOY",
+		"type": "fiat",
+		"label": "JoyToken"
+	},
+	{
+		"code": "JUDGE",
+		"type": "fiat",
+		"label": "JudgeCoin"
+	},
+	{
+		"code": "JBS",
+		"type": "fiat",
+		"label": "JumBucks Coin"
+	},
+	{
+		"code": "JKC",
+		"type": "fiat",
+		"label": "JunkCoin"
+	},
+	{
+		"code": "JDC",
+		"type": "fiat",
+		"label": "JustDatingSite"
+	},
+	{
+		"code": "KAT",
+		"type": "fiat",
+		"label": "KATZcoin"
+	},
+	{
+		"code": "KRC",
+		"type": "fiat",
+		"label": "KRCoin"
+	},
+	{
+		"code": "KREDS",
+		"type": "fiat",
+		"label": "KREDS"
+	},
+	{
+		"code": "KZC",
+		"type": "fiat",
+		"label": "KZCash"
+	},
+	{
+		"code": "KLK",
+		"type": "fiat",
+		"label": "Kalkulus"
+	},
+	{
+		"code": "KAPU",
+		"type": "fiat",
+		"label": "Kapu"
+	},
+	{
+		"code": "KRB",
+		"type": "fiat",
+		"label": "Karbo"
+	},
+	{
+		"code": "KRM",
+		"type": "fiat",
+		"label": "Karma"
+	},
+	{
+		"code": "KARMA",
+		"type": "fiat",
+		"label": "Karmacoin"
+	},
+	{
+		"code": "KAYI",
+		"type": "fiat",
+		"label": "Kayı"
+	},
+	{
+		"code": "KEK",
+		"type": "fiat",
+		"label": "KekCoin"
+	},
+	{
+		"code": "KCN",
+		"type": "fiat",
+		"label": "Kencoin"
+	},
+	{
+		"code": "KC",
+		"type": "fiat",
+		"label": "Kernalcoin"
+	},
+	{
+		"code": "KEX",
+		"type": "fiat",
+		"label": "KexCoin"
+	},
+	{
+		"code": "KEY*",
+		"type": "fiat",
+		"label": "KeyCoin"
+	},
+	{
+		"code": "KNC*",
+		"type": "fiat",
+		"label": "Khancoin"
+	},
+	{
+		"code": "KLC",
+		"type": "fiat",
+		"label": "KiloCoin"
+	},
+	{
+		"code": "KIN",
+		"type": "fiat",
+		"label": "Kin"
+	},
+	{
+		"code": "KING",
+		"type": "fiat",
+		"label": "King93"
+	},
+	{
+		"code": "KNC**",
+		"type": "fiat",
+		"label": "KingN Coin"
+	},
+	{
+		"code": "MEOW",
+		"type": "fiat",
+		"label": "Kittehcoin"
+	},
+	{
+		"code": "KED",
+		"type": "fiat",
+		"label": "Klingon Empire Darsek"
+	},
+	{
+		"code": "KDC",
+		"type": "fiat",
+		"label": "Klondike Coin"
+	},
+	{
+		"code": "KOBO",
+		"type": "fiat",
+		"label": "KoboCoin"
+	},
+	{
+		"code": "KOLION",
+		"type": "fiat",
+		"label": "Kolion"
+	},
+	{
+		"code": "KRAK",
+		"type": "fiat",
+		"label": "Kraken"
+	},
+	{
+		"code": "KRONE",
+		"type": "fiat",
+		"label": "Kronecoin"
+	},
+	{
+		"code": "KGC",
+		"type": "fiat",
+		"label": "KrugerCoin"
+	},
+	{
+		"code": "KTK",
+		"type": "fiat",
+		"label": "KryptCoin"
+	},
+	{
+		"code": "KR",
+		"type": "fiat",
+		"label": "Krypton"
+	},
+	{
+		"code": "KBR",
+		"type": "fiat",
+		"label": "Kubera Coin"
+	},
+	{
+		"code": "KUBO",
+		"type": "fiat",
+		"label": "KubosCoin"
+	},
+	{
+		"code": "KURT",
+		"type": "fiat",
+		"label": "Kurrent"
+	},
+	{
+		"code": "KUSH",
+		"type": "fiat",
+		"label": "KushCoin"
+	},
+	{
+		"code": "LEO",
+		"type": "fiat",
+		"label": "LEOcoin"
+	},
+	{
+		"code": "LGBTQ",
+		"type": "fiat",
+		"label": "LGBTQoin"
+	},
+	{
+		"code": "LHC",
+		"type": "fiat",
+		"label": "LHCoin"
+	},
+	{
+		"code": "LIFE",
+		"type": "fiat",
+		"label": "LIFE"
+	},
+	{
+		"code": "LTBC",
+		"type": "fiat",
+		"label": "LTBCoin"
+	},
+	{
+		"code": "LUX",
+		"type": "fiat",
+		"label": "LUXCoin"
+	},
+	{
+		"code": "LAB",
+		"type": "fiat",
+		"label": "Labrys"
+	},
+	{
+		"code": "BAC*",
+		"type": "fiat",
+		"label": "LakeBanker"
+	},
+	{
+		"code": "TAU",
+		"type": "fiat",
+		"label": "Lamden Tau"
+	},
+	{
+		"code": "PIX",
+		"type": "fiat",
+		"label": "Lampix"
+	},
+	{
+		"code": "LANA",
+		"type": "fiat",
+		"label": "LanaCoin"
+	},
+	{
+		"code": "LTH",
+		"type": "fiat",
+		"label": "Lathaan"
+	},
+	{
+		"code": "LAT",
+		"type": "fiat",
+		"label": "Latium"
+	},
+	{
+		"code": "LAZ",
+		"type": "fiat",
+		"label": "Lazarus"
+	},
+	{
+		"code": "LEPEN",
+		"type": "fiat",
+		"label": "LePenCoin"
+	},
+	{
+		"code": "LEA",
+		"type": "fiat",
+		"label": "LeaCoin"
+	},
+	{
+		"code": "LDC",
+		"type": "fiat",
+		"label": "LeadCoin"
+	},
+	{
+		"code": "LGD*",
+		"type": "fiat",
+		"label": "Legendary Coin"
+	},
+	{
+		"code": "LGO",
+		"type": "fiat",
+		"label": "Legolas Exchange"
+	},
+	{
+		"code": "LEMON",
+		"type": "fiat",
+		"label": "LemonCoin"
+	},
+	{
+		"code": "LCT",
+		"type": "fiat",
+		"label": "LendConnect"
+	},
+	{
+		"code": "LOAN",
+		"type": "fiat",
+		"label": "Lendoit"
+	},
+	{
+		"code": "LENIN",
+		"type": "fiat",
+		"label": "LeninCoin"
+	},
+	{
+		"code": "LIR",
+		"type": "fiat",
+		"label": "Let it Ride"
+	},
+	{
+		"code": "LVG",
+		"type": "fiat",
+		"label": "Leverage Coin"
+	},
+	{
+		"code": "LEV",
+		"type": "fiat",
+		"label": "Leverj"
+	},
+	{
+		"code": "XLC",
+		"type": "fiat",
+		"label": "LeviarCoin"
+	},
+	{
+		"code": "XLB",
+		"type": "fiat",
+		"label": "LibertyCoin"
+	},
+	{
+		"code": "LXC",
+		"type": "fiat",
+		"label": "LibrexCoin"
+	},
+	{
+		"code": "LSD",
+		"type": "fiat",
+		"label": "LightSpeedCoin"
+	},
+	{
+		"code": "LIMX",
+		"type": "fiat",
+		"label": "LimeCoinX"
+	},
+	{
+		"code": "LTD",
+		"type": "fiat",
+		"label": "Limited Coin"
+	},
+	{
+		"code": "LINDA",
+		"type": "fiat",
+		"label": "Linda"
+	},
+	{
+		"code": "LINX",
+		"type": "fiat",
+		"label": "Linx"
+	},
+	{
+		"code": "LQD",
+		"type": "fiat",
+		"label": "Liquid"
+	},
+	{
+		"code": "LBTC",
+		"type": "fiat",
+		"label": "LiteBitcoin"
+	},
+	{
+		"code": "LTG",
+		"type": "fiat",
+		"label": "LiteCoin Gold"
+	},
+	{
+		"code": "LTCU",
+		"type": "fiat",
+		"label": "LiteCoin Ultra"
+	},
+	{
+		"code": "LTCR",
+		"type": "fiat",
+		"label": "LiteCreed"
+	},
+	{
+		"code": "LDOGE",
+		"type": "fiat",
+		"label": "LiteDoge"
+	},
+	{
+		"code": "LTB",
+		"type": "fiat",
+		"label": "Litebar "
+	},
+	{
+		"code": "LCP",
+		"type": "fiat",
+		"label": "Litecoin Plus"
+	},
+	{
+		"code": "LCASH",
+		"type": "fiat",
+		"label": "LitecoinCash"
+	},
+	{
+		"code": "LCC",
+		"type": "fiat",
+		"label": "LitecoinCash"
+	},
+	{
+		"code": "LTCD",
+		"type": "fiat",
+		"label": "LitecoinDark"
+	},
+	{
+		"code": "LTCX",
+		"type": "fiat",
+		"label": "LitecoinX"
+	},
+	{
+		"code": "LTS",
+		"type": "fiat",
+		"label": "Litestar Coin"
+	},
+	{
+		"code": "LTA",
+		"type": "fiat",
+		"label": "Litra"
+	},
+	{
+		"code": "LIV",
+		"type": "fiat",
+		"label": "LiviaCoin"
+	},
+	{
+		"code": "LWF",
+		"type": "fiat",
+		"label": "Local World Forwarders"
+	},
+	{
+		"code": "LOC*",
+		"type": "fiat",
+		"label": "LockChain"
+	},
+	{
+		"code": "LOC",
+		"type": "fiat",
+		"label": "Loco"
+	},
+	{
+		"code": "LOOK",
+		"type": "fiat",
+		"label": "LookCoin"
+	},
+	{
+		"code": "LYK",
+		"type": "fiat",
+		"label": "Loyakk Vega"
+	},
+	{
+		"code": "BASH",
+		"type": "fiat",
+		"label": "LuckChain"
+	},
+	{
+		"code": "LCK",
+		"type": "fiat",
+		"label": "Luckbox"
+	},
+	{
+		"code": "LK7",
+		"type": "fiat",
+		"label": "Lucky7Coin"
+	},
+	{
+		"code": "LUCKY",
+		"type": "fiat",
+		"label": "LuckyBlocks (LUCKY)"
+	},
+	{
+		"code": "LKY",
+		"type": "fiat",
+		"label": "LuckyCoin"
+	},
+	{
+		"code": "LDM",
+		"type": "fiat",
+		"label": "Ludum token"
+	},
+	{
+		"code": "LC",
+		"type": "fiat",
+		"label": "Lutetium Coin"
+	},
+	{
+		"code": "LUX**",
+		"type": "fiat",
+		"label": "Luxmi Coin"
+	},
+	{
+		"code": "LYC",
+		"type": "fiat",
+		"label": "LycanCoin"
+	},
+	{
+		"code": "LKK",
+		"type": "fiat",
+		"label": "Lykke"
+	},
+	{
+		"code": "LYM",
+		"type": "fiat",
+		"label": "Lympo"
+	},
+	{
+		"code": "LYB",
+		"type": "fiat",
+		"label": "LyraBar"
+	},
+	{
+		"code": "MCAP",
+		"type": "fiat",
+		"label": "MCAP"
+	},
+	{
+		"code": "MIS",
+		"type": "fiat",
+		"label": "MIScoin"
+	},
+	{
+		"code": "MMNXT",
+		"type": "fiat",
+		"label": "MMNXT "
+	},
+	{
+		"code": "MMXVI",
+		"type": "fiat",
+		"label": "MMXVI"
+	},
+	{
+		"code": "MUN",
+		"type": "fiat",
+		"label": "MUNcoin"
+	},
+	{
+		"code": "MAC",
+		"type": "fiat",
+		"label": "MachineCoin"
+	},
+	{
+		"code": "MCRN",
+		"type": "fiat",
+		"label": "MacronCoin"
+	},
+	{
+		"code": "MRV",
+		"type": "fiat",
+		"label": "Macroverse"
+	},
+	{
+		"code": "MDC*",
+		"type": "fiat",
+		"label": "MadCoin"
+	},
+	{
+		"code": "ART",
+		"type": "fiat",
+		"label": "Maecenas"
+	},
+	{
+		"code": "MGN",
+		"type": "fiat",
+		"label": "MagnaCoin"
+	},
+	{
+		"code": "MAG",
+		"type": "fiat",
+		"label": "Magnet"
+	},
+	{
+		"code": "MAG*",
+		"type": "fiat",
+		"label": "Magos"
+	},
+	{
+		"code": "MMXIV",
+		"type": "fiat",
+		"label": "MaieutiCoin"
+	},
+	{
+		"code": "MIV",
+		"type": "fiat",
+		"label": "MakeItViral"
+	},
+	{
+		"code": "MKR",
+		"type": "fiat",
+		"label": "Maker"
+	},
+	{
+		"code": "MAT*",
+		"type": "fiat",
+		"label": "Manet Coin"
+	},
+	{
+		"code": "MAPC",
+		"type": "fiat",
+		"label": "MapCoin"
+	},
+	{
+		"code": "MAR",
+		"type": "fiat",
+		"label": "MarijuanaCoin"
+	},
+	{
+		"code": "MRS",
+		"type": "fiat",
+		"label": "MarsCoin"
+	},
+	{
+		"code": "MARS",
+		"type": "fiat",
+		"label": "MarsCoin "
+	},
+	{
+		"code": "MXT",
+		"type": "fiat",
+		"label": "MartexCoin"
+	},
+	{
+		"code": "MARV",
+		"type": "fiat",
+		"label": "Marvelous"
+	},
+	{
+		"code": "MARX",
+		"type": "fiat",
+		"label": "MarxCoin"
+	},
+	{
+		"code": "MARYJ",
+		"type": "fiat",
+		"label": "MaryJane Coin"
+	},
+	{
+		"code": "MSR",
+		"type": "fiat",
+		"label": "Masari"
+	},
+	{
+		"code": "MC",
+		"type": "fiat",
+		"label": "Mass Coin"
+	},
+	{
+		"code": "MASS",
+		"type": "fiat",
+		"label": "Mass.Cloud"
+	},
+	{
+		"code": "MCAR",
+		"type": "fiat",
+		"label": "MasterCar"
+	},
+	{
+		"code": "MSC",
+		"type": "fiat",
+		"label": "MasterCoin"
+	},
+	{
+		"code": "MM",
+		"type": "fiat",
+		"label": "MasterMint"
+	},
+	{
+		"code": "MTR",
+		"type": "fiat",
+		"label": "MasterTraderCoin"
+	},
+	{
+		"code": "MAN*",
+		"type": "fiat",
+		"label": "Matrix AI Network"
+	},
+	{
+		"code": "MTX",
+		"type": "fiat",
+		"label": "Matryx"
+	},
+	{
+		"code": "MAX",
+		"type": "fiat",
+		"label": "MaxCoin"
+	},
+	{
+		"code": "MYC",
+		"type": "fiat",
+		"label": "MayaCoin"
+	},
+	{
+		"code": "MZC",
+		"type": "fiat",
+		"label": "MazaCoin"
+	},
+	{
+		"code": "MBIT",
+		"type": "fiat",
+		"label": "Mbitbooks"
+	},
+	{
+		"code": "MLITE",
+		"type": "fiat",
+		"label": "MeLite"
+	},
+	{
+		"code": "MDT*",
+		"type": "fiat",
+		"label": "Measurable Data Token "
+	},
+	{
+		"code": "MED*",
+		"type": "fiat",
+		"label": "MediBloc"
+	},
+	{
+		"code": "MEDI",
+		"type": "fiat",
+		"label": "MediBond"
+	},
+	{
+		"code": "MCU",
+		"type": "fiat",
+		"label": "MediChain"
+	},
+	{
+		"code": "MDS",
+		"type": "fiat",
+		"label": "MediShares"
+	},
+	{
+		"code": "MNT*",
+		"type": "fiat",
+		"label": "Media Network Coin"
+	},
+	{
+		"code": "MDC",
+		"type": "fiat",
+		"label": "MedicCoin"
+	},
+	{
+		"code": "MTN*",
+		"type": "fiat",
+		"label": "Medicalchain"
+	},
+	{
+		"code": "MED",
+		"type": "fiat",
+		"label": "MediterraneanCoin"
+	},
+	{
+		"code": "MPRO",
+		"type": "fiat",
+		"label": "MediumProject"
+	},
+	{
+		"code": "MEC",
+		"type": "fiat",
+		"label": "MegaCoin"
+	},
+	{
+		"code": "MEGA",
+		"type": "fiat",
+		"label": "MegaFlash"
+	},
+	{
+		"code": "XMS",
+		"type": "fiat",
+		"label": "Megastake"
+	},
+	{
+		"code": "MET",
+		"type": "fiat",
+		"label": "Memessenger"
+	},
+	{
+		"code": "MMC",
+		"type": "fiat",
+		"label": "MemoryCoin"
+	},
+	{
+		"code": "GMT",
+		"type": "fiat",
+		"label": "Mercury Protocol"
+	},
+	{
+		"code": "MTLM3",
+		"type": "fiat",
+		"label": "Metal Music v3"
+	},
+	{
+		"code": "METAL",
+		"type": "fiat",
+		"label": "MetalCoin"
+	},
+	{
+		"code": "ETP",
+		"type": "fiat",
+		"label": "Metaverse"
+	},
+	{
+		"code": "AMM",
+		"type": "fiat",
+		"label": "MicroMoney"
+	},
+	{
+		"code": "MDT",
+		"type": "fiat",
+		"label": "Midnight"
+	},
+	{
+		"code": "MUU",
+		"type": "fiat",
+		"label": "MilkCoin"
+	},
+	{
+		"code": "MIL",
+		"type": "fiat",
+		"label": "Milllionaire Coin"
+	},
+	{
+		"code": "MILO",
+		"type": "fiat",
+		"label": "MiloCoin"
+	},
+	{
+		"code": "MNC",
+		"type": "fiat",
+		"label": "MinCoin"
+	},
+	{
+		"code": "MG",
+		"type": "fiat",
+		"label": "Mind Gene"
+	},
+	{
+		"code": "MND",
+		"type": "fiat",
+		"label": "MindCoin"
+	},
+	{
+		"code": "MIN",
+		"type": "fiat",
+		"label": "Minerals Coin"
+	},
+	{
+		"code": "MNE",
+		"type": "fiat",
+		"label": "Minereum"
+	},
+	{
+		"code": "MRT",
+		"type": "fiat",
+		"label": "MinersReward"
+	},
+	{
+		"code": "MNM",
+		"type": "fiat",
+		"label": "Mineum"
+	},
+	{
+		"code": "MINEX",
+		"type": "fiat",
+		"label": "Minex"
+	},
+	{
+		"code": "MNX",
+		"type": "fiat",
+		"label": "MinexCoin"
+	},
+	{
+		"code": "MAT",
+		"type": "fiat",
+		"label": "MiniApps"
+	},
+	{
+		"code": "MINT",
+		"type": "fiat",
+		"label": "MintCoin"
+	},
+	{
+		"code": "MGO",
+		"type": "fiat",
+		"label": "MobileGo"
+	},
+	{
+		"code": "EMGO",
+		"type": "fiat",
+		"label": "MobileGo"
+	},
+	{
+		"code": "MOBI",
+		"type": "fiat",
+		"label": "Mobius"
+	},
+	{
+		"code": "MTRC",
+		"type": "fiat",
+		"label": "ModulTrade"
+	},
+	{
+		"code": "MOIN",
+		"type": "fiat",
+		"label": "MoinCoin"
+	},
+	{
+		"code": "MOJO",
+		"type": "fiat",
+		"label": "Mojocoin"
+	},
+	{
+		"code": "TAB",
+		"type": "fiat",
+		"label": "MollyCoin"
+	},
+	{
+		"code": "XMCC",
+		"type": "fiat",
+		"label": "MonacoCoin"
+	},
+	{
+		"code": "MNZ",
+		"type": "fiat",
+		"label": "Monaize"
+	},
+	{
+		"code": "XMRG",
+		"type": "fiat",
+		"label": "Monero Gold"
+	},
+	{
+		"code": "MONETA",
+		"type": "fiat",
+		"label": "Moneta"
+	},
+	{
+		"code": "MCN",
+		"type": "fiat",
+		"label": "MonetaVerde"
+	},
+	{
+		"code": "MONEY",
+		"type": "fiat",
+		"label": "MoneyCoin"
+	},
+	{
+		"code": "MNY",
+		"type": "fiat",
+		"label": "Monkey"
+	},
+	{
+		"code": "MONK",
+		"type": "fiat",
+		"label": "Monkey Project"
+	},
+	{
+		"code": "MBI",
+		"type": "fiat",
+		"label": "Monster Byte Inc"
+	},
+	{
+		"code": "MOON",
+		"type": "fiat",
+		"label": "MoonCoin"
+	},
+	{
+		"code": "MRP",
+		"type": "fiat",
+		"label": "MorpheusCoin"
+	},
+	{
+		"code": "MZX",
+		"type": "fiat",
+		"label": "Mosaic Network"
+	},
+	{
+		"code": "MSP",
+		"type": "fiat",
+		"label": "Mothership"
+	},
+	{
+		"code": "MOTO",
+		"type": "fiat",
+		"label": "Motocoin"
+	},
+	{
+		"code": "MTK",
+		"type": "fiat",
+		"label": "Moya Token"
+	},
+	{
+		"code": "MRSA",
+		"type": "fiat",
+		"label": "MrsaCoin"
+	},
+	{
+		"code": "MUDRA",
+		"type": "fiat",
+		"label": "MudraCoin"
+	},
+	{
+		"code": "MLT",
+		"type": "fiat",
+		"label": "MultiGames"
+	},
+	{
+		"code": "MWC",
+		"type": "fiat",
+		"label": "MultiWallet Coin"
+	},
+	{
+		"code": "MBT",
+		"type": "fiat",
+		"label": "Multibot"
+	},
+	{
+		"code": "MRY",
+		"type": "fiat",
+		"label": "MurrayCoin"
+	},
+	{
+		"code": "MCI",
+		"type": "fiat",
+		"label": "Musiconomi"
+	},
+	{
+		"code": "MST",
+		"type": "fiat",
+		"label": "MustangCoin"
+	},
+	{
+		"code": "MUT",
+		"type": "fiat",
+		"label": "Mutual Coin"
+	},
+	{
+		"code": "MBC",
+		"type": "fiat",
+		"label": "My Big Coin"
+	},
+	{
+		"code": "MYB",
+		"type": "fiat",
+		"label": "MyBit"
+	},
+	{
+		"code": "WISH",
+		"type": "fiat",
+		"label": "MyWish"
+	},
+	{
+		"code": "MT",
+		"type": "fiat",
+		"label": "Mycelium Token"
+	},
+	{
+		"code": "MYST",
+		"type": "fiat",
+		"label": "Mysterium"
+	},
+	{
+		"code": "MYST*",
+		"type": "fiat",
+		"label": "MysteryCoin"
+	},
+	{
+		"code": "NEOG",
+		"type": "fiat",
+		"label": "NEO Gold"
+	},
+	{
+		"code": "NPC",
+		"type": "fiat",
+		"label": "NPCcoin"
+	},
+	{
+		"code": "NVST",
+		"type": "fiat",
+		"label": "NVO"
+	},
+	{
+		"code": "NXE",
+		"type": "fiat",
+		"label": "NXEcoin"
+	},
+	{
+		"code": "NXTI",
+		"type": "fiat",
+		"label": "NXTI"
+	},
+	{
+		"code": "NXTTY",
+		"type": "fiat",
+		"label": "NXTTY"
+	},
+	{
+		"code": "NYX",
+		"type": "fiat",
+		"label": "NYXCOIN"
+	},
+	{
+		"code": "NGC",
+		"type": "fiat",
+		"label": "NagaCoin"
+	},
+	{
+		"code": "NKT",
+		"type": "fiat",
+		"label": "NakomotoDark"
+	},
+	{
+		"code": "NAMO",
+		"type": "fiat",
+		"label": "NamoCoin"
+	},
+	{
+		"code": "NAN",
+		"type": "fiat",
+		"label": "NanoToken"
+	},
+	{
+		"code": "NPX",
+		"type": "fiat",
+		"label": "Napoleon X"
+	},
+	{
+		"code": "NAS2",
+		"type": "fiat",
+		"label": "Nas2Coin"
+	},
+	{
+		"code": "NAUT",
+		"type": "fiat",
+		"label": "Nautilus Coin"
+	},
+	{
+		"code": "NVT",
+		"type": "fiat",
+		"label": "NaviAddress"
+	},
+	{
+		"code": "NEBU",
+		"type": "fiat",
+		"label": "Nebuchadnezzar"
+	},
+	{
+		"code": "NAS",
+		"type": "fiat",
+		"label": "Nebulas"
+	},
+	{
+		"code": "NEF",
+		"type": "fiat",
+		"label": "NefariousCoin"
+	},
+	{
+		"code": "NEC",
+		"type": "fiat",
+		"label": "NeoCoin"
+	},
+	{
+		"code": "NTCC",
+		"type": "fiat",
+		"label": "NeptuneClassic"
+	},
+	{
+		"code": "NBIT",
+		"type": "fiat",
+		"label": "NetBit"
+	},
+	{
+		"code": "NET",
+		"type": "fiat",
+		"label": "NetCoin"
+	},
+	{
+		"code": "NTM",
+		"type": "fiat",
+		"label": "NetM"
+	},
+	{
+		"code": "NETKO",
+		"type": "fiat",
+		"label": "Netko"
+	},
+	{
+		"code": "NTWK",
+		"type": "fiat",
+		"label": "Network Token"
+	},
+	{
+		"code": "NETC",
+		"type": "fiat",
+		"label": "NetworkCoin"
+	},
+	{
+		"code": "NEU*",
+		"type": "fiat",
+		"label": "NeuCoin"
+	},
+	{
+		"code": "NEU",
+		"type": "fiat",
+		"label": "Neumark"
+	},
+	{
+		"code": "NRO",
+		"type": "fiat",
+		"label": "Neuro"
+	},
+	{
+		"code": "NRC",
+		"type": "fiat",
+		"label": "Neurocoin"
+	},
+	{
+		"code": "NTK",
+		"type": "fiat",
+		"label": "Neurotoken"
+	},
+	{
+		"code": "NTRN",
+		"type": "fiat",
+		"label": "Neutron"
+	},
+	{
+		"code": "NEVA",
+		"type": "fiat",
+		"label": "NevaCoin"
+	},
+	{
+		"code": "NDC",
+		"type": "fiat",
+		"label": "NeverDie"
+	},
+	{
+		"code": "NIC",
+		"type": "fiat",
+		"label": "NewInvestCoin"
+	},
+	{
+		"code": "NYC",
+		"type": "fiat",
+		"label": "NewYorkCoin"
+	},
+	{
+		"code": "NZC",
+		"type": "fiat",
+		"label": "NewZealandCoin"
+	},
+	{
+		"code": "NEWB",
+		"type": "fiat",
+		"label": "Newbium"
+	},
+	{
+		"code": "NICE",
+		"type": "fiat",
+		"label": "NiceCoin"
+	},
+	{
+		"code": "NMB",
+		"type": "fiat",
+		"label": "Nimbus Coin"
+	},
+	{
+		"code": "NIMFA",
+		"type": "fiat",
+		"label": "Nimfamoney"
+	},
+	{
+		"code": "NET*",
+		"type": "fiat",
+		"label": "Nimiq Exchange Token"
+	},
+	{
+		"code": "NTC",
+		"type": "fiat",
+		"label": "NineElevenTruthCoin"
+	},
+	{
+		"code": "NDOGE",
+		"type": "fiat",
+		"label": "NinjaDoge"
+	},
+	{
+		"code": "NLC",
+		"type": "fiat",
+		"label": "NoLimitCoin"
+	},
+	{
+		"code": "NLC2",
+		"type": "fiat",
+		"label": "NoLimitCoin"
+	},
+	{
+		"code": "NOBL",
+		"type": "fiat",
+		"label": "NobleCoin"
+	},
+	{
+		"code": "NODE",
+		"type": "fiat",
+		"label": "Node"
+	},
+	{
+		"code": "NRB",
+		"type": "fiat",
+		"label": "NoirBits"
+	},
+	{
+		"code": "NRS",
+		"type": "fiat",
+		"label": "NoirShares"
+	},
+	{
+		"code": "NOO",
+		"type": "fiat",
+		"label": "Noocoin"
+	},
+	{
+		"code": "NVC",
+		"type": "fiat",
+		"label": "NovaCoin"
+	},
+	{
+		"code": "NBX",
+		"type": "fiat",
+		"label": "Noxbox"
+	},
+	{
+		"code": "NSR",
+		"type": "fiat",
+		"label": "NuShares"
+	},
+	{
+		"code": "NUBIS",
+		"type": "fiat",
+		"label": "NubisCoin"
+	},
+	{
+		"code": "NUKE",
+		"type": "fiat",
+		"label": "NukeCoin"
+	},
+	{
+		"code": "NKC",
+		"type": "fiat",
+		"label": "Nukecoinz"
+	},
+	{
+		"code": "N7",
+		"type": "fiat",
+		"label": "Number7"
+	},
+	{
+		"code": "NUM",
+		"type": "fiat",
+		"label": "NumbersCoin"
+	},
+	{
+		"code": "XNC*",
+		"type": "fiat",
+		"label": "Numismatic Collections"
+	},
+	{
+		"code": "NMS",
+		"type": "fiat",
+		"label": "Numus"
+	},
+	{
+		"code": "NYAN",
+		"type": "fiat",
+		"label": "NyanCoin"
+	},
+	{
+		"code": "NBL",
+		"type": "fiat",
+		"label": "Nybble"
+	},
+	{
+		"code": "ODMC",
+		"type": "fiat",
+		"label": "ODMCoin"
+	},
+	{
+		"code": "OPC",
+		"type": "fiat",
+		"label": "OP Coin"
+	},
+	{
+		"code": "OBITS",
+		"type": "fiat",
+		"label": "Obits Coin"
+	},
+	{
+		"code": "OBS",
+		"type": "fiat",
+		"label": "Obscurebay"
+	},
+	{
+		"code": "ODN",
+		"type": "fiat",
+		"label": "Obsidian"
+	},
+	{
+		"code": "OCL",
+		"type": "fiat",
+		"label": "Oceanlab"
+	},
+	{
+		"code": "OTX",
+		"type": "fiat",
+		"label": "Octanox"
+	},
+	{
+		"code": "OCTO",
+		"type": "fiat",
+		"label": "OctoCoin"
+	},
+	{
+		"code": "ODNT",
+		"type": "fiat",
+		"label": "Old Dogs New Tricks"
+	},
+	{
+		"code": "OLDSF",
+		"type": "fiat",
+		"label": "OldSafeCoin"
+	},
+	{
+		"code": "OLV",
+		"type": "fiat",
+		"label": "OldV"
+	},
+	{
+		"code": "OLYMP",
+		"type": "fiat",
+		"label": "OlympCoin"
+	},
+	{
+		"code": "MOT",
+		"type": "fiat",
+		"label": "Olympus Labs"
+	},
+	{
+		"code": "OMA",
+		"type": "fiat",
+		"label": "OmegaCoin"
+	},
+	{
+		"code": "OMGC",
+		"type": "fiat",
+		"label": "OmiseGO Classic"
+	},
+	{
+		"code": "OMC",
+		"type": "fiat",
+		"label": "OmniCron"
+	},
+	{
+		"code": "ONL",
+		"type": "fiat",
+		"label": "On.Live"
+	},
+	{
+		"code": "ONX",
+		"type": "fiat",
+		"label": "Onix"
+	},
+	{
+		"code": "XPO",
+		"type": "fiat",
+		"label": "Opair"
+	},
+	{
+		"code": "OPAL",
+		"type": "fiat",
+		"label": "OpalCoin"
+	},
+	{
+		"code": "OTN",
+		"type": "fiat",
+		"label": "Open Trading Network"
+	},
+	{
+		"code": "OSC",
+		"type": "fiat",
+		"label": "OpenSourceCoin"
+	},
+	{
+		"code": "ZNT",
+		"type": "fiat",
+		"label": "OpenZen"
+	},
+	{
+		"code": "OPES",
+		"type": "fiat",
+		"label": "Opes"
+	},
+	{
+		"code": "OPP",
+		"type": "fiat",
+		"label": "Opporty"
+	},
+	{
+		"code": "OPTION",
+		"type": "fiat",
+		"label": "OptionCoin"
+	},
+	{
+		"code": "OPT",
+		"type": "fiat",
+		"label": "Opus"
+	},
+	{
+		"code": "OC",
+		"type": "fiat",
+		"label": "OrangeCoin"
+	},
+	{
+		"code": "ORB",
+		"type": "fiat",
+		"label": "Orbitcoin"
+	},
+	{
+		"code": "ORI",
+		"type": "fiat",
+		"label": "Origami"
+	},
+	{
+		"code": "TRAC",
+		"type": "fiat",
+		"label": "OriginTrail"
+	},
+	{
+		"code": "ORLY",
+		"type": "fiat",
+		"label": "OrlyCoin"
+	},
+	{
+		"code": "ORME",
+		"type": "fiat",
+		"label": "Ormeus Coin"
+	},
+	{
+		"code": "ORO",
+		"type": "fiat",
+		"label": "OroCoin"
+	},
+	{
+		"code": "OROC",
+		"type": "fiat",
+		"label": "Orocrypt"
+	},
+	{
+		"code": "OS76",
+		"type": "fiat",
+		"label": "OsmiumCoin"
+	},
+	{
+		"code": "OXY",
+		"type": "fiat",
+		"label": "Oxycoin"
+	},
+	{
+		"code": "GENE",
+		"type": "fiat",
+		"label": "PARKGENE"
+	},
+	{
+		"code": "PQT",
+		"type": "fiat",
+		"label": "PAquarium"
+	},
+	{
+		"code": "PLNC",
+		"type": "fiat",
+		"label": "PLNCoin"
+	},
+	{
+		"code": "PSI",
+		"type": "fiat",
+		"label": "PSIcoin"
+	},
+	{
+		"code": "PX",
+		"type": "fiat",
+		"label": "PXcoin"
+	},
+	{
+		"code": "PCS",
+		"type": "fiat",
+		"label": "Pabyosi Coin"
+	},
+	{
+		"code": "PBC",
+		"type": "fiat",
+		"label": "PabyosiCoin"
+	},
+	{
+		"code": "PAC",
+		"type": "fiat",
+		"label": "PacCoin"
+	},
+	{
+		"code": "PAK",
+		"type": "fiat",
+		"label": "Pakcoin"
+	},
+	{
+		"code": "PND",
+		"type": "fiat",
+		"label": "PandaCoin"
+	},
+	{
+		"code": "PINKX",
+		"type": "fiat",
+		"label": "PantherCoin"
+	},
+	{
+		"code": "PRP",
+		"type": "fiat",
+		"label": "Papyrus"
+	},
+	{
+		"code": "PRG",
+		"type": "fiat",
+		"label": "Paragon"
+	},
+	{
+		"code": "DUO",
+		"type": "fiat",
+		"label": "ParallelCoin"
+	},
+	{
+		"code": "PARA",
+		"type": "fiat",
+		"label": "ParanoiaCoin"
+	},
+	{
+		"code": "PASL",
+		"type": "fiat",
+		"label": "Pascal Lite"
+	},
+	{
+		"code": "XPY",
+		"type": "fiat",
+		"label": "PayCoin"
+	},
+	{
+		"code": "PYC",
+		"type": "fiat",
+		"label": "PayCoin"
+	},
+	{
+		"code": "PFR",
+		"type": "fiat",
+		"label": "PayFair"
+	},
+	{
+		"code": "PAYP",
+		"type": "fiat",
+		"label": "PayPeer"
+	},
+	{
+		"code": "PPP",
+		"type": "fiat",
+		"label": "PayPie"
+	},
+	{
+		"code": "PYP",
+		"type": "fiat",
+		"label": "PayPro"
+	},
+	{
+		"code": "PYN",
+		"type": "fiat",
+		"label": "Paycentos"
+	},
+	{
+		"code": "CON_",
+		"type": "fiat",
+		"label": "Paycon"
+	},
+	{
+		"code": "PEC",
+		"type": "fiat",
+		"label": "PeaceCoin"
+	},
+	{
+		"code": "XPB",
+		"type": "fiat",
+		"label": "Pebble Coin"
+	},
+	{
+		"code": "PCN",
+		"type": "fiat",
+		"label": "PeepCoin"
+	},
+	{
+		"code": "GUESS",
+		"type": "fiat",
+		"label": "Peerguess"
+	},
+	{
+		"code": "PPY",
+		"type": "fiat",
+		"label": "Peerplays"
+	},
+	{
+		"code": "PTA",
+		"type": "fiat",
+		"label": "PentaCoin"
+	},
+	{
+		"code": "MAN",
+		"type": "fiat",
+		"label": "People"
+	},
+	{
+		"code": "PEPECASH",
+		"type": "fiat",
+		"label": "Pepe Cash"
+	},
+	{
+		"code": "PIE",
+		"type": "fiat",
+		"label": "Persistent Information Exchange"
+	},
+	{
+		"code": "PSB",
+		"type": "fiat",
+		"label": "PesoBit"
+	},
+	{
+		"code": "PTR",
+		"type": "fiat",
+		"label": "Petro"
+	},
+	{
+		"code": "XPD",
+		"type": "fiat",
+		"label": "PetroDollar"
+	},
+	{
+		"code": "PXL",
+		"type": "fiat",
+		"label": "Phalanx"
+	},
+	{
+		"code": "PNX",
+		"type": "fiat",
+		"label": "PhantomX"
+	},
+	{
+		"code": "XPH",
+		"type": "fiat",
+		"label": "PharmaCoin"
+	},
+	{
+		"code": "PHS",
+		"type": "fiat",
+		"label": "PhilosophersStone"
+	},
+	{
+		"code": "PHILS",
+		"type": "fiat",
+		"label": "PhilsCurrency"
+	},
+	{
+		"code": "PXC",
+		"type": "fiat",
+		"label": "PhoenixCoin"
+	},
+	{
+		"code": "PHR*",
+		"type": "fiat",
+		"label": "Phore"
+	},
+	{
+		"code": "PHO",
+		"type": "fiat",
+		"label": "Photon"
+	},
+	{
+		"code": "PHR",
+		"type": "fiat",
+		"label": "Phreak"
+	},
+	{
+		"code": "PIGGY",
+		"type": "fiat",
+		"label": "Piggy Coin"
+	},
+	{
+		"code": "PLR",
+		"type": "fiat",
+		"label": "Pillar"
+	},
+	{
+		"code": "PCOIN",
+		"type": "fiat",
+		"label": "Pioneer Coin"
+	},
+	{
+		"code": "PIO",
+		"type": "fiat",
+		"label": "Pioneershares"
+	},
+	{
+		"code": "PIRL",
+		"type": "fiat",
+		"label": "Pirl"
+	},
+	{
+		"code": "PIZZA",
+		"type": "fiat",
+		"label": "PizzaCoin"
+	},
+	{
+		"code": "PLANET",
+		"type": "fiat",
+		"label": "PlanetCoin"
+	},
+	{
+		"code": "PNC",
+		"type": "fiat",
+		"label": "PlatiniumCoin"
+	},
+	{
+		"code": "XPTX",
+		"type": "fiat",
+		"label": "PlatinumBAR"
+	},
+	{
+		"code": "LUC",
+		"type": "fiat",
+		"label": "Play 2 Live"
+	},
+	{
+		"code": "PKT",
+		"type": "fiat",
+		"label": "Playkey"
+	},
+	{
+		"code": "PLX",
+		"type": "fiat",
+		"label": "PlexCoin"
+	},
+	{
+		"code": "PLC",
+		"type": "fiat",
+		"label": "PlusCoin"
+	},
+	{
+		"code": "PLU",
+		"type": "fiat",
+		"label": "Pluton"
+	},
+	{
+		"code": "POS",
+		"type": "fiat",
+		"label": "PoSToken"
+	},
+	{
+		"code": "POSW",
+		"type": "fiat",
+		"label": "PoSWallet"
+	},
+	{
+		"code": "XPS",
+		"type": "fiat",
+		"label": "PoisonIvyCoin"
+	},
+	{
+		"code": "XPOKE",
+		"type": "fiat",
+		"label": "PokeChain"
+	},
+	{
+		"code": "POLIS",
+		"type": "fiat",
+		"label": "PolisPay"
+	},
+	{
+		"code": "PLBT",
+		"type": "fiat",
+		"label": "Polybius"
+	},
+	{
+		"code": "POLY*",
+		"type": "fiat",
+		"label": "Polymath Network"
+	},
+	{
+		"code": "XSP",
+		"type": "fiat",
+		"label": "PoolStamp"
+	},
+	{
+		"code": "POP",
+		"type": "fiat",
+		"label": "PopularCoin"
+	},
+	{
+		"code": "PEX",
+		"type": "fiat",
+		"label": "PosEx"
+	},
+	{
+		"code": "TRON",
+		"type": "fiat",
+		"label": "Positron"
+	},
+	{
+		"code": "POST",
+		"type": "fiat",
+		"label": "PostCoin"
+	},
+	{
+		"code": "PWR",
+		"type": "fiat",
+		"label": "PowerCoin"
+	},
+	{
+		"code": "PRE",
+		"type": "fiat",
+		"label": "Premium"
+	},
+	{
+		"code": "PRE*",
+		"type": "fiat",
+		"label": "Presearch"
+	},
+	{
+		"code": "HILL",
+		"type": "fiat",
+		"label": "President Clinton"
+	},
+	{
+		"code": "PRES",
+		"type": "fiat",
+		"label": "President Trump"
+	},
+	{
+		"code": "PBT",
+		"type": "fiat",
+		"label": "Primalbase"
+	},
+	{
+		"code": "PST",
+		"type": "fiat",
+		"label": "Primas"
+	},
+	{
+		"code": "PXI",
+		"type": "fiat",
+		"label": "Prime-X1"
+	},
+	{
+		"code": "PRIME",
+		"type": "fiat",
+		"label": "PrimeChain"
+	},
+	{
+		"code": "PRX",
+		"type": "fiat",
+		"label": "Printerium"
+	},
+	{
+		"code": "PRM",
+		"type": "fiat",
+		"label": "PrismChain"
+	},
+	{
+		"code": "PRIX",
+		"type": "fiat",
+		"label": "Privatix"
+	},
+	{
+		"code": "PZM",
+		"type": "fiat",
+		"label": "Prizm"
+	},
+	{
+		"code": "XPRO",
+		"type": "fiat",
+		"label": "ProCoin"
+	},
+	{
+		"code": "PROC",
+		"type": "fiat",
+		"label": "ProCurrency"
+	},
+	{
+		"code": "PCM",
+		"type": "fiat",
+		"label": "Procom"
+	},
+	{
+		"code": "ZEPH",
+		"type": "fiat",
+		"label": "Project Zephyr"
+	},
+	{
+		"code": "PTC*",
+		"type": "fiat",
+		"label": "Propthereum"
+	},
+	{
+		"code": "PRO",
+		"type": "fiat",
+		"label": "Propy"
+	},
+	{
+		"code": "VRP",
+		"type": "fiat",
+		"label": "Prosense.tv"
+	},
+	{
+		"code": "PGL",
+		"type": "fiat",
+		"label": "Prospectors"
+	},
+	{
+		"code": "PRC",
+		"type": "fiat",
+		"label": "ProsperCoin"
+	},
+	{
+		"code": "PTS*",
+		"type": "fiat",
+		"label": "Protoshares"
+	},
+	{
+		"code": "PSEUD",
+		"type": "fiat",
+		"label": "PseudoCash"
+	},
+	{
+		"code": "PSY",
+		"type": "fiat",
+		"label": "Psilocybin"
+	},
+	{
+		"code": "PULSE",
+		"type": "fiat",
+		"label": "Pulse"
+	},
+	{
+		"code": "PMA",
+		"type": "fiat",
+		"label": "PumaPay"
+	},
+	{
+		"code": "PXS",
+		"type": "fiat",
+		"label": "Pundi X"
+	},
+	{
+		"code": "PUPA",
+		"type": "fiat",
+		"label": "PupaCoin"
+	},
+	{
+		"code": "PURE",
+		"type": "fiat",
+		"label": "Pure"
+	},
+	{
+		"code": "VIDZ",
+		"type": "fiat",
+		"label": "PureVidz"
+	},
+	{
+		"code": "PRPS",
+		"type": "fiat",
+		"label": "Purpose"
+	},
+	{
+		"code": "HLP",
+		"type": "fiat",
+		"label": "Purpose Coin"
+	},
+	{
+		"code": "PUT",
+		"type": "fiat",
+		"label": "PutinCoin"
+	},
+	{
+		"code": "PYLNT",
+		"type": "fiat",
+		"label": "Pylon Network"
+	},
+	{
+		"code": "QBT*",
+		"type": "fiat",
+		"label": "Qbao"
+	},
+	{
+		"code": "QORA",
+		"type": "fiat",
+		"label": "QoraCoin"
+	},
+	{
+		"code": "QBK",
+		"type": "fiat",
+		"label": "QuBuck Coin"
+	},
+	{
+		"code": "QAU",
+		"type": "fiat",
+		"label": "Quantum"
+	},
+	{
+		"code": "Q1S",
+		"type": "fiat",
+		"label": "Quantum1Net"
+	},
+	{
+		"code": "QRK",
+		"type": "fiat",
+		"label": "QuarkCoin"
+	},
+	{
+		"code": "QTZ",
+		"type": "fiat",
+		"label": "Quartz"
+	},
+	{
+		"code": "QTL",
+		"type": "fiat",
+		"label": "Quatloo"
+	},
+	{
+		"code": "QCN",
+		"type": "fiat",
+		"label": "Quazar Coin"
+	},
+	{
+		"code": "Q2C",
+		"type": "fiat",
+		"label": "QubitCoin"
+	},
+	{
+		"code": "QBC",
+		"type": "fiat",
+		"label": "Quebecoin"
+	},
+	{
+		"code": "QSLV",
+		"type": "fiat",
+		"label": "Quicksilver coin"
+	},
+	{
+		"code": "QUN",
+		"type": "fiat",
+		"label": "QunQun"
+	},
+	{
+		"code": "XQN",
+		"type": "fiat",
+		"label": "Quotient"
+	},
+	{
+		"code": "QVT",
+		"type": "fiat",
+		"label": "Qvolta"
+	},
+	{
+		"code": "RFL",
+		"type": "fiat",
+		"label": "RAFL"
+	},
+	{
+		"code": "RCN*",
+		"type": "fiat",
+		"label": "RCoin"
+	},
+	{
+		"code": "REAL",
+		"type": "fiat",
+		"label": "REAL"
+	},
+	{
+		"code": "REM",
+		"type": "fiat",
+		"label": "REMME"
+	},
+	{
+		"code": "REX",
+		"type": "fiat",
+		"label": "REX"
+	},
+	{
+		"code": "RGC",
+		"type": "fiat",
+		"label": "RG Coin"
+	},
+	{
+		"code": "ROS",
+		"type": "fiat",
+		"label": "ROS Coin"
+	},
+	{
+		"code": "RADI",
+		"type": "fiat",
+		"label": "RadicalCoin"
+	},
+	{
+		"code": "RDN*",
+		"type": "fiat",
+		"label": "Raiden Network"
+	},
+	{
+		"code": "XRA",
+		"type": "fiat",
+		"label": "Ratecoin"
+	},
+	{
+		"code": "RATIO",
+		"type": "fiat",
+		"label": "Ratio"
+	},
+	{
+		"code": "RZR",
+		"type": "fiat",
+		"label": "RazorCoin"
+	},
+	{
+		"code": "RCT",
+		"type": "fiat",
+		"label": "RealChain"
+	},
+	{
+		"code": "REA",
+		"type": "fiat",
+		"label": "Realisto"
+	},
+	{
+		"code": "RCC",
+		"type": "fiat",
+		"label": "Reality Clash"
+	},
+	{
+		"code": "REBL",
+		"type": "fiat",
+		"label": "Rebellious"
+	},
+	{
+		"code": "RRT",
+		"type": "fiat",
+		"label": "Recovery Right Tokens"
+	},
+	{
+		"code": "RCX",
+		"type": "fiat",
+		"label": "RedCrowCoin"
+	},
+	{
+		"code": "RED",
+		"type": "fiat",
+		"label": "Redcoin"
+	},
+	{
+		"code": "REE",
+		"type": "fiat",
+		"label": "ReeCoin"
+	},
+	{
+		"code": "REF",
+		"type": "fiat",
+		"label": "RefToken"
+	},
+	{
+		"code": "REC",
+		"type": "fiat",
+		"label": "Regalcoin"
+	},
+	{
+		"code": "RLX",
+		"type": "fiat",
+		"label": "Relex"
+	},
+	{
+		"code": "RNDR",
+		"type": "fiat",
+		"label": "Render Token"
+	},
+	{
+		"code": "RNS",
+		"type": "fiat",
+		"label": "RenosCoin"
+	},
+	{
+		"code": "REPUX",
+		"type": "fiat",
+		"label": "Repux"
+	},
+	{
+		"code": "RMS",
+		"type": "fiat",
+		"label": "Resumeo Shares"
+	},
+	{
+		"code": "RBIT",
+		"type": "fiat",
+		"label": "ReturnBit"
+	},
+	{
+		"code": "RNC",
+		"type": "fiat",
+		"label": "ReturnCoin"
+	},
+	{
+		"code": "REV",
+		"type": "fiat",
+		"label": "Revenu"
+	},
+	{
+		"code": "XRE",
+		"type": "fiat",
+		"label": "RevolverCoin"
+	},
+	{
+		"code": "RHEA",
+		"type": "fiat",
+		"label": "Rhea"
+	},
+	{
+		"code": "XRL",
+		"type": "fiat",
+		"label": "Rialto.AI"
+	},
+	{
+		"code": "RBR",
+		"type": "fiat",
+		"label": "Ribbit Rewards"
+	},
+	{
+		"code": "RICE",
+		"type": "fiat",
+		"label": "RiceCoin"
+	},
+	{
+		"code": "RIDE",
+		"type": "fiat",
+		"label": "Ride My Car"
+	},
+	{
+		"code": "RBT",
+		"type": "fiat",
+		"label": "Rimbit"
+	},
+	{
+		"code": "RING",
+		"type": "fiat",
+		"label": "RingCoin"
+	},
+	{
+		"code": "RIPO",
+		"type": "fiat",
+		"label": "RipOffCoin"
+	},
+	{
+		"code": "RIPT",
+		"type": "fiat",
+		"label": "RiptideCoin"
+	},
+	{
+		"code": "RBX",
+		"type": "fiat",
+		"label": "RiptoBuX"
+	},
+	{
+		"code": "RISE",
+		"type": "fiat",
+		"label": "Rise"
+	},
+	{
+		"code": "RVT",
+		"type": "fiat",
+		"label": "Rivetz"
+	},
+	{
+		"code": "ROK",
+		"type": "fiat",
+		"label": "Rockchain"
+	},
+	{
+		"code": "ROCK*",
+		"type": "fiat",
+		"label": "RocketCoin "
+	},
+	{
+		"code": "RPC",
+		"type": "fiat",
+		"label": "RonPaulCoin"
+	},
+	{
+		"code": "ROOT",
+		"type": "fiat",
+		"label": "RootCoin"
+	},
+	{
+		"code": "ROOTS",
+		"type": "fiat",
+		"label": "RootProject"
+	},
+	{
+		"code": "RT2",
+		"type": "fiat",
+		"label": "RotoCoin"
+	},
+	{
+		"code": "ROUND",
+		"type": "fiat",
+		"label": "RoundCoin"
+	},
+	{
+		"code": "RKC",
+		"type": "fiat",
+		"label": "Royal Kingdom Coin"
+	},
+	{
+		"code": "RYC",
+		"type": "fiat",
+		"label": "RoyalCoin"
+	},
+	{
+		"code": "ROYAL",
+		"type": "fiat",
+		"label": "RoyalCoin"
+	},
+	{
+		"code": "RYCN",
+		"type": "fiat",
+		"label": "RoyalCoin 2.0"
+	},
+	{
+		"code": "RBIES",
+		"type": "fiat",
+		"label": "Rubies"
+	},
+	{
+		"code": "RUBIT",
+		"type": "fiat",
+		"label": "Rublebit"
+	},
+	{
+		"code": "RUFF",
+		"type": "fiat",
+		"label": "Ruff"
+	},
+	{
+		"code": "RUPX",
+		"type": "fiat",
+		"label": "Rupaya"
+	},
+	{
+		"code": "RUP",
+		"type": "fiat",
+		"label": "Rupee"
+	},
+	{
+		"code": "RC",
+		"type": "fiat",
+		"label": "Russiacoin"
+	},
+	{
+		"code": "RMC",
+		"type": "fiat",
+		"label": "Russian Mining Coin"
+	},
+	{
+		"code": "RUST",
+		"type": "fiat",
+		"label": "RustCoin"
+	},
+	{
+		"code": "RUSTBITS",
+		"type": "fiat",
+		"label": "Rustbits"
+	},
+	{
+		"code": "S8C",
+		"type": "fiat",
+		"label": "S88 Coin"
+	},
+	{
+		"code": "XSH",
+		"type": "fiat",
+		"label": "SHIELD"
+	},
+	{
+		"code": "SMNX",
+		"type": "fiat",
+		"label": "SMNX"
+	},
+	{
+		"code": "SXDT",
+		"type": "fiat",
+		"label": "SPECTRE Dividend Token"
+	},
+	{
+		"code": "SXUT",
+		"type": "fiat",
+		"label": "SPECTRE Utility Token"
+	},
+	{
+		"code": "SPICE",
+		"type": "fiat",
+		"label": "SPiCE Venture Capital "
+	},
+	{
+		"code": "SSV",
+		"type": "fiat",
+		"label": "SSVCoin"
+	},
+	{
+		"code": "STAC",
+		"type": "fiat",
+		"label": "STAC"
+	},
+	{
+		"code": "STEX",
+		"type": "fiat",
+		"label": "STEX"
+	},
+	{
+		"code": "STS",
+		"type": "fiat",
+		"label": "STRESScoin"
+	},
+	{
+		"code": "SAFEX",
+		"type": "fiat",
+		"label": "SafeExchangeCoin"
+	},
+	{
+		"code": "SFE",
+		"type": "fiat",
+		"label": "Safecoin"
+	},
+	{
+		"code": "SFR",
+		"type": "fiat",
+		"label": "SaffronCoin"
+	},
+	{
+		"code": "SAF",
+		"type": "fiat",
+		"label": "Safinus"
+	},
+	{
+		"code": "SAGA",
+		"type": "fiat",
+		"label": "SagaCoin"
+	},
+	{
+		"code": "SFU",
+		"type": "fiat",
+		"label": "Saifu"
+	},
+	{
+		"code": "SKR",
+		"type": "fiat",
+		"label": "Sakuracoin"
+	},
+	{
+		"code": "SMSR",
+		"type": "fiat",
+		"label": "Samsara Coin"
+	},
+	{
+		"code": "SND",
+		"type": "fiat",
+		"label": "Sandcoin"
+	},
+	{
+		"code": "SDRN",
+		"type": "fiat",
+		"label": "Sanderon"
+	},
+	{
+		"code": "SAN",
+		"type": "fiat",
+		"label": "Santiment"
+	},
+	{
+		"code": "XAI",
+		"type": "fiat",
+		"label": "SapienceCoin"
+	},
+	{
+		"code": "SAT",
+		"type": "fiat",
+		"label": "Satisfaction Token"
+	},
+	{
+		"code": "STV",
+		"type": "fiat",
+		"label": "Sativa Coin"
+	},
+	{
+		"code": "SAT2",
+		"type": "fiat",
+		"label": "Saturn2Coin"
+	},
+	{
+		"code": "STO",
+		"type": "fiat",
+		"label": "Save The Ocean"
+	},
+	{
+		"code": "SANDG",
+		"type": "fiat",
+		"label": "Save and Gain"
+	},
+	{
+		"code": "SCORE",
+		"type": "fiat",
+		"label": "Scorecoin"
+	},
+	{
+		"code": "SCOR",
+		"type": "fiat",
+		"label": "Scorista"
+	},
+	{
+		"code": "SCR",
+		"type": "fiat",
+		"label": "Scorum"
+	},
+	{
+		"code": "SCOT",
+		"type": "fiat",
+		"label": "Scotcoin"
+	},
+	{
+		"code": "DDD",
+		"type": "fiat",
+		"label": "Scry.info"
+	},
+	{
+		"code": "SCRPT",
+		"type": "fiat",
+		"label": "ScryptCoin"
+	},
+	{
+		"code": "SCT",
+		"type": "fiat",
+		"label": "ScryptToken"
+	},
+	{
+		"code": "SRT",
+		"type": "fiat",
+		"label": "Scrypto"
+	},
+	{
+		"code": "SCRT",
+		"type": "fiat",
+		"label": "SecretCoin"
+	},
+	{
+		"code": "SRC",
+		"type": "fiat",
+		"label": "SecureCoin"
+	},
+	{
+		"code": "SEEDS",
+		"type": "fiat",
+		"label": "SeedShares"
+	},
+	{
+		"code": "SEL",
+		"type": "fiat",
+		"label": "SelenCoin"
+	},
+	{
+		"code": "SNS",
+		"type": "fiat",
+		"label": "Sense"
+	},
+	{
+		"code": "SENSE",
+		"type": "fiat",
+		"label": "Sense Token"
+	},
+	{
+		"code": "SEN",
+		"type": "fiat",
+		"label": "Sentaro"
+	},
+	{
+		"code": "SENT",
+		"type": "fiat",
+		"label": "Sentinel"
+	},
+	{
+		"code": "SRNT",
+		"type": "fiat",
+		"label": "Serenity"
+	},
+	{
+		"code": "SET",
+		"type": "fiat",
+		"label": "Setcoin"
+	},
+	{
+		"code": "SETH",
+		"type": "fiat",
+		"label": "Sether"
+	},
+	{
+		"code": "SP",
+		"type": "fiat",
+		"label": "Sex Pistols"
+	},
+	{
+		"code": "SXC",
+		"type": "fiat",
+		"label": "SexCoin"
+	},
+	{
+		"code": "SHA",
+		"type": "fiat",
+		"label": "Shacoin"
+	},
+	{
+		"code": "SHADE",
+		"type": "fiat",
+		"label": "ShadeCoin"
+	},
+	{
+		"code": "SDC",
+		"type": "fiat",
+		"label": "ShadowCash"
+	},
+	{
+		"code": "SSS",
+		"type": "fiat",
+		"label": "ShareChain"
+	},
+	{
+		"code": "SAK",
+		"type": "fiat",
+		"label": "SharkCoin"
+	},
+	{
+		"code": "SHP",
+		"type": "fiat",
+		"label": "Sharpe Capital"
+	},
+	{
+		"code": "JEW",
+		"type": "fiat",
+		"label": "Shekel"
+	},
+	{
+		"code": "SHLD",
+		"type": "fiat",
+		"label": "ShieldCoin"
+	},
+	{
+		"code": "SH",
+		"type": "fiat",
+		"label": "Shilling"
+	},
+	{
+		"code": "SHORTY",
+		"type": "fiat",
+		"label": "ShortyCoin"
+	},
+	{
+		"code": "SHOW",
+		"type": "fiat",
+		"label": "ShowCoin"
+	},
+	{
+		"code": "SHPING",
+		"type": "fiat",
+		"label": "Shping Coin"
+	},
+	{
+		"code": "SHREK",
+		"type": "fiat",
+		"label": "ShrekCoin"
+	},
+	{
+		"code": "SGL",
+		"type": "fiat",
+		"label": "Sigil"
+	},
+	{
+		"code": "SGN",
+		"type": "fiat",
+		"label": "Signals Network"
+	},
+	{
+		"code": "SIGT",
+		"type": "fiat",
+		"label": "Signatum"
+	},
+	{
+		"code": "SILK",
+		"type": "fiat",
+		"label": "SilkCoin"
+	},
+	{
+		"code": "SIGU",
+		"type": "fiat",
+		"label": "Singular"
+	},
+	{
+		"code": "SKC",
+		"type": "fiat",
+		"label": "Skeincoin"
+	},
+	{
+		"code": "SKIN",
+		"type": "fiat",
+		"label": "Skincoin"
+	},
+	{
+		"code": "SKR*",
+		"type": "fiat",
+		"label": "Skrilla Token"
+	},
+	{
+		"code": "SKB",
+		"type": "fiat",
+		"label": "SkullBuzz"
+	},
+	{
+		"code": "SKY",
+		"type": "fiat",
+		"label": "Skycoin"
+	},
+	{
+		"code": "SLM",
+		"type": "fiat",
+		"label": "SlimCoin"
+	},
+	{
+		"code": "SLING",
+		"type": "fiat",
+		"label": "Sling Coin"
+	},
+	{
+		"code": "SIFT",
+		"type": "fiat",
+		"label": "Smart Investment Fund Token"
+	},
+	{
+		"code": "SMART*",
+		"type": "fiat",
+		"label": "SmartBillions"
+	},
+	{
+		"code": "SMART",
+		"type": "fiat",
+		"label": "SmartCash"
+	},
+	{
+		"code": "SMC",
+		"type": "fiat",
+		"label": "SmartCoin"
+	},
+	{
+		"code": "SMT*",
+		"type": "fiat",
+		"label": "SmartMesh"
+	},
+	{
+		"code": "SMLY",
+		"type": "fiat",
+		"label": "SmileyCoin"
+	},
+	{
+		"code": "SMF",
+		"type": "fiat",
+		"label": "SmurfCoin"
+	},
+	{
+		"code": "SOAR",
+		"type": "fiat",
+		"label": "Soarcoin"
+	},
+	{
+		"code": "SMAC",
+		"type": "fiat",
+		"label": "Social Media Coin"
+	},
+	{
+		"code": "SMT",
+		"type": "fiat",
+		"label": "Social Media Market"
+	},
+	{
+		"code": "SCL",
+		"type": "fiat",
+		"label": "Social Nexus"
+	},
+	{
+		"code": "SEND",
+		"type": "fiat",
+		"label": "Social Send"
+	},
+	{
+		"code": "SOCC",
+		"type": "fiat",
+		"label": "SocialCoin"
+	},
+	{
+		"code": "XBOT",
+		"type": "fiat",
+		"label": "SocialXbotCoin"
+	},
+	{
+		"code": "SOIL",
+		"type": "fiat",
+		"label": "SoilCoin"
+	},
+	{
+		"code": "SOJ",
+		"type": "fiat",
+		"label": "Sojourn Coin"
+	},
+	{
+		"code": "SDAO",
+		"type": "fiat",
+		"label": "Solar DAO"
+	},
+	{
+		"code": "CELL",
+		"type": "fiat",
+		"label": "SolarFarm"
+	},
+	{
+		"code": "SFC",
+		"type": "fiat",
+		"label": "Solarflarecoin"
+	},
+	{
+		"code": "SOLE",
+		"type": "fiat",
+		"label": "SoleCoin"
+	},
+	{
+		"code": "SCT*",
+		"type": "fiat",
+		"label": "Soma"
+	},
+	{
+		"code": "SONG",
+		"type": "fiat",
+		"label": "Song Coin"
+	},
+	{
+		"code": "SSD",
+		"type": "fiat",
+		"label": "Sonic Screw Driver Coin"
+	},
+	{
+		"code": "SOON",
+		"type": "fiat",
+		"label": "SoonCoin"
+	},
+	{
+		"code": "SPHTX",
+		"type": "fiat",
+		"label": "SophiaTX"
+	},
+	{
+		"code": "SNK",
+		"type": "fiat",
+		"label": "Sosnovkino"
+	},
+	{
+		"code": "SOUL",
+		"type": "fiat",
+		"label": "SoulCoin"
+	},
+	{
+		"code": "SPX",
+		"type": "fiat",
+		"label": "Sp8de"
+	},
+	{
+		"code": "SCASH",
+		"type": "fiat",
+		"label": "SpaceCash"
+	},
+	{
+		"code": "SPACE",
+		"type": "fiat",
+		"label": "SpaceCoin"
+	},
+	{
+		"code": "SPA",
+		"type": "fiat",
+		"label": "SpainCoin"
+	},
+	{
+		"code": "SPANK",
+		"type": "fiat",
+		"label": "SpankChain"
+	},
+	{
+		"code": "SPK",
+		"type": "fiat",
+		"label": "Sparks"
+	},
+	{
+		"code": "SPEC",
+		"type": "fiat",
+		"label": "SpecCoin"
+	},
+	{
+		"code": "SPX*",
+		"type": "fiat",
+		"label": "Specie"
+	},
+	{
+		"code": "XSPEC",
+		"type": "fiat",
+		"label": "Spectre"
+	},
+	{
+		"code": "SPEND",
+		"type": "fiat",
+		"label": "Spend"
+	},
+	{
+		"code": "XID",
+		"type": "fiat",
+		"label": "Sphre AIR"
+	},
+	{
+		"code": "SPC",
+		"type": "fiat",
+		"label": "SpinCoin"
+	},
+	{
+		"code": "SPN",
+		"type": "fiat",
+		"label": "Spoon"
+	},
+	{
+		"code": "SPORT",
+		"type": "fiat",
+		"label": "SportsCoin"
+	},
+	{
+		"code": "SPT",
+		"type": "fiat",
+		"label": "Spots"
+	},
+	{
+		"code": "SPOTS",
+		"type": "fiat",
+		"label": "Spots"
+	},
+	{
+		"code": "SPRTS",
+		"type": "fiat",
+		"label": "Sprouts"
+	},
+	{
+		"code": "SQP",
+		"type": "fiat",
+		"label": "SqPay"
+	},
+	{
+		"code": "SQL",
+		"type": "fiat",
+		"label": "Squall Coin"
+	},
+	{
+		"code": "XSI",
+		"type": "fiat",
+		"label": "Stability Shares"
+	},
+	{
+		"code": "SBC",
+		"type": "fiat",
+		"label": "StableCoin"
+	},
+	{
+		"code": "STCN",
+		"type": "fiat",
+		"label": "Stakecoin"
+	},
+	{
+		"code": "STA*",
+		"type": "fiat",
+		"label": "Stakers"
+	},
+	{
+		"code": "STHR",
+		"type": "fiat",
+		"label": "Stakerush"
+	},
+	{
+		"code": "STALIN",
+		"type": "fiat",
+		"label": "StalinCoin"
+	},
+	{
+		"code": "STC",
+		"type": "fiat",
+		"label": "StarChain"
+	},
+	{
+		"code": "STR*",
+		"type": "fiat",
+		"label": "StarCoin"
+	},
+	{
+		"code": "STAR*",
+		"type": "fiat",
+		"label": "StarCoin"
+	},
+	{
+		"code": "SRC*",
+		"type": "fiat",
+		"label": "StarCredits"
+	},
+	{
+		"code": "STAR",
+		"type": "fiat",
+		"label": "Starbase"
+	},
+	{
+		"code": "STA",
+		"type": "fiat",
+		"label": "Starta"
+	},
+	{
+		"code": "STP",
+		"type": "fiat",
+		"label": "StashPay"
+	},
+	{
+		"code": "PNK",
+		"type": "fiat",
+		"label": "SteamPunk"
+	},
+	{
+		"code": "STN",
+		"type": "fiat",
+		"label": "Steneum Coin"
+	},
+	{
+		"code": "STEPS",
+		"type": "fiat",
+		"label": "Steps"
+	},
+	{
+		"code": "SLG",
+		"type": "fiat",
+		"label": "SterlingCoin"
+	},
+	{
+		"code": "STOCKBET",
+		"type": "fiat",
+		"label": "StockBet"
+	},
+	{
+		"code": "STQ",
+		"type": "fiat",
+		"label": "Storiqa Token"
+	},
+	{
+		"code": "SJCX",
+		"type": "fiat",
+		"label": "StorjCoin"
+	},
+	{
+		"code": "STORM",
+		"type": "fiat",
+		"label": "Storm"
+	},
+	{
+		"code": "STAK",
+		"type": "fiat",
+		"label": "Straks"
+	},
+	{
+		"code": "SISA",
+		"type": "fiat",
+		"label": "Strategic Investments in Significant Areas"
+	},
+	{
+		"code": "DATA",
+		"type": "fiat",
+		"label": "Streamr DATAcoin"
+	},
+	{
+		"code": "SHND",
+		"type": "fiat",
+		"label": "StrongHands"
+	},
+	{
+		"code": "SUB*",
+		"type": "fiat",
+		"label": "Subscriptio"
+	},
+	{
+		"code": "SUCR",
+		"type": "fiat",
+		"label": "Sucre"
+	},
+	{
+		"code": "SGR",
+		"type": "fiat",
+		"label": "Sugar Exchange"
+	},
+	{
+		"code": "SUMO",
+		"type": "fiat",
+		"label": "Sumokoin"
+	},
+	{
+		"code": "SSTC",
+		"type": "fiat",
+		"label": "SunShotCoin"
+	},
+	{
+		"code": "SUP",
+		"type": "fiat",
+		"label": "Supcoin"
+	},
+	{
+		"code": "SBTC",
+		"type": "fiat",
+		"label": "Super Bitcoin"
+	},
+	{
+		"code": "SUPER",
+		"type": "fiat",
+		"label": "SuperCoin"
+	},
+	{
+		"code": "UNITY",
+		"type": "fiat",
+		"label": "SuperNET"
+	},
+	{
+		"code": "M1",
+		"type": "fiat",
+		"label": "SupplyShock"
+	},
+	{
+		"code": "SPM",
+		"type": "fiat",
+		"label": "Supreme"
+	},
+	{
+		"code": "SUR",
+		"type": "fiat",
+		"label": "Suretly"
+	},
+	{
+		"code": "BUCKS",
+		"type": "fiat",
+		"label": "SwagBucks"
+	},
+	{
+		"code": "SWARM",
+		"type": "fiat",
+		"label": "SwarmCoin"
+	},
+	{
+		"code": "SWEET",
+		"type": "fiat",
+		"label": "SweetStake"
+	},
+	{
+		"code": "SWFTC",
+		"type": "fiat",
+		"label": "SwftCoin"
+	},
+	{
+		"code": "SWING",
+		"type": "fiat",
+		"label": "SwingCoin"
+	},
+	{
+		"code": "SCN",
+		"type": "fiat",
+		"label": "Swiscoin"
+	},
+	{
+		"code": "SDP",
+		"type": "fiat",
+		"label": "SydPakCoin"
+	},
+	{
+		"code": "SYNC",
+		"type": "fiat",
+		"label": "SyncCoin"
+	},
+	{
+		"code": "MFG",
+		"type": "fiat",
+		"label": "SyncFab"
+	},
+	{
+		"code": "SYC",
+		"type": "fiat",
+		"label": "SynchroCoin"
+	},
+	{
+		"code": "BAR",
+		"type": "fiat",
+		"label": "TBIS token"
+	},
+	{
+		"code": "TDFB",
+		"type": "fiat",
+		"label": "TDFB"
+	},
+	{
+		"code": "TOA",
+		"type": "fiat",
+		"label": "TOA Coin"
+	},
+	{
+		"code": "TAG",
+		"type": "fiat",
+		"label": "TagCoin"
+	},
+	{
+		"code": "TAJ",
+		"type": "fiat",
+		"label": "TajCoin"
+	},
+	{
+		"code": "TAK",
+		"type": "fiat",
+		"label": "TakCoin"
+	},
+	{
+		"code": "TAM",
+		"type": "fiat",
+		"label": "TamaGucci"
+	},
+	{
+		"code": "XTO",
+		"type": "fiat",
+		"label": "Tao"
+	},
+	{
+		"code": "TTT",
+		"type": "fiat",
+		"label": "Tap Project"
+	},
+	{
+		"code": "TAP",
+		"type": "fiat",
+		"label": "TappingCoin"
+	},
+	{
+		"code": "TGT",
+		"type": "fiat",
+		"label": "TargetCoin"
+	},
+	{
+		"code": "TAT",
+		"type": "fiat",
+		"label": "Tatiana Coin"
+	},
+	{
+		"code": "TSE",
+		"type": "fiat",
+		"label": "TattooCoin"
+	},
+	{
+		"code": "TEC",
+		"type": "fiat",
+		"label": "TeCoin"
+	},
+	{
+		"code": "TEAM",
+		"type": "fiat",
+		"label": "TeamUP"
+	},
+	{
+		"code": "TECH",
+		"type": "fiat",
+		"label": "TechCoin"
+	},
+	{
+		"code": "THS",
+		"type": "fiat",
+		"label": "TechShares"
+	},
+	{
+		"code": "TEK",
+		"type": "fiat",
+		"label": "TekCoin"
+	},
+	{
+		"code": "TELL",
+		"type": "fiat",
+		"label": "Tellurion"
+	},
+	{
+		"code": "TENNET",
+		"type": "fiat",
+		"label": "Tennet"
+	},
+	{
+		"code": "TRC",
+		"type": "fiat",
+		"label": "TerraCoin"
+	},
+	{
+		"code": "TER",
+		"type": "fiat",
+		"label": "TerraNovaCoin"
+	},
+	{
+		"code": "TESLA",
+		"type": "fiat",
+		"label": "TeslaCoilCoin"
+	},
+	{
+		"code": "TES",
+		"type": "fiat",
+		"label": "TeslaCoin"
+	},
+	{
+		"code": "TRA",
+		"type": "fiat",
+		"label": "Tetra"
+	},
+	{
+		"code": "XTZ",
+		"type": "fiat",
+		"label": "Tezos"
+	},
+	{
+		"code": "THNX",
+		"type": "fiat",
+		"label": "ThankYou"
+	},
+	{
+		"code": "ABYSS",
+		"type": "fiat",
+		"label": "The Abyss"
+	},
+	{
+		"code": "XVE",
+		"type": "fiat",
+		"label": "The Vegan Initiative"
+	},
+	{
+		"code": "CHIEF",
+		"type": "fiat",
+		"label": "TheChiefCoin"
+	},
+	{
+		"code": "GCC*",
+		"type": "fiat",
+		"label": "TheGCCcoin"
+	},
+	{
+		"code": "TCR",
+		"type": "fiat",
+		"label": "Thecreed"
+	},
+	{
+		"code": "MAY",
+		"type": "fiat",
+		"label": "Theresa May Coin"
+	},
+	{
+		"code": "THETA",
+		"type": "fiat",
+		"label": "Theta"
+	},
+	{
+		"code": "TAGR",
+		"type": "fiat",
+		"label": "Think And Get Rich Coin"
+	},
+	{
+		"code": "TIA",
+		"type": "fiat",
+		"label": "Tianhe"
+	},
+	{
+		"code": "TIE",
+		"type": "fiat",
+		"label": "Ties Network"
+	},
+	{
+		"code": "TGC",
+		"type": "fiat",
+		"label": "TigerCoin"
+	},
+	{
+		"code": "TIG",
+		"type": "fiat",
+		"label": "Tigereum"
+	},
+	{
+		"code": "XTC",
+		"type": "fiat",
+		"label": "TileCoin"
+	},
+	{
+		"code": "TME",
+		"type": "fiat",
+		"label": "Timereum"
+	},
+	{
+		"code": "TMC",
+		"type": "fiat",
+		"label": "TimesCoin"
+	},
+	{
+		"code": "TIO*",
+		"type": "fiat",
+		"label": "Tio Tour Guides"
+	},
+	{
+		"code": "TIT",
+		"type": "fiat",
+		"label": "TitCoin"
+	},
+	{
+		"code": "TTC",
+		"type": "fiat",
+		"label": "TittieCoin"
+	},
+	{
+		"code": "TMT",
+		"type": "fiat",
+		"label": "ToTheMoon"
+	},
+	{
+		"code": "TODAY",
+		"type": "fiat",
+		"label": "TodayCoin"
+	},
+	{
+		"code": "TAAS",
+		"type": "fiat",
+		"label": "Token as a Service"
+	},
+	{
+		"code": "TKN",
+		"type": "fiat",
+		"label": "TokenCard  "
+	},
+	{
+		"code": "TCT",
+		"type": "fiat",
+		"label": "TokenClub "
+	},
+	{
+		"code": "TDS",
+		"type": "fiat",
+		"label": "TokenDesk"
+	},
+	{
+		"code": "TPAY*",
+		"type": "fiat",
+		"label": "TokenPay"
+	},
+	{
+		"code": "ACE",
+		"type": "fiat",
+		"label": "TokenStars"
+	},
+	{
+		"code": "TEN",
+		"type": "fiat",
+		"label": "Tokenomy"
+	},
+	{
+		"code": "TOK",
+		"type": "fiat",
+		"label": "TokugawaCoin"
+	},
+	{
+		"code": "TOM",
+		"type": "fiat",
+		"label": "Tomahawkcoin"
+	},
+	{
+		"code": "TOR",
+		"type": "fiat",
+		"label": "TorCoin"
+	},
+	{
+		"code": "TOT",
+		"type": "fiat",
+		"label": "TotCoin"
+	},
+	{
+		"code": "TRCT",
+		"type": "fiat",
+		"label": "Tracto"
+	},
+	{
+		"code": "TBCX",
+		"type": "fiat",
+		"label": "TrashBurn"
+	},
+	{
+		"code": "TRV",
+		"type": "fiat",
+		"label": "Travel Coin"
+	},
+	{
+		"code": "TRF",
+		"type": "fiat",
+		"label": "Travelflex"
+	},
+	{
+		"code": "TZC",
+		"type": "fiat",
+		"label": "TrezarCoin"
+	},
+	{
+		"code": "TRIA",
+		"type": "fiat",
+		"label": "Triaconta"
+	},
+	{
+		"code": "TRI",
+		"type": "fiat",
+		"label": "Triangles Coin"
+	},
+	{
+		"code": "TRIBE",
+		"type": "fiat",
+		"label": "TribeToken"
+	},
+	{
+		"code": "TRICK",
+		"type": "fiat",
+		"label": "TrickyCoin"
+	},
+	{
+		"code": "TRDT",
+		"type": "fiat",
+		"label": "Trident"
+	},
+	{
+		"code": "TRIP",
+		"type": "fiat",
+		"label": "Trippki"
+	},
+	{
+		"code": "TPG",
+		"type": "fiat",
+		"label": "Troll Payment"
+	},
+	{
+		"code": "TPAY",
+		"type": "fiat",
+		"label": "TrollPlay"
+	},
+	{
+		"code": "TKN*",
+		"type": "fiat",
+		"label": "TrollTokens"
+	},
+	{
+		"code": "TROLL",
+		"type": "fiat",
+		"label": "Trollcoin"
+	},
+	{
+		"code": "TRK",
+		"type": "fiat",
+		"label": "TruckCoin"
+	},
+	{
+		"code": "TIC",
+		"type": "fiat",
+		"label": "TrueInvestmentCoin"
+	},
+	{
+		"code": "TRUMP",
+		"type": "fiat",
+		"label": "TrumpCoin"
+	},
+	{
+		"code": "TUR",
+		"type": "fiat",
+		"label": "Turron"
+	},
+	{
+		"code": "TRTL",
+		"type": "fiat",
+		"label": "TurtleCoin"
+	},
+	{
+		"code": "TWLV",
+		"type": "fiat",
+		"label": "Twelve Coin"
+	},
+	{
+		"code": "TWIST",
+		"type": "fiat",
+		"label": "TwisterCoin"
+	},
+	{
+		"code": "UCASH",
+		"type": "fiat",
+		"label": "U.CASH"
+	},
+	{
+		"code": "UFO",
+		"type": "fiat",
+		"label": "UFO Coin"
+	},
+	{
+		"code": "XUP",
+		"type": "fiat",
+		"label": "UPcoin"
+	},
+	{
+		"code": "UR",
+		"type": "fiat",
+		"label": "UR"
+	},
+	{
+		"code": "UBIQ",
+		"type": "fiat",
+		"label": "Ubiqoin"
+	},
+	{
+		"code": "U",
+		"type": "fiat",
+		"label": "Ucoin"
+	},
+	{
+		"code": "USC",
+		"type": "fiat",
+		"label": "Ultimate Secure Cash"
+	},
+	{
+		"code": "UTC",
+		"type": "fiat",
+		"label": "UltraCoin"
+	},
+	{
+		"code": "XUN",
+		"type": "fiat",
+		"label": "UltraNote"
+	},
+	{
+		"code": "ULTC",
+		"type": "fiat",
+		"label": "Umbrella"
+	},
+	{
+		"code": "UMC",
+		"type": "fiat",
+		"label": "Umbrella Coin"
+	},
+	{
+		"code": "UNC",
+		"type": "fiat",
+		"label": "UnCoin"
+	},
+	{
+		"code": "UNAT",
+		"type": "fiat",
+		"label": "Unattanium"
+	},
+	{
+		"code": "UNF",
+		"type": "fiat",
+		"label": "Unfed Coin"
+	},
+	{
+		"code": "USX",
+		"type": "fiat",
+		"label": "Unified Society USDEX"
+	},
+	{
+		"code": "UNIFY",
+		"type": "fiat",
+		"label": "Unify"
+	},
+	{
+		"code": "UNIQ",
+		"type": "fiat",
+		"label": "Uniqredit"
+	},
+	{
+		"code": "USDE",
+		"type": "fiat",
+		"label": "UnitaryStatus Dollar"
+	},
+	{
+		"code": "UAEC",
+		"type": "fiat",
+		"label": "United Arab Emirates Coin"
+	},
+	{
+		"code": "UTT",
+		"type": "fiat",
+		"label": "United Traders Token"
+	},
+	{
+		"code": "UIS",
+		"type": "fiat",
+		"label": "Unitus"
+	},
+	{
+		"code": "UTN",
+		"type": "fiat",
+		"label": "Universa"
+	},
+	{
+		"code": "UNIT",
+		"type": "fiat",
+		"label": "Universal Currency"
+	},
+	{
+		"code": "UNI",
+		"type": "fiat",
+		"label": "Universe"
+	},
+	{
+		"code": "UNO",
+		"type": "fiat",
+		"label": "Unobtanium"
+	},
+	{
+		"code": "UP",
+		"type": "fiat",
+		"label": "UpToken"
+	},
+	{
+		"code": "UFR",
+		"type": "fiat",
+		"label": "Upfiring"
+	},
+	{
+		"code": "UQC",
+		"type": "fiat",
+		"label": "Uquid Coin"
+	},
+	{
+		"code": "URO",
+		"type": "fiat",
+		"label": "UroCoin"
+	},
+	{
+		"code": "UET",
+		"type": "fiat",
+		"label": "Useless Ethereum Token"
+	},
+	{
+		"code": "UTH",
+		"type": "fiat",
+		"label": "Uther"
+	},
+	{
+		"code": "UTIL",
+		"type": "fiat",
+		"label": "Utility Coin"
+	},
+	{
+		"code": "VIP",
+		"type": "fiat",
+		"label": "VIP Tokens"
+	},
+	{
+		"code": "VIVO",
+		"type": "fiat",
+		"label": "VIVO Coin"
+	},
+	{
+		"code": "VVI",
+		"type": "fiat",
+		"label": "VV Coin"
+	},
+	{
+		"code": "VAL",
+		"type": "fiat",
+		"label": "Valorbit"
+	},
+	{
+		"code": "VLR",
+		"type": "fiat",
+		"label": "Valorem"
+	},
+	{
+		"code": "VANY",
+		"type": "fiat",
+		"label": "Vanywhere"
+	},
+	{
+		"code": "VPRC",
+		"type": "fiat",
+		"label": "VapersCoin"
+	},
+	{
+		"code": "VAPOR",
+		"type": "fiat",
+		"label": "Vaporcoin"
+	},
+	{
+		"code": "VLTC",
+		"type": "fiat",
+		"label": "VaultCoin"
+	},
+	{
+		"code": "VEC2",
+		"type": "fiat",
+		"label": "VectorCoin 2.0 "
+	},
+	{
+		"code": "VLT",
+		"type": "fiat",
+		"label": "Veltor"
+	},
+	{
+		"code": "VNT",
+		"type": "fiat",
+		"label": "Veredictum"
+	},
+	{
+		"code": "CRED",
+		"type": "fiat",
+		"label": "Verify"
+	},
+	{
+		"code": "VERI",
+		"type": "fiat",
+		"label": "Veritaseum"
+	},
+	{
+		"code": "VRS",
+		"type": "fiat",
+		"label": "Veros"
+	},
+	{
+		"code": "VERSA",
+		"type": "fiat",
+		"label": "Versa Token"
+	},
+	{
+		"code": "VTX",
+		"type": "fiat",
+		"label": "Vertex"
+	},
+	{
+		"code": "VST",
+		"type": "fiat",
+		"label": "Vestarin"
+	},
+	{
+		"code": "VZT",
+		"type": "fiat",
+		"label": "Vezt"
+	},
+	{
+		"code": "VTY",
+		"type": "fiat",
+		"label": "Victoriouscoin"
+	},
+	{
+		"code": "VDO",
+		"type": "fiat",
+		"label": "VidioCoin"
+	},
+	{
+		"code": "VIN",
+		"type": "fiat",
+		"label": "VinChain"
+	},
+	{
+		"code": "VIOR",
+		"type": "fiat",
+		"label": "ViorCoin"
+	},
+	{
+		"code": "VIRAL",
+		"type": "fiat",
+		"label": "Viral Coin"
+	},
+	{
+		"code": "VUC",
+		"type": "fiat",
+		"label": "Virta Unique Coin"
+	},
+	{
+		"code": "VTA",
+		"type": "fiat",
+		"label": "VirtaCoin"
+	},
+	{
+		"code": "XVP",
+		"type": "fiat",
+		"label": "VirtacoinPlus"
+	},
+	{
+		"code": "VMC",
+		"type": "fiat",
+		"label": "VirtualMining Coin"
+	},
+	{
+		"code": "VISIO",
+		"type": "fiat",
+		"label": "Visio"
+	},
+	{
+		"code": "VIU",
+		"type": "fiat",
+		"label": "Viuly"
+	},
+	{
+		"code": "VOISE",
+		"type": "fiat",
+		"label": "Voise"
+	},
+	{
+		"code": "VOOT",
+		"type": "fiat",
+		"label": "VootCoin"
+	},
+	{
+		"code": "VOT",
+		"type": "fiat",
+		"label": "Votecoin"
+	},
+	{
+		"code": "VOYA",
+		"type": "fiat",
+		"label": "Voyacoin"
+	},
+	{
+		"code": "VSX",
+		"type": "fiat",
+		"label": "Vsync"
+	},
+	{
+		"code": "WMC",
+		"type": "fiat",
+		"label": "WMCoin"
+	},
+	{
+		"code": "WRT",
+		"type": "fiat",
+		"label": "WRTcoin"
+	},
+	{
+		"code": "WGR",
+		"type": "fiat",
+		"label": "Wagerr"
+	},
+	{
+		"code": "WAN",
+		"type": "fiat",
+		"label": "Wanchain"
+	},
+	{
+		"code": "WAND",
+		"type": "fiat",
+		"label": "WandX"
+	},
+	{
+		"code": "WRC*",
+		"type": "fiat",
+		"label": "WarCoin"
+	},
+	{
+		"code": "WARP",
+		"type": "fiat",
+		"label": "WarpCoin"
+	},
+	{
+		"code": "WASH",
+		"type": "fiat",
+		"label": "WashingtonCoin"
+	},
+	{
+		"code": "WCT",
+		"type": "fiat",
+		"label": "Waves Community Token"
+	},
+	{
+		"code": "WGO",
+		"type": "fiat",
+		"label": "WavesGO"
+	},
+	{
+		"code": "WNET",
+		"type": "fiat",
+		"label": "Wavesnode.net"
+	},
+	{
+		"code": "WAY",
+		"type": "fiat",
+		"label": "WayCoin"
+	},
+	{
+		"code": "WSX",
+		"type": "fiat",
+		"label": "WeAreSatoshi"
+	},
+	{
+		"code": "WPR",
+		"type": "fiat",
+		"label": "WePower"
+	},
+	{
+		"code": "WT",
+		"type": "fiat",
+		"label": "WeToken"
+	},
+	{
+		"code": "WEALTH",
+		"type": "fiat",
+		"label": "WealthCoin"
+	},
+	{
+		"code": "WEB",
+		"type": "fiat",
+		"label": "Webcoin"
+	},
+	{
+		"code": "WELL",
+		"type": "fiat",
+		"label": "Well"
+	},
+	{
+		"code": "WEX",
+		"type": "fiat",
+		"label": "Wexcoin"
+	},
+	{
+		"code": "WHL",
+		"type": "fiat",
+		"label": "WhaleCoin"
+	},
+	{
+		"code": "WC",
+		"type": "fiat",
+		"label": "WhiteCoin"
+	},
+	{
+		"code": "WIC",
+		"type": "fiat",
+		"label": "Wi Coin"
+	},
+	{
+		"code": "WBB",
+		"type": "fiat",
+		"label": "Wild Beast Coin"
+	},
+	{
+		"code": "WILD",
+		"type": "fiat",
+		"label": "Wild Crypto"
+	},
+	{
+		"code": "WINE",
+		"type": "fiat",
+		"label": "WineCoin"
+	},
+	{
+		"code": "WINK",
+		"type": "fiat",
+		"label": "Wink"
+	},
+	{
+		"code": "WISC",
+		"type": "fiat",
+		"label": "WisdomCoin"
+	},
+	{
+		"code": "WSC",
+		"type": "fiat",
+		"label": "WiserCoin"
+	},
+	{
+		"code": "WSH",
+		"type": "fiat",
+		"label": "Wish Finance"
+	},
+	{
+		"code": "WISH*",
+		"type": "fiat",
+		"label": "WishFinance"
+	},
+	{
+		"code": "WLK",
+		"type": "fiat",
+		"label": "Wolk"
+	},
+	{
+		"code": "WOMEN",
+		"type": "fiat",
+		"label": "WomenCoin"
+	},
+	{
+		"code": "LOG",
+		"type": "fiat",
+		"label": "Wood Coin"
+	},
+	{
+		"code": "WCG",
+		"type": "fiat",
+		"label": "World Crypto Gold"
+	},
+	{
+		"code": "WGC",
+		"type": "fiat",
+		"label": "World Gold Coin"
+	},
+	{
+		"code": "XWT",
+		"type": "fiat",
+		"label": "World Trade Funds"
+	},
+	{
+		"code": "WBTC",
+		"type": "fiat",
+		"label": "WorldBTC"
+	},
+	{
+		"code": "WDC",
+		"type": "fiat",
+		"label": "WorldCoin"
+	},
+	{
+		"code": "WOP",
+		"type": "fiat",
+		"label": "WorldPay"
+	},
+	{
+		"code": "WRC",
+		"type": "fiat",
+		"label": "Worldcore"
+	},
+	{
+		"code": "WYR",
+		"type": "fiat",
+		"label": "Wyrify"
+	},
+	{
+		"code": "XRED",
+		"type": "fiat",
+		"label": "X Real Estate Development"
+	},
+	{
+		"code": "XC",
+		"type": "fiat",
+		"label": "X11 Coin"
+	},
+	{
+		"code": "X2",
+		"type": "fiat",
+		"label": "X2Coin"
+	},
+	{
+		"code": "X8X",
+		"type": "fiat",
+		"label": "X8Currency"
+	},
+	{
+		"code": "XCO",
+		"type": "fiat",
+		"label": "XCoin"
+	},
+	{
+		"code": "XDE2",
+		"type": "fiat",
+		"label": "XDE II"
+	},
+	{
+		"code": "XG",
+		"type": "fiat",
+		"label": "XG Sports"
+	},
+	{
+		"code": "XXX",
+		"type": "fiat",
+		"label": "XXXCoin"
+	},
+	{
+		"code": "XNX",
+		"type": "fiat",
+		"label": "XanaxCoin"
+	},
+	{
+		"code": "XAU",
+		"type": "fiat",
+		"label": "XauCoin"
+	},
+	{
+		"code": "XAUR",
+		"type": "fiat",
+		"label": "Xaurum"
+	},
+	{
+		"code": "XCASH",
+		"type": "fiat",
+		"label": "Xcash"
+	},
+	{
+		"code": "XNC",
+		"type": "fiat",
+		"label": "XenCoin"
+	},
+	{
+		"code": "XEN",
+		"type": "fiat",
+		"label": "XenixCoin"
+	},
+	{
+		"code": "XNN",
+		"type": "fiat",
+		"label": "Xenon"
+	},
+	{
+		"code": "MI",
+		"type": "fiat",
+		"label": "XiaoMiCoin"
+	},
+	{
+		"code": "XDCE",
+		"type": "fiat",
+		"label": "XinFin Coin"
+	},
+	{
+		"code": "XIOS",
+		"type": "fiat",
+		"label": "Xios"
+	},
+	{
+		"code": "XBY",
+		"type": "fiat",
+		"label": "XtraBYtes"
+	},
+	{
+		"code": "YAY",
+		"type": "fiat",
+		"label": "YAYcoin"
+	},
+	{
+		"code": "YAC",
+		"type": "fiat",
+		"label": "YAcCoin"
+	},
+	{
+		"code": "YMC",
+		"type": "fiat",
+		"label": "YamahaCoin"
+	},
+	{
+		"code": "YBC",
+		"type": "fiat",
+		"label": "YbCoin"
+	},
+	{
+		"code": "YEE",
+		"type": "fiat",
+		"label": "Yee"
+	},
+	{
+		"code": "YES",
+		"type": "fiat",
+		"label": "YesCoin"
+	},
+	{
+		"code": "YOC",
+		"type": "fiat",
+		"label": "YoCoin"
+	},
+	{
+		"code": "YOVI",
+		"type": "fiat",
+		"label": "YobitVirtualCoin"
+	},
+	{
+		"code": "YOYOW",
+		"type": "fiat",
+		"label": "Yoyow"
+	},
+	{
+		"code": "Z2",
+		"type": "fiat",
+		"label": "Z2 Coin"
+	},
+	{
+		"code": "ZAB",
+		"type": "fiat",
+		"label": "ZABERcoin"
+	},
+	{
+		"code": "ZCC",
+		"type": "fiat",
+		"label": "ZCC Coin"
+	},
+	{
+		"code": "ZECD",
+		"type": "fiat",
+		"label": "ZCashDarkCoin"
+	},
+	{
+		"code": "ZCG",
+		"type": "fiat",
+		"label": "ZCashGOLD"
+	},
+	{
+		"code": "ZLQ",
+		"type": "fiat",
+		"label": "ZLiteQubit"
+	},
+	{
+		"code": "ZSE",
+		"type": "fiat",
+		"label": "ZSEcoin"
+	},
+	{
+		"code": "ZAP",
+		"type": "fiat",
+		"label": "Zap"
+	},
+	{
+		"code": "ZYD",
+		"type": "fiat",
+		"label": "ZayedCoin"
+	},
+	{
+		"code": "ZXT",
+		"type": "fiat",
+		"label": "Zcrypt"
+	},
+	{
+		"code": "ZED",
+		"type": "fiat",
+		"label": "ZedCoins"
+	},
+	{
+		"code": "ZEIT",
+		"type": "fiat",
+		"label": "ZeitCoin"
+	},
+	{
+		"code": "ZEN*",
+		"type": "fiat",
+		"label": "Zen Protocol"
+	},
+	{
+		"code": "ZENI",
+		"type": "fiat",
+		"label": "Zennies"
+	},
+	{
+		"code": "ZNA",
+		"type": "fiat",
+		"label": "Zenome"
+	},
+	{
+		"code": "ZER",
+		"type": "fiat",
+		"label": "Zero"
+	},
+	{
+		"code": "ZET2",
+		"type": "fiat",
+		"label": "Zeta2Coin"
+	},
+	{
+		"code": "ZET",
+		"type": "fiat",
+		"label": "ZetaCoin"
+	},
+	{
+		"code": "ZSC",
+		"type": "fiat",
+		"label": "Zeusshield"
+	},
+	{
+		"code": "ZRC*",
+		"type": "fiat",
+		"label": "ZiftrCoin"
+	},
+	{
+		"code": "ZBC",
+		"type": "fiat",
+		"label": "Zilbercoin"
+	},
+	{
+		"code": "ZOI",
+		"type": "fiat",
+		"label": "Zoin"
+	},
+	{
+		"code": "ZNE",
+		"type": "fiat",
+		"label": "ZoneCoin"
+	},
+	{
+		"code": "ZOOM",
+		"type": "fiat",
+		"label": "ZoomCoin"
+	},
+	{
+		"code": "ZRC",
+		"type": "fiat",
+		"label": "ZrCoin"
+	},
+	{
+		"code": "ZUR",
+		"type": "fiat",
+		"label": "Zurcoin"
+	},
+	{
+		"code": "BITCNY",
+		"type": "fiat",
+		"label": "bitCNY"
+	},
+	{
+		"code": "BITUSD",
+		"type": "fiat",
+		"label": "bitUSD"
+	},
+	{
+		"code": "DCS",
+		"type": "fiat",
+		"label": "deCLOUDs"
+	},
+	{
+		"code": "ECHT",
+		"type": "fiat",
+		"label": "e-Chat"
+	},
+	{
+		"code": "EBIT",
+		"type": "fiat",
+		"label": "eBit"
+	},
+	{
+		"code": "EBCH",
+		"type": "fiat",
+		"label": "eBitcoinCash"
+	},
+	{
+		"code": "ELTC2",
+		"type": "fiat",
+		"label": "eLTC"
+	},
+	{
+		"code": "DEM",
+		"type": "fiat",
+		"label": "eMark"
+	},
+	{
+		"code": "EREAL",
+		"type": "fiat",
+		"label": "eREAL"
+	},
+	{
+		"code": "GCN",
+		"type": "fiat",
+		"label": "gCn Coin"
+	},
+	{
+		"code": "IBANK",
+		"type": "fiat",
+		"label": "iBankCoin"
+	},
+	{
+		"code": "ICE",
+		"type": "fiat",
+		"label": "iDice"
+	},
+	{
+		"code": "IETH",
+		"type": "fiat",
+		"label": "iEthereum"
+	},
+	{
+		"code": "IW",
+		"type": "fiat",
+		"label": "iWallet"
+	},
+	{
+		"code": "IXT",
+		"type": "fiat",
+		"label": "iXledger"
+	},
+	{
+		"code": "ONG",
+		"type": "fiat",
+		"label": "onG.social"
+	},
+	{
+		"code": "UGC",
+		"type": "fiat",
+		"label": "ugChain"
+	},
+	{
+		"code": "VSL",
+		"type": "fiat",
+		"label": "vSlice"
+	},
+	{
+		"code": "WBTC*",
+		"type": "fiat",
+		"label": "wBTC"
+	}
+]
