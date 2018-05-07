@@ -1,4 +1,5 @@
 require('dotenv').config();
+const env = process.env.NODE_ENV || 'development';
 const { knexSnakeCaseMappers } = require('objection');
 const user = process.env.DB_USER;
 const pass = process.env.DB_PASS;
@@ -9,6 +10,9 @@ const host = process.env.DB_HOST || 'localhost';
 module.exports =  {
   client: 'pg',
   connection: `postgres://${user}:${pass}@${host}:${port}/${db}`,
-  ...knexSnakeCaseMappers()
+  ...knexSnakeCaseMappers(),
+  seeds: {
+    directory: `${__dirname}/seeds/${env}`
+  }
 };
 

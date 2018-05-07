@@ -1,4 +1,4 @@
-const currencies = require('./data/currencies');
+const currencies = require('../data/currencies');
 
 exports.seed = knex => knex('currencies').del()
     .then(() => {

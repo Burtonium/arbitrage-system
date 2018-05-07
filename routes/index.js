@@ -45,13 +45,14 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
   if (!pair) {
     throw new PairNotFound();
   }
-  
+
   let exchanges = (await Exchange.query()
     .eager('[markets,settings]')
     .modifyEager('markets', q => q.where('currencyPairId', pair.id))
     .whereExists(Settings.query().whereRaw('exchange_settings.exchange_id = exchanges.id'))
     .whereExists(Market.query().whereRaw(`markets.exchange_id = exchanges.id AND markets.currency_pair_id = ${pair.id}`)))
     .filter(e => e.has.fetchOrderBook && e.has.fetchBalance);
+  
   
   if (exchanges.length === 0) {
     throw new ServiceUnavailable();
@@ -76,6 +77,8 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
     const bookSide = side === 'buy' ? book.asks : book.bids;
     let remaining = amount;
     const filteredBook = [];
+    
+    book.exchange
 
     bookSide.map(s => ({ price: s[0], amount: s[1] })).every((cur) => {
       let data;
@@ -146,7 +149,7 @@ router.post('/order', requires({ body: ['quoteId'] }), async (req, res) => {
     return res.status(400).send('There is already an order for that quote');
   }
 
-  if (quoted.createdAt < new Date(Date.now() - 30000)) {
+  if (quoted.createdAt < Quote.expiryTime) {
     return res.status(400).send('Quote expired');
   }
   

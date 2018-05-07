@@ -12,6 +12,19 @@ class Quote extends guid(Model) {
       update: false
     };
   }
+  
+  static get expiryTime() {
+    return new Date(Date.now() - 30000);
+  }
+  
+    
+  static get namedFilters() {
+    return {
+      notExpired: (builder) => {
+        builder.where('createdAt', '<', Quote.expiryTime);
+      }
+    };
+  }
 
   static get relationMappings() {
     return {

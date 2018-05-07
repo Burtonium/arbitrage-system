@@ -4,7 +4,7 @@
   "description": "Arbing system for ezbtc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "PORT=1234 mocha test",
     "dev": "nodemon index.js"
   },
   "author": "",
@@ -26,6 +26,11 @@
     "pg": "^7.4.1"
   },
   "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "fetch-mock": "^6.3.0",
+    "mocha": "^5.1.1",
+    "mock-require": "^3.0.2",
     "nodemon": "^1.17.3"
   }
 }
