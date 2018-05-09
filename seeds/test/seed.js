@@ -20,30 +20,9 @@ exports.seed = async (knex) => {
       base: 'LTC',
       quote: 'BTC'
     }]);
-    
-  const exchanges = await Exchange.query().insertGraph([{
-      name: 'bitstamp',
-      ccxtId: 'bitstamp',
-      settings: {
-        uid: 123,
-        apiKey: 'testkey',
-        secret: 'testsecret'
-      }
-    }, {
-      name: 'Poloniex',
-      ccxtId: 'poloniex', 
-      settings: {
-        apiKey: 'testkey',
-        secret: 'testsecret'
-        }
-      }, {
-      name: 'Binance',
-      ccxtId: 'binance',
-      settings: {
-        apiKey: 'testkey',
-        secret: 'testsecret'
-      }
-    }]);
+  
+  const exchangeData = require('./data/exchanges');
+  const exchanges = await Exchange.query().insertGraph(exchangeData);
   
   await Promise.all(_.flatten(pairs.map((pair) => {
     return exchanges.map((exchange) => {

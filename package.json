@@ -4,7 +4,7 @@
   "description": "Arbing system for ezbtc",
   "main": "index.js",
   "scripts": {
-    "test": "PORT=1234 mocha test",
+    "test": "mocha test --exit",
     "dev": "nodemon index.js"
   },
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.18.2",
     "ccxt": "^1.13.59",
+    "chai-uuid": "^1.0.6",
     "cors": "^2.8.4",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",

@@ -1,0 +1,11 @@
+[
+
+	{
+		"name": "Binance",
+		"ccxtId": "binance",
+		"settings": {
+			"apiKey": "testkey",
+			"secret": "testsecret"
+		}
+	}
+]

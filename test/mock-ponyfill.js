@@ -13,6 +13,7 @@ Object.assign(fetchMockInstance.config, {
 });
 
 const mock = require('mock-require');
+require('./mock')(fetchMockInstance);
 mock('fetch-ponyfill', () => { return { fetch: fetchMockInstance } });
 
 module.exports = fetchMockInstance;

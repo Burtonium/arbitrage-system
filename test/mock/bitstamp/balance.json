@@ -1,0 +1,20 @@
+{
+	"usd_balance": 1234.32,
+	"btc_balance": 1.023123,
+	"eur_balance": 0,
+	"xrp_balance": 100.2432,
+	"ltc_balance": 7.123,
+	"eth_balance": 3.788923,
+	"usd_available": 1234.32,
+	"btc_available": 1.023123,
+	"eur_available": 0,
+	"xrp_available": 90.12,
+	"ltc_available": 6.123,
+	"eth_available": 3.788923,
+	"usd_reserved": 0,
+	"btc_reserved": 0,
+	"eur_reserved": 0,
+	"xrp_reserved": 10.1232,
+	"ltc_reserved": 1,
+	"eth_reserved": 0
+}
