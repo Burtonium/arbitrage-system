@@ -50,19 +50,19 @@ This API does not currently:
 * **Error Responses:**
 
   * **HTTP Status Code:** 400 Bad Request <br />
-  * **Code** 4 Invalid Parameters <br />
+    **Code** 4 Invalid Parameters <br />
 
   * **HTTP Status Code:** 404 Not Found <br />
-  * **Message** Pair not found <br />
+    **Message** Pair not found <br />
 
   * **HTTP Status Code:** 500 Error <br />
-  * **Message** Something went wrong <br />
-  * 
+    **Message** Something went wrong <br />
+ 
   * **HTTP Status Code:** 503 Service Unavailable <br />
-  * **Code** 5 OrderbookOverflow <br>
-  * **Code** 6 InsufficientFunds <br />
-  * **Code** 8 IncorrectCredentials <br />
-  * **Code** 9 NoExchangesAvailable <br />
+    **Code** 5 OrderbookOverflow <br>
+    **Code** 6 InsufficientFunds <br />
+    **Code** 8 IncorrectCredentials <br />
+    **Code** 9 NoExchangesAvailable <br />
 
 
 ## Place order
