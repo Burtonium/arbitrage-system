@@ -1,7 +1,4 @@
 class ServiceUnavailable extends Error {
-  get code() {
-    return 1;
-  }
   get status() {
     return 503;
   }
@@ -11,14 +8,18 @@ class ServiceUnavailable extends Error {
 }
 
 class NotFound extends Error {
-  get code() {
-    return 2;
-  }
   get status() {
     return 404;
   }
 }
 
+class BadRequest extends Error {
+  get status() {
+    return 400;
+  }
+}
+
+// Parameters given through the request are invalid
 class InvalidParameters extends Error {
   get code() {
     return 3;
@@ -28,27 +29,7 @@ class InvalidParameters extends Error {
   }
 }
 
-class ServerError extends Error {
-  get code() {
-    return 4;
-  }
-  get status() {
-    return 500;
-  }
-  get message() {
-    return 'Something went wrong';
-  }
-}
-
-class OrderbookOverflow extends Error {
-  get code() {
-    return 5;
-  }
-  get status() {
-    return 400;
-  }
-}
-
+// No exchange had sufficient funds to process the quote
 class InsufficientFunds extends Error {
   get code() {
     return 6;
@@ -61,15 +42,45 @@ class InsufficientFunds extends Error {
   }
 }
 
-class OrderNotFilled extends Error {
+// Order was not filled on the exchange
+class OrderNotFilled extends ServiceUnavailable {
   get code() {
     return 7;
   }
-  get status() {
-    return 500;
+}
+
+// Incorrect credentials given for an exchange
+class IncorrectCredentials extends ServiceUnavailable {
+  get code() {
+    return 8;
   }
-  get message() {
-    return 'Something went wrong';
+}
+
+// No settings are set for exchanges in the database
+class NoExchangesAvailable extends ServiceUnavailable {
+  get code() {
+    return 9;
+  }
+}
+
+// A quote's amount is bigger than the orderbook's total size
+class OrderbookOverflow extends ServiceUnavailable {
+  get code() {
+    return 5;
+  }
+}
+
+// There's already an order for this quote
+class OrderDuplicate extends BadRequest {
+  get code() {
+    return 10;
+  }
+}
+
+// Self explanatory, eh?
+class QuoteExpired extends BadRequest {
+  get code() {
+    return 11;
   }
 }
 
@@ -77,8 +88,11 @@ module.exports = {
     ServiceUnavailable,
     NotFound,
     InvalidParameters,
-    ServerError,
     OrderbookOverflow,
     InsufficientFunds,
-    OrderNotFilled
+    OrderNotFilled,
+    IncorrectCredentials,
+    NoExchangesAvailable,
+    OrderDuplicate,
+    QuoteExpired
 };

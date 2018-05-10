@@ -66,20 +66,20 @@ describe('API routes', () => {
     });
   });
   
-  describe('POST /settings', () => {
+  describe('PUT /:id/settings', () => {
     it('Should create an exchange setting', (done) => {
+      const id = 'bitstamp';
       const insert = {
-        id: 'bitstamp',
         apiKey: 'hohoho',
         secret: 'hohoho',
         buyMarginPercent: 5.5,
         sellMarginPercent: 4.5
       };
   
-      chai.request(app).post('/settings').send(insert).end((err, res) => {
+      chai.request(app).put(`/${id}/settings`).send(insert).end((err, res) => {
         expect(err).to.be.equal(null);
         res.should.have.status(201);
-        Exchange.query().where('ccxtId', insert.id).eager('settings').first().then(({ settings }) => {
+        Exchange.query().where('ccxtId', id).eager('settings').first().then(({ settings }) => {
           const expected = settings.toJSON();
           expected.apiKey.should.be.equal(insert.apiKey);
           expected.buyMarginPercent.should.be.equal(insert.buyMarginPercent);
@@ -99,6 +99,7 @@ describe('API routes', () => {
         res.body.exchanges.should.be.a('array');
         res.body.exchanges[0].should.have.property('requires');
         res.body.exchanges[0].should.have.property('settings');
+        res.body.exchanges[0].should.have.property('markets');
         res.body.exchanges[0].should.have.property('id');
         res.body.exchanges[0].should.have.property('name');
         done();

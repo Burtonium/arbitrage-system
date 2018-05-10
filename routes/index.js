@@ -5,9 +5,19 @@ const Exchange = require('../models/exchange');
 const Market = require('../models/market');
 const Quote = require('../models/quote');
 const Order = require('../models/order');
-const { pick, omit } = require('lodash');
+const { pick } = require('lodash');
 
-const { ServiceUnavailable , NotFound, InvalidParameters, OrderbookOverflow, InsufficientFunds, OrderNotFilled } = require('./errors');
+const { 
+  NotFound, 
+  InvalidParameters, 
+  OrderbookOverflow, 
+  InsufficientFunds, 
+  OrderNotFilled, 
+  IncorrectCredentials, 
+  NoExchangesAvailable,
+  OrderDuplicate,
+  OrderExpired
+} = require('./errors');
 
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
@@ -38,7 +48,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
   const side = req.body.side;
   const amount = parseFloat(req.body.amount);
   
-  if (!isNumeric(amount)) {
+  if (!isNumeric(amount) && amount <= 0) {
     throw new InvalidParameters('Amount is invalid');
   }
   
@@ -55,7 +65,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
   
   
   if (exchanges.length === 0) {
-    throw new ServiceUnavailable();
+    throw new NoExchangesAvailable();
   } 
   
   // Load settings
@@ -63,7 +73,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
   try {
     exchanges.every(e => e.ccxt.checkRequiredCredentials());
   } catch (error) {
-    throw new ServiceUnavailable();
+    throw new IncorrectCredentials();
   }
   
   const balancesPromises = Promise.all(exchanges.map(e => e.ccxt.fetchBalance()));
@@ -132,7 +142,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
     bestPrice.price * (1 - (parseFloat(sellMargin) / 100));
     
   if (!quotePrice) {
-    throw new ServiceUnavailable();
+    throw new Error('Invalid quoted price');
   }
   
   const quoted = await bestPrice.exchange.markets[0].$relatedQuery('quotes').insert({
@@ -149,15 +159,15 @@ router.post('/order', requires({ body: ['quoteId'] }), async (req, res) => {
   const quoted = await Quote.query().where('id', quoteId).eager('[market.exchange.settings,order]').first();
   
   if (!quoted) {
-    return res.status(404).send('Quote not found');
+    throw new NotFound('Quote not found');
   }
   
   if (quoted.order) {
-    return res.status(400).send('There is already an order for that quote');
+    throw new OrderDuplicate();
   }
 
   if (quoted.createdAt < Quote.expiryTime) {
-    return res.status(400).send('Quote expired');
+    throw new OrderExpired();
   }
   
   await quoted.market.exchange.loadSettings();
@@ -187,8 +197,8 @@ router.post('/order', requires({ body: ['quoteId'] }), async (req, res) => {
   });
 });
 
-router.post('/settings', requires({ body: ['id'] }), async (req, res) => {
-  const ccxtId = req.body.id;
+router.put('/:id/settings', async (req, res) => {
+  const ccxtId = req.params.id;
   const exchange = await Exchange.query().where({ ccxtId }).first();
   
   if (!exchange) {
@@ -201,6 +211,8 @@ router.post('/settings', requires({ body: ['id'] }), async (req, res) => {
     'secret', 
     'uid', 
     'password', 
+    'login',
+    'twofa',
     'buyMarginPercent', 
     'sellMarginPercent'
   ]));
@@ -208,8 +220,14 @@ router.post('/settings', requires({ body: ['id'] }), async (req, res) => {
   res.status(201).send('Success');
 });
 
+router.delete('/settings', requires({ body: ['id']}), async (req, res) => {
+  
+});
+
 router.get('/exchanges', async (req, res) => {
-  const exchanges = await Exchange.query().eager('settings');
+  const exchanges = await Exchange.query().eager('[settings,markets]').modifyEager('markets', query => {
+    query.select('symbol');
+  });
   exchanges.forEach(e => e.loadRequirements());
   return res.status(200).json({ exchanges });
 });

@@ -66,7 +66,7 @@ class Exchange extends Model {
   async loadSettings() {
     this.lazyLoadCcxt();
     const settings = this.settings || await this.$relatedQuery('settings');
-    Object.assign(this.instance, _.pick(settings, ['secret', 'apiKey', 'uid', 'password']));
+    Object.assign(this.instance, _.pick(settings, ['secret', 'apiKey', 'uid', 'password', 'login', 'twofa']));
   }
   
   loadRequirements() {
