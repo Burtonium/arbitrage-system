@@ -25,6 +25,19 @@ class Quote extends guid(Model) {
       }
     };
   }
+  
+  static get jsonSchema() {
+    return {
+      type: 'object',
+      required: ['price', 'amount'],
+      
+      properties: {
+        price: { type: 'float' },
+        amount: { type: 'float' },
+        side: { type: 'string' }
+      }
+    };
+  }
 
   static get relationMappings() {
     return {

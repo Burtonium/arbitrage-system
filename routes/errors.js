@@ -10,15 +10,12 @@ class ServiceUnavailable extends Error {
   }
 }
 
-class PairNotFound extends Error {
+class NotFound extends Error {
   get code() {
     return 2;
   }
   get status() {
     return 404;
-  }
-  get message() {
-    return 'Currency Pair Not Found';
   }
 }
 
@@ -52,10 +49,36 @@ class OrderbookOverflow extends Error {
   }
 }
 
+class InsufficientFunds extends Error {
+  get code() {
+    return 6;
+  }
+  get status() {
+    return 503;
+  }
+  get message() {
+    return 'Service Unavailable';
+  }
+}
+
+class OrderNotFilled extends Error {
+  get code() {
+    return 7;
+  }
+  get status() {
+    return 500;
+  }
+  get message() {
+    return 'Something went wrong';
+  }
+}
+
 module.exports = {
     ServiceUnavailable,
-    PairNotFound,
+    NotFound,
     InvalidParameters,
     ServerError,
-    OrderbookOverflow
+    OrderbookOverflow,
+    InsufficientFunds,
+    OrderNotFilled
 };

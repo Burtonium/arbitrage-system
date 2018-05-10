@@ -5,9 +5,9 @@ const Exchange = require('../models/exchange');
 const Market = require('../models/market');
 const Quote = require('../models/quote');
 const Order = require('../models/order');
-const { pick } = require('lodash');
+const { pick, omit } = require('lodash');
 
-const { ServiceUnavailable , PairNotFound, InvalidParameters, OrderbookOverflow } = require('./errors');
+const { ServiceUnavailable , NotFound, InvalidParameters, OrderbookOverflow, InsufficientFunds, OrderNotFilled } = require('./errors');
 
 function isNumeric(n) {
   return !isNaN(parseFloat(n)) && isFinite(n);
@@ -43,7 +43,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
   }
   
   if (!pair) {
-    throw new PairNotFound();
+    throw new NotFound('Pair not found');
   }
 
   let exchanges = (await Exchange.query()
@@ -77,8 +77,6 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
     const bookSide = side === 'buy' ? book.asks : book.bids;
     let remaining = amount;
     const filteredBook = [];
-    
-    book.exchange
 
     bookSide.map(s => ({ price: s[0], amount: s[1] })).every((cur) => {
       let data;
@@ -96,12 +94,11 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
     if (remaining > 0) {
       throw new OrderbookOverflow();
     }
-      
+
     const price = filteredBook.reduce((acc, cur) => {
       const ratio = cur.amount / amount;
       return (cur.price * ratio) + acc;
     }, 0);
-    
     return { price, exchange: book.exchange };
   });
   
@@ -124,10 +121,19 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
     return acc;
   }, prices[0]);
   
-  const margin = bestPrice.exchange.settings.profitMarginPercent;
+  if (!bestPrice) {
+    throw new InsufficientFunds();
+  }
+  
+  const buyMargin = bestPrice.exchange.settings.buyMarginPercent;
+  const sellMargin = bestPrice.exchange.settings.sellMarginPercent;
   const quotePrice = side === 'buy' ? 
-    bestPrice.price * (1 + (parseFloat(margin) / 100)) :
-    bestPrice.price * (1 - (parseFloat(margin) / 100));
+    bestPrice.price * (1 + (parseFloat(buyMargin) / 100)) :
+    bestPrice.price * (1 - (parseFloat(sellMargin) / 100));
+    
+  if (!quotePrice) {
+    throw new ServiceUnavailable();
+  }
   
   const quoted = await bestPrice.exchange.markets[0].$relatedQuery('quotes').insert({
     price: quotePrice,
@@ -141,6 +147,7 @@ router.post('/:base/:quote/quote', requires({ body: ['amount', 'side'] }), async
 router.post('/order', requires({ body: ['quoteId'] }), async (req, res) => {
   const quoteId = req.body.quoteId;
   const quoted = await Quote.query().where('id', quoteId).eager('[market.exchange.settings,order]').first();
+  
   if (!quoted) {
     return res.status(404).send('Quote not found');
   }
@@ -162,22 +169,49 @@ router.post('/order', requires({ body: ['quoteId'] }), async (req, res) => {
     side: quoted.side,
     amount: quoted.amount
   });
-
+  
+  order.market = quoted.market;
   await order.updateInfo();
-  const updated = await Order.query().where('id', order.id).eager('trades');
+  const updated = await Order.query().where('id', order.id).eager('trades').first();
   
   if (updated.status !== 'closed') {
     await updated.cancel();
-    throw new Error();
+    throw new OrderNotFilled();
   }
-  res.status(201).json({
+  
+  res.status(201).json({ 
+    order: {
       ...pick(updated, ['orderId', 'side', 'status', 'createdAt', 'filled']),
-      price: quoted.price,
-    });
+      price: parseFloat(quoted.price),
+    }
+  });
 });
 
-router.post('/settings', async (req, res) => {
+router.post('/settings', requires({ body: ['id'] }), async (req, res) => {
+  const ccxtId = req.body.id;
+  const exchange = await Exchange.query().where({ ccxtId }).first();
   
+  if (!exchange) {
+    throw new NotFound('Exchange not found');
+  }
+  
+  await exchange.$relatedQuery('settings').del();
+  await exchange.$relatedQuery('settings').insert(pick(req.body, [
+    'apiKey', 
+    'secret', 
+    'uid', 
+    'password', 
+    'buyMarginPercent', 
+    'sellMarginPercent'
+  ]));
+
+  res.status(201).send('Success');
+});
+
+router.get('/exchanges', async (req, res) => {
+  const exchanges = await Exchange.query().eager('settings');
+  exchanges.forEach(e => e.loadRequirements());
+  return res.status(200).json({ exchanges });
 });
 
 module.exports = router;

@@ -4,7 +4,7 @@
   "description": "Arbing system for ezbtc",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --exit",
+    "test": "mocha test --exit --slow 0",
     "dev": "nodemon index.js"
   },
   "author": "",
@@ -32,6 +32,6 @@
     "fetch-mock": "^6.3.0",
     "mocha": "^5.1.1",
     "mock-require": "^3.0.2",
-    "nodemon": "^1.17.3"
+    "nodemon": "^1.17.4"
   }
 }

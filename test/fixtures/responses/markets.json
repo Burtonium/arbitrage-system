@@ -1,0 +1,9362 @@
+[
+	{
+		"id": "ETHBTC",
+		"symbol": "ETH/BTC",
+		"base": "ETH",
+		"quote": "BTC",
+		"baseId": "ETH",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 100000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LTCBTC",
+		"symbol": "LTC/BTC",
+		"base": "LTC",
+		"quote": "BTC",
+		"baseId": "LTC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 100000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BNBBTC",
+		"symbol": "BNB/BTC",
+		"base": "BNB",
+		"quote": "BTC",
+		"baseId": "BNB",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NEOBTC",
+		"symbol": "NEO/BTC",
+		"base": "NEO",
+		"quote": "BTC",
+		"baseId": "NEO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 100000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "QTUMETH",
+		"symbol": "QTUM/ETH",
+		"base": "QTUM",
+		"quote": "ETH",
+		"baseId": "QTUM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "EOSETH",
+		"symbol": "EOS/ETH",
+		"base": "EOS",
+		"quote": "ETH",
+		"baseId": "EOS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SNTETH",
+		"symbol": "SNT/ETH",
+		"base": "SNT",
+		"quote": "ETH",
+		"baseId": "SNT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BNTETH",
+		"symbol": "BNT/ETH",
+		"base": "BNT",
+		"quote": "ETH",
+		"baseId": "BNT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BCCBTC",
+		"symbol": "BCH/BTC",
+		"base": "BCH",
+		"quote": "BTC",
+		"baseId": "BCC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 100000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GASBTC",
+		"symbol": "GAS/BTC",
+		"base": "GAS",
+		"quote": "BTC",
+		"baseId": "GAS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 100000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BNBETH",
+		"symbol": "BNB/ETH",
+		"base": "BNB",
+		"quote": "ETH",
+		"baseId": "BNB",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BTCUSDT",
+		"symbol": "BTC/USDT",
+		"base": "BTC",
+		"quote": "USDT",
+		"baseId": "BTC",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.000001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 6,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.000001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "ETHUSDT",
+		"symbol": "ETH/USDT",
+		"base": "ETH",
+		"quote": "USDT",
+		"baseId": "ETH",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.00001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 5,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.00001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "HSRBTC",
+		"symbol": "HSR/BTC",
+		"base": "HSR",
+		"quote": "BTC",
+		"baseId": "HSR",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "OAXETH",
+		"symbol": "OAX/ETH",
+		"base": "OAX",
+		"quote": "ETH",
+		"baseId": "OAX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "DNTETH",
+		"symbol": "DNT/ETH",
+		"base": "DNT",
+		"quote": "ETH",
+		"baseId": "DNT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MCOETH",
+		"symbol": "MCO/ETH",
+		"base": "MCO",
+		"quote": "ETH",
+		"baseId": "MCO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ICNETH",
+		"symbol": "ICN/ETH",
+		"base": "ICN",
+		"quote": "ETH",
+		"baseId": "ICN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MCOBTC",
+		"symbol": "MCO/BTC",
+		"base": "MCO",
+		"quote": "BTC",
+		"baseId": "MCO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WTCBTC",
+		"symbol": "WTC/BTC",
+		"base": "WTC",
+		"quote": "BTC",
+		"baseId": "WTC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WTCETH",
+		"symbol": "WTC/ETH",
+		"base": "WTC",
+		"quote": "ETH",
+		"baseId": "WTC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "LRCBTC",
+		"symbol": "LRC/BTC",
+		"base": "LRC",
+		"quote": "BTC",
+		"baseId": "LRC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LRCETH",
+		"symbol": "LRC/ETH",
+		"base": "LRC",
+		"quote": "ETH",
+		"baseId": "LRC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "QTUMBTC",
+		"symbol": "QTUM/BTC",
+		"base": "QTUM",
+		"quote": "BTC",
+		"baseId": "QTUM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "YOYOBTC",
+		"symbol": "YOYOW/BTC",
+		"base": "YOYOW",
+		"quote": "BTC",
+		"baseId": "YOYO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "OMGBTC",
+		"symbol": "OMG/BTC",
+		"base": "OMG",
+		"quote": "BTC",
+		"baseId": "OMG",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "OMGETH",
+		"symbol": "OMG/ETH",
+		"base": "OMG",
+		"quote": "ETH",
+		"baseId": "OMG",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ZRXBTC",
+		"symbol": "ZRX/BTC",
+		"base": "ZRX",
+		"quote": "BTC",
+		"baseId": "ZRX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ZRXETH",
+		"symbol": "ZRX/ETH",
+		"base": "ZRX",
+		"quote": "ETH",
+		"baseId": "ZRX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "STRATBTC",
+		"symbol": "STRAT/BTC",
+		"base": "STRAT",
+		"quote": "BTC",
+		"baseId": "STRAT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "STRATETH",
+		"symbol": "STRAT/ETH",
+		"base": "STRAT",
+		"quote": "ETH",
+		"baseId": "STRAT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SNGLSBTC",
+		"symbol": "SNGLS/BTC",
+		"base": "SNGLS",
+		"quote": "BTC",
+		"baseId": "SNGLS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SNGLSETH",
+		"symbol": "SNGLS/ETH",
+		"base": "SNGLS",
+		"quote": "ETH",
+		"baseId": "SNGLS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BQXBTC",
+		"symbol": "BQX/BTC",
+		"base": "BQX",
+		"quote": "BTC",
+		"baseId": "BQX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BQXETH",
+		"symbol": "BQX/ETH",
+		"base": "BQX",
+		"quote": "ETH",
+		"baseId": "BQX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "KNCBTC",
+		"symbol": "KNC/BTC",
+		"base": "KNC",
+		"quote": "BTC",
+		"baseId": "KNC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "KNCETH",
+		"symbol": "KNC/ETH",
+		"base": "KNC",
+		"quote": "ETH",
+		"baseId": "KNC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "FUNBTC",
+		"symbol": "FUN/BTC",
+		"base": "FUN",
+		"quote": "BTC",
+		"baseId": "FUN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "FUNETH",
+		"symbol": "FUN/ETH",
+		"base": "FUN",
+		"quote": "ETH",
+		"baseId": "FUN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SNMBTC",
+		"symbol": "SNM/BTC",
+		"base": "SNM",
+		"quote": "BTC",
+		"baseId": "SNM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SNMETH",
+		"symbol": "SNM/ETH",
+		"base": "SNM",
+		"quote": "ETH",
+		"baseId": "SNM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NEOETH",
+		"symbol": "NEO/ETH",
+		"base": "NEO",
+		"quote": "ETH",
+		"baseId": "NEO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "IOTABTC",
+		"symbol": "IOTA/BTC",
+		"base": "IOTA",
+		"quote": "BTC",
+		"baseId": "IOTA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "IOTAETH",
+		"symbol": "IOTA/ETH",
+		"base": "IOTA",
+		"quote": "ETH",
+		"baseId": "IOTA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "LINKBTC",
+		"symbol": "LINK/BTC",
+		"base": "LINK",
+		"quote": "BTC",
+		"baseId": "LINK",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LINKETH",
+		"symbol": "LINK/ETH",
+		"base": "LINK",
+		"quote": "ETH",
+		"baseId": "LINK",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "XVGBTC",
+		"symbol": "XVG/BTC",
+		"base": "XVG",
+		"quote": "BTC",
+		"baseId": "XVG",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XVGETH",
+		"symbol": "XVG/ETH",
+		"base": "XVG",
+		"quote": "ETH",
+		"baseId": "XVG",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SALTBTC",
+		"symbol": "SALT/BTC",
+		"base": "SALT",
+		"quote": "BTC",
+		"baseId": "SALT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SALTETH",
+		"symbol": "SALT/ETH",
+		"base": "SALT",
+		"quote": "ETH",
+		"baseId": "SALT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MDABTC",
+		"symbol": "MDA/BTC",
+		"base": "MDA",
+		"quote": "BTC",
+		"baseId": "MDA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MDAETH",
+		"symbol": "MDA/ETH",
+		"base": "MDA",
+		"quote": "ETH",
+		"baseId": "MDA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MTLBTC",
+		"symbol": "MTL/BTC",
+		"base": "MTL",
+		"quote": "BTC",
+		"baseId": "MTL",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MTLETH",
+		"symbol": "MTL/ETH",
+		"base": "MTL",
+		"quote": "ETH",
+		"baseId": "MTL",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SUBBTC",
+		"symbol": "SUB/BTC",
+		"base": "SUB",
+		"quote": "BTC",
+		"baseId": "SUB",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SUBETH",
+		"symbol": "SUB/ETH",
+		"base": "SUB",
+		"quote": "ETH",
+		"baseId": "SUB",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "EOSBTC",
+		"symbol": "EOS/BTC",
+		"base": "EOS",
+		"quote": "BTC",
+		"baseId": "EOS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SNTBTC",
+		"symbol": "SNT/BTC",
+		"base": "SNT",
+		"quote": "BTC",
+		"baseId": "SNT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ETCETH",
+		"symbol": "ETC/ETH",
+		"base": "ETC",
+		"quote": "ETH",
+		"baseId": "ETC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ETCBTC",
+		"symbol": "ETC/BTC",
+		"base": "ETC",
+		"quote": "BTC",
+		"baseId": "ETC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MTHBTC",
+		"symbol": "MTH/BTC",
+		"base": "MTH",
+		"quote": "BTC",
+		"baseId": "MTH",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MTHETH",
+		"symbol": "MTH/ETH",
+		"base": "MTH",
+		"quote": "ETH",
+		"baseId": "MTH",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ENGBTC",
+		"symbol": "ENG/BTC",
+		"base": "ENG",
+		"quote": "BTC",
+		"baseId": "ENG",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ENGETH",
+		"symbol": "ENG/ETH",
+		"base": "ENG",
+		"quote": "ETH",
+		"baseId": "ENG",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "DNTBTC",
+		"symbol": "DNT/BTC",
+		"base": "DNT",
+		"quote": "BTC",
+		"baseId": "DNT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ZECBTC",
+		"symbol": "ZEC/BTC",
+		"base": "ZEC",
+		"quote": "BTC",
+		"baseId": "ZEC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ZECETH",
+		"symbol": "ZEC/ETH",
+		"base": "ZEC",
+		"quote": "ETH",
+		"baseId": "ZEC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BNTBTC",
+		"symbol": "BNT/BTC",
+		"base": "BNT",
+		"quote": "BTC",
+		"baseId": "BNT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ASTBTC",
+		"symbol": "AST/BTC",
+		"base": "AST",
+		"quote": "BTC",
+		"baseId": "AST",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ASTETH",
+		"symbol": "AST/ETH",
+		"base": "AST",
+		"quote": "ETH",
+		"baseId": "AST",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "DASHBTC",
+		"symbol": "DASH/BTC",
+		"base": "DASH",
+		"quote": "BTC",
+		"baseId": "DASH",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "DASHETH",
+		"symbol": "DASH/ETH",
+		"base": "DASH",
+		"quote": "ETH",
+		"baseId": "DASH",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "OAXBTC",
+		"symbol": "OAX/BTC",
+		"base": "OAX",
+		"quote": "BTC",
+		"baseId": "OAX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ICNBTC",
+		"symbol": "ICN/BTC",
+		"base": "ICN",
+		"quote": "BTC",
+		"baseId": "ICN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BTGBTC",
+		"symbol": "BTG/BTC",
+		"base": "BTG",
+		"quote": "BTC",
+		"baseId": "BTG",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BTGETH",
+		"symbol": "BTG/ETH",
+		"base": "BTG",
+		"quote": "ETH",
+		"baseId": "BTG",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "EVXBTC",
+		"symbol": "EVX/BTC",
+		"base": "EVX",
+		"quote": "BTC",
+		"baseId": "EVX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "EVXETH",
+		"symbol": "EVX/ETH",
+		"base": "EVX",
+		"quote": "ETH",
+		"baseId": "EVX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "REQBTC",
+		"symbol": "REQ/BTC",
+		"base": "REQ",
+		"quote": "BTC",
+		"baseId": "REQ",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "REQETH",
+		"symbol": "REQ/ETH",
+		"base": "REQ",
+		"quote": "ETH",
+		"baseId": "REQ",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "VIBBTC",
+		"symbol": "VIB/BTC",
+		"base": "VIB",
+		"quote": "BTC",
+		"baseId": "VIB",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "VIBETH",
+		"symbol": "VIB/ETH",
+		"base": "VIB",
+		"quote": "ETH",
+		"baseId": "VIB",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "HSRETH",
+		"symbol": "HSR/ETH",
+		"base": "HSR",
+		"quote": "ETH",
+		"baseId": "HSR",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "TRXBTC",
+		"symbol": "TRX/BTC",
+		"base": "TRX",
+		"quote": "BTC",
+		"baseId": "TRX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "TRXETH",
+		"symbol": "TRX/ETH",
+		"base": "TRX",
+		"quote": "ETH",
+		"baseId": "TRX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "POWRBTC",
+		"symbol": "POWR/BTC",
+		"base": "POWR",
+		"quote": "BTC",
+		"baseId": "POWR",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "POWRETH",
+		"symbol": "POWR/ETH",
+		"base": "POWR",
+		"quote": "ETH",
+		"baseId": "POWR",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ARKBTC",
+		"symbol": "ARK/BTC",
+		"base": "ARK",
+		"quote": "BTC",
+		"baseId": "ARK",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ARKETH",
+		"symbol": "ARK/ETH",
+		"base": "ARK",
+		"quote": "ETH",
+		"baseId": "ARK",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "YOYOETH",
+		"symbol": "YOYOW/ETH",
+		"base": "YOYOW",
+		"quote": "ETH",
+		"baseId": "YOYO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "XRPBTC",
+		"symbol": "XRP/BTC",
+		"base": "XRP",
+		"quote": "BTC",
+		"baseId": "XRP",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XRPETH",
+		"symbol": "XRP/ETH",
+		"base": "XRP",
+		"quote": "ETH",
+		"baseId": "XRP",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MODBTC",
+		"symbol": "MOD/BTC",
+		"base": "MOD",
+		"quote": "BTC",
+		"baseId": "MOD",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MODETH",
+		"symbol": "MOD/ETH",
+		"base": "MOD",
+		"quote": "ETH",
+		"baseId": "MOD",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ENJBTC",
+		"symbol": "ENJ/BTC",
+		"base": "ENJ",
+		"quote": "BTC",
+		"baseId": "ENJ",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ENJETH",
+		"symbol": "ENJ/ETH",
+		"base": "ENJ",
+		"quote": "ETH",
+		"baseId": "ENJ",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "STORJBTC",
+		"symbol": "STORJ/BTC",
+		"base": "STORJ",
+		"quote": "BTC",
+		"baseId": "STORJ",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "STORJETH",
+		"symbol": "STORJ/ETH",
+		"base": "STORJ",
+		"quote": "ETH",
+		"baseId": "STORJ",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BNBUSDT",
+		"symbol": "BNB/USDT",
+		"base": "BNB",
+		"quote": "USDT",
+		"baseId": "BNB",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "VENBNB",
+		"symbol": "VEN/BNB",
+		"base": "VEN",
+		"quote": "BNB",
+		"baseId": "VEN",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "YOYOBNB",
+		"symbol": "YOYOW/BNB",
+		"base": "YOYOW",
+		"quote": "BNB",
+		"baseId": "YOYO",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "POWRBNB",
+		"symbol": "POWR/BNB",
+		"base": "POWR",
+		"quote": "BNB",
+		"baseId": "POWR",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "VENBTC",
+		"symbol": "VEN/BTC",
+		"base": "VEN",
+		"quote": "BTC",
+		"baseId": "VEN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "VENETH",
+		"symbol": "VEN/ETH",
+		"base": "VEN",
+		"quote": "ETH",
+		"baseId": "VEN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "KMDBTC",
+		"symbol": "KMD/BTC",
+		"base": "KMD",
+		"quote": "BTC",
+		"baseId": "KMD",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "KMDETH",
+		"symbol": "KMD/ETH",
+		"base": "KMD",
+		"quote": "ETH",
+		"baseId": "KMD",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NULSBNB",
+		"symbol": "NULS/BNB",
+		"base": "NULS",
+		"quote": "BNB",
+		"baseId": "NULS",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "RCNBTC",
+		"symbol": "RCN/BTC",
+		"base": "RCN",
+		"quote": "BTC",
+		"baseId": "RCN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "RCNETH",
+		"symbol": "RCN/ETH",
+		"base": "RCN",
+		"quote": "ETH",
+		"baseId": "RCN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RCNBNB",
+		"symbol": "RCN/BNB",
+		"base": "RCN",
+		"quote": "BNB",
+		"baseId": "RCN",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "NULSBTC",
+		"symbol": "NULS/BTC",
+		"base": "NULS",
+		"quote": "BTC",
+		"baseId": "NULS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NULSETH",
+		"symbol": "NULS/ETH",
+		"base": "NULS",
+		"quote": "ETH",
+		"baseId": "NULS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RDNBTC",
+		"symbol": "RDN/BTC",
+		"base": "RDN",
+		"quote": "BTC",
+		"baseId": "RDN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "RDNETH",
+		"symbol": "RDN/ETH",
+		"base": "RDN",
+		"quote": "ETH",
+		"baseId": "RDN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RDNBNB",
+		"symbol": "RDN/BNB",
+		"base": "RDN",
+		"quote": "BNB",
+		"baseId": "RDN",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "XMRBTC",
+		"symbol": "XMR/BTC",
+		"base": "XMR",
+		"quote": "BTC",
+		"baseId": "XMR",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XMRETH",
+		"symbol": "XMR/ETH",
+		"base": "XMR",
+		"quote": "ETH",
+		"baseId": "XMR",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "DLTBNB",
+		"symbol": "DLT/BNB",
+		"base": "DLT",
+		"quote": "BNB",
+		"baseId": "DLT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "WTCBNB",
+		"symbol": "WTC/BNB",
+		"base": "WTC",
+		"quote": "BNB",
+		"baseId": "WTC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "DLTBTC",
+		"symbol": "DLT/BTC",
+		"base": "DLT",
+		"quote": "BTC",
+		"baseId": "DLT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "DLTETH",
+		"symbol": "DLT/ETH",
+		"base": "DLT",
+		"quote": "ETH",
+		"baseId": "DLT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "AMBBTC",
+		"symbol": "AMB/BTC",
+		"base": "AMB",
+		"quote": "BTC",
+		"baseId": "AMB",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "AMBETH",
+		"symbol": "AMB/ETH",
+		"base": "AMB",
+		"quote": "ETH",
+		"baseId": "AMB",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "AMBBNB",
+		"symbol": "AMB/BNB",
+		"base": "AMB",
+		"quote": "BNB",
+		"baseId": "AMB",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BCCETH",
+		"symbol": "BCH/ETH",
+		"base": "BCH",
+		"quote": "ETH",
+		"baseId": "BCC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BCCUSDT",
+		"symbol": "BCH/USDT",
+		"base": "BCH",
+		"quote": "USDT",
+		"baseId": "BCC",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.00001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 5,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.00001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "BCCBNB",
+		"symbol": "BCH/BNB",
+		"base": "BCH",
+		"quote": "BNB",
+		"baseId": "BCC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.00001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 5,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.00001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BATBTC",
+		"symbol": "BAT/BTC",
+		"base": "BAT",
+		"quote": "BTC",
+		"baseId": "BAT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BATETH",
+		"symbol": "BAT/ETH",
+		"base": "BAT",
+		"quote": "ETH",
+		"baseId": "BAT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BATBNB",
+		"symbol": "BAT/BNB",
+		"base": "BAT",
+		"quote": "BNB",
+		"baseId": "BAT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BCPTBTC",
+		"symbol": "BCPT/BTC",
+		"base": "BCPT",
+		"quote": "BTC",
+		"baseId": "BCPT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BCPTETH",
+		"symbol": "BCPT/ETH",
+		"base": "BCPT",
+		"quote": "ETH",
+		"baseId": "BCPT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BCPTBNB",
+		"symbol": "BCPT/BNB",
+		"base": "BCPT",
+		"quote": "BNB",
+		"baseId": "BCPT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ARNBTC",
+		"symbol": "ARN/BTC",
+		"base": "ARN",
+		"quote": "BTC",
+		"baseId": "ARN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ARNETH",
+		"symbol": "ARN/ETH",
+		"base": "ARN",
+		"quote": "ETH",
+		"baseId": "ARN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "GVTBTC",
+		"symbol": "GVT/BTC",
+		"base": "GVT",
+		"quote": "BTC",
+		"baseId": "GVT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GVTETH",
+		"symbol": "GVT/ETH",
+		"base": "GVT",
+		"quote": "ETH",
+		"baseId": "GVT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "CDTBTC",
+		"symbol": "CDT/BTC",
+		"base": "CDT",
+		"quote": "BTC",
+		"baseId": "CDT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "CDTETH",
+		"symbol": "CDT/ETH",
+		"base": "CDT",
+		"quote": "ETH",
+		"baseId": "CDT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "GXSBTC",
+		"symbol": "GXS/BTC",
+		"base": "GXS",
+		"quote": "BTC",
+		"baseId": "GXS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GXSETH",
+		"symbol": "GXS/ETH",
+		"base": "GXS",
+		"quote": "ETH",
+		"baseId": "GXS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NEOUSDT",
+		"symbol": "NEO/USDT",
+		"base": "NEO",
+		"quote": "USDT",
+		"baseId": "NEO",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 3
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "NEOBNB",
+		"symbol": "NEO/BNB",
+		"base": "NEO",
+		"quote": "BNB",
+		"baseId": "NEO",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 3
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "POEBTC",
+		"symbol": "POE/BTC",
+		"base": "POE",
+		"quote": "BTC",
+		"baseId": "POE",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "POEETH",
+		"symbol": "POE/ETH",
+		"base": "POE",
+		"quote": "ETH",
+		"baseId": "POE",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "QSPBTC",
+		"symbol": "QSP/BTC",
+		"base": "QSP",
+		"quote": "BTC",
+		"baseId": "QSP",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "QSPETH",
+		"symbol": "QSP/ETH",
+		"base": "QSP",
+		"quote": "ETH",
+		"baseId": "QSP",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "QSPBNB",
+		"symbol": "QSP/BNB",
+		"base": "QSP",
+		"quote": "BNB",
+		"baseId": "QSP",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BTSBTC",
+		"symbol": "BTS/BTC",
+		"base": "BTS",
+		"quote": "BTC",
+		"baseId": "BTS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BTSETH",
+		"symbol": "BTS/ETH",
+		"base": "BTS",
+		"quote": "ETH",
+		"baseId": "BTS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BTSBNB",
+		"symbol": "BTS/BNB",
+		"base": "BTS",
+		"quote": "BNB",
+		"baseId": "BTS",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "XZCBTC",
+		"symbol": "XZC/BTC",
+		"base": "XZC",
+		"quote": "BTC",
+		"baseId": "XZC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XZCETH",
+		"symbol": "XZC/ETH",
+		"base": "XZC",
+		"quote": "ETH",
+		"baseId": "XZC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "XZCBNB",
+		"symbol": "XZC/BNB",
+		"base": "XZC",
+		"quote": "BNB",
+		"baseId": "XZC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 3
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "LSKBTC",
+		"symbol": "LSK/BTC",
+		"base": "LSK",
+		"quote": "BTC",
+		"baseId": "LSK",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LSKETH",
+		"symbol": "LSK/ETH",
+		"base": "LSK",
+		"quote": "ETH",
+		"baseId": "LSK",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "LSKBNB",
+		"symbol": "LSK/BNB",
+		"base": "LSK",
+		"quote": "BNB",
+		"baseId": "LSK",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "TNTBTC",
+		"symbol": "TNT/BTC",
+		"base": "TNT",
+		"quote": "BTC",
+		"baseId": "TNT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "TNTETH",
+		"symbol": "TNT/ETH",
+		"base": "TNT",
+		"quote": "ETH",
+		"baseId": "TNT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "FUELBTC",
+		"symbol": "FUEL/BTC",
+		"base": "FUEL",
+		"quote": "BTC",
+		"baseId": "FUEL",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "FUELETH",
+		"symbol": "FUEL/ETH",
+		"base": "FUEL",
+		"quote": "ETH",
+		"baseId": "FUEL",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "MANABTC",
+		"symbol": "MANA/BTC",
+		"base": "MANA",
+		"quote": "BTC",
+		"baseId": "MANA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "MANAETH",
+		"symbol": "MANA/ETH",
+		"base": "MANA",
+		"quote": "ETH",
+		"baseId": "MANA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BCDBTC",
+		"symbol": "BCD/BTC",
+		"base": "BCD",
+		"quote": "BTC",
+		"baseId": "BCD",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BCDETH",
+		"symbol": "BCD/ETH",
+		"base": "BCD",
+		"quote": "ETH",
+		"baseId": "BCD",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "DGDBTC",
+		"symbol": "DGD/BTC",
+		"base": "DGD",
+		"quote": "BTC",
+		"baseId": "DGD",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "DGDETH",
+		"symbol": "DGD/ETH",
+		"base": "DGD",
+		"quote": "ETH",
+		"baseId": "DGD",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "IOTABNB",
+		"symbol": "IOTA/BNB",
+		"base": "IOTA",
+		"quote": "BNB",
+		"baseId": "IOTA",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ADXBTC",
+		"symbol": "ADX/BTC",
+		"base": "ADX",
+		"quote": "BTC",
+		"baseId": "ADX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ADXETH",
+		"symbol": "ADX/ETH",
+		"base": "ADX",
+		"quote": "ETH",
+		"baseId": "ADX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ADXBNB",
+		"symbol": "ADX/BNB",
+		"base": "ADX",
+		"quote": "BNB",
+		"baseId": "ADX",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ADABTC",
+		"symbol": "ADA/BTC",
+		"base": "ADA",
+		"quote": "BTC",
+		"baseId": "ADA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ADAETH",
+		"symbol": "ADA/ETH",
+		"base": "ADA",
+		"quote": "ETH",
+		"baseId": "ADA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "PPTBTC",
+		"symbol": "PPT/BTC",
+		"base": "PPT",
+		"quote": "BTC",
+		"baseId": "PPT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "PPTETH",
+		"symbol": "PPT/ETH",
+		"base": "PPT",
+		"quote": "ETH",
+		"baseId": "PPT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "CMTBTC",
+		"symbol": "CMT/BTC",
+		"base": "CMT",
+		"quote": "BTC",
+		"baseId": "CMT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "CMTETH",
+		"symbol": "CMT/ETH",
+		"base": "CMT",
+		"quote": "ETH",
+		"baseId": "CMT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "CMTBNB",
+		"symbol": "CMT/BNB",
+		"base": "CMT",
+		"quote": "BNB",
+		"baseId": "CMT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "XLMBTC",
+		"symbol": "XLM/BTC",
+		"base": "XLM",
+		"quote": "BTC",
+		"baseId": "XLM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XLMETH",
+		"symbol": "XLM/ETH",
+		"base": "XLM",
+		"quote": "ETH",
+		"baseId": "XLM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "XLMBNB",
+		"symbol": "XLM/BNB",
+		"base": "XLM",
+		"quote": "BNB",
+		"baseId": "XLM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "CNDBTC",
+		"symbol": "CND/BTC",
+		"base": "CND",
+		"quote": "BTC",
+		"baseId": "CND",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "CNDETH",
+		"symbol": "CND/ETH",
+		"base": "CND",
+		"quote": "ETH",
+		"baseId": "CND",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "CNDBNB",
+		"symbol": "CND/BNB",
+		"base": "CND",
+		"quote": "BNB",
+		"baseId": "CND",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "LENDBTC",
+		"symbol": "LEND/BTC",
+		"base": "LEND",
+		"quote": "BTC",
+		"baseId": "LEND",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LENDETH",
+		"symbol": "LEND/ETH",
+		"base": "LEND",
+		"quote": "ETH",
+		"baseId": "LEND",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WABIBTC",
+		"symbol": "WABI/BTC",
+		"base": "WABI",
+		"quote": "BTC",
+		"baseId": "WABI",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WABIETH",
+		"symbol": "WABI/ETH",
+		"base": "WABI",
+		"quote": "ETH",
+		"baseId": "WABI",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WABIBNB",
+		"symbol": "WABI/BNB",
+		"base": "WABI",
+		"quote": "BNB",
+		"baseId": "WABI",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "LTCETH",
+		"symbol": "LTC/ETH",
+		"base": "LTC",
+		"quote": "ETH",
+		"baseId": "LTC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "LTCUSDT",
+		"symbol": "LTC/USDT",
+		"base": "LTC",
+		"quote": "USDT",
+		"baseId": "LTC",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.00001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 5,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.00001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "LTCBNB",
+		"symbol": "LTC/BNB",
+		"base": "LTC",
+		"quote": "BNB",
+		"baseId": "LTC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.00001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 5,
+			"price": 2
+		},
+		"limits": {
+			"amount": {
+				"min": 0.00001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.01,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "TNBBTC",
+		"symbol": "TNB/BTC",
+		"base": "TNB",
+		"quote": "BTC",
+		"baseId": "TNB",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "TNBETH",
+		"symbol": "TNB/ETH",
+		"base": "TNB",
+		"quote": "ETH",
+		"baseId": "TNB",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WAVESBTC",
+		"symbol": "WAVES/BTC",
+		"base": "WAVES",
+		"quote": "BTC",
+		"baseId": "WAVES",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WAVESETH",
+		"symbol": "WAVES/ETH",
+		"base": "WAVES",
+		"quote": "ETH",
+		"baseId": "WAVES",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WAVESBNB",
+		"symbol": "WAVES/BNB",
+		"base": "WAVES",
+		"quote": "BNB",
+		"baseId": "WAVES",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "GTOBTC",
+		"symbol": "GTO/BTC",
+		"base": "GTO",
+		"quote": "BTC",
+		"baseId": "GTO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GTOETH",
+		"symbol": "GTO/ETH",
+		"base": "GTO",
+		"quote": "ETH",
+		"baseId": "GTO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "GTOBNB",
+		"symbol": "GTO/BNB",
+		"base": "GTO",
+		"quote": "BNB",
+		"baseId": "GTO",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ICXBTC",
+		"symbol": "ICX/BTC",
+		"base": "ICX",
+		"quote": "BTC",
+		"baseId": "ICX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ICXETH",
+		"symbol": "ICX/ETH",
+		"base": "ICX",
+		"quote": "ETH",
+		"baseId": "ICX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ICXBNB",
+		"symbol": "ICX/BNB",
+		"base": "ICX",
+		"quote": "BNB",
+		"baseId": "ICX",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "OSTBTC",
+		"symbol": "OST/BTC",
+		"base": "OST",
+		"quote": "BTC",
+		"baseId": "OST",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "OSTETH",
+		"symbol": "OST/ETH",
+		"base": "OST",
+		"quote": "ETH",
+		"baseId": "OST",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "OSTBNB",
+		"symbol": "OST/BNB",
+		"base": "OST",
+		"quote": "BNB",
+		"baseId": "OST",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ELFBTC",
+		"symbol": "ELF/BTC",
+		"base": "ELF",
+		"quote": "BTC",
+		"baseId": "ELF",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ELFETH",
+		"symbol": "ELF/ETH",
+		"base": "ELF",
+		"quote": "ETH",
+		"baseId": "ELF",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "AIONBTC",
+		"symbol": "AION/BTC",
+		"base": "AION",
+		"quote": "BTC",
+		"baseId": "AION",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "AIONETH",
+		"symbol": "AION/ETH",
+		"base": "AION",
+		"quote": "ETH",
+		"baseId": "AION",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "AIONBNB",
+		"symbol": "AION/BNB",
+		"base": "AION",
+		"quote": "BNB",
+		"baseId": "AION",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "NEBLBTC",
+		"symbol": "NEBL/BTC",
+		"base": "NEBL",
+		"quote": "BTC",
+		"baseId": "NEBL",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NEBLETH",
+		"symbol": "NEBL/ETH",
+		"base": "NEBL",
+		"quote": "ETH",
+		"baseId": "NEBL",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NEBLBNB",
+		"symbol": "NEBL/BNB",
+		"base": "NEBL",
+		"quote": "BNB",
+		"baseId": "NEBL",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BRDBTC",
+		"symbol": "BRD/BTC",
+		"base": "BRD",
+		"quote": "BTC",
+		"baseId": "BRD",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BRDETH",
+		"symbol": "BRD/ETH",
+		"base": "BRD",
+		"quote": "ETH",
+		"baseId": "BRD",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BRDBNB",
+		"symbol": "BRD/BNB",
+		"base": "BRD",
+		"quote": "BNB",
+		"baseId": "BRD",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "MCOBNB",
+		"symbol": "MCO/BNB",
+		"base": "MCO",
+		"quote": "BNB",
+		"baseId": "MCO",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "EDOBTC",
+		"symbol": "EDO/BTC",
+		"base": "EDO",
+		"quote": "BTC",
+		"baseId": "EDO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "EDOETH",
+		"symbol": "EDO/ETH",
+		"base": "EDO",
+		"quote": "ETH",
+		"baseId": "EDO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WINGSBTC",
+		"symbol": "WINGS/BTC",
+		"base": "WINGS",
+		"quote": "BTC",
+		"baseId": "WINGS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WINGSETH",
+		"symbol": "WINGS/ETH",
+		"base": "WINGS",
+		"quote": "ETH",
+		"baseId": "WINGS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NAVBTC",
+		"symbol": "NAV/BTC",
+		"base": "NAV",
+		"quote": "BTC",
+		"baseId": "NAV",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NAVETH",
+		"symbol": "NAV/ETH",
+		"base": "NAV",
+		"quote": "ETH",
+		"baseId": "NAV",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NAVBNB",
+		"symbol": "NAV/BNB",
+		"base": "NAV",
+		"quote": "BNB",
+		"baseId": "NAV",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "LUNBTC",
+		"symbol": "LUN/BTC",
+		"base": "LUN",
+		"quote": "BTC",
+		"baseId": "LUN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LUNETH",
+		"symbol": "LUN/ETH",
+		"base": "LUN",
+		"quote": "ETH",
+		"baseId": "LUN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "TRIGBTC",
+		"symbol": "TRIG/BTC",
+		"base": "TRIG",
+		"quote": "BTC",
+		"baseId": "TRIG",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "TRIGETH",
+		"symbol": "TRIG/ETH",
+		"base": "TRIG",
+		"quote": "ETH",
+		"baseId": "TRIG",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "TRIGBNB",
+		"symbol": "TRIG/BNB",
+		"base": "TRIG",
+		"quote": "BNB",
+		"baseId": "TRIG",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "APPCBTC",
+		"symbol": "APPC/BTC",
+		"base": "APPC",
+		"quote": "BTC",
+		"baseId": "APPC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "APPCETH",
+		"symbol": "APPC/ETH",
+		"base": "APPC",
+		"quote": "ETH",
+		"baseId": "APPC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "APPCBNB",
+		"symbol": "APPC/BNB",
+		"base": "APPC",
+		"quote": "BNB",
+		"baseId": "APPC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "VIBEBTC",
+		"symbol": "VIBE/BTC",
+		"base": "VIBE",
+		"quote": "BTC",
+		"baseId": "VIBE",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "VIBEETH",
+		"symbol": "VIBE/ETH",
+		"base": "VIBE",
+		"quote": "ETH",
+		"baseId": "VIBE",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RLCBTC",
+		"symbol": "RLC/BTC",
+		"base": "RLC",
+		"quote": "BTC",
+		"baseId": "RLC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "RLCETH",
+		"symbol": "RLC/ETH",
+		"base": "RLC",
+		"quote": "ETH",
+		"baseId": "RLC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RLCBNB",
+		"symbol": "RLC/BNB",
+		"base": "RLC",
+		"quote": "BNB",
+		"baseId": "RLC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "INSBTC",
+		"symbol": "INS/BTC",
+		"base": "INS",
+		"quote": "BTC",
+		"baseId": "INS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "INSETH",
+		"symbol": "INS/ETH",
+		"base": "INS",
+		"quote": "ETH",
+		"baseId": "INS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "PIVXBTC",
+		"symbol": "PIVX/BTC",
+		"base": "PIVX",
+		"quote": "BTC",
+		"baseId": "PIVX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "PIVXETH",
+		"symbol": "PIVX/ETH",
+		"base": "PIVX",
+		"quote": "ETH",
+		"baseId": "PIVX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "PIVXBNB",
+		"symbol": "PIVX/BNB",
+		"base": "PIVX",
+		"quote": "BNB",
+		"baseId": "PIVX",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "IOSTBTC",
+		"symbol": "IOST/BTC",
+		"base": "IOST",
+		"quote": "BTC",
+		"baseId": "IOST",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "IOSTETH",
+		"symbol": "IOST/ETH",
+		"base": "IOST",
+		"quote": "ETH",
+		"baseId": "IOST",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "CHATBTC",
+		"symbol": "CHAT/BTC",
+		"base": "CHAT",
+		"quote": "BTC",
+		"baseId": "CHAT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "CHATETH",
+		"symbol": "CHAT/ETH",
+		"base": "CHAT",
+		"quote": "ETH",
+		"baseId": "CHAT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "STEEMBTC",
+		"symbol": "STEEM/BTC",
+		"base": "STEEM",
+		"quote": "BTC",
+		"baseId": "STEEM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "STEEMETH",
+		"symbol": "STEEM/ETH",
+		"base": "STEEM",
+		"quote": "ETH",
+		"baseId": "STEEM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "STEEMBNB",
+		"symbol": "STEEM/BNB",
+		"base": "STEEM",
+		"quote": "BNB",
+		"baseId": "STEEM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "NANOBTC",
+		"symbol": "XRB/BTC",
+		"base": "XRB",
+		"quote": "BTC",
+		"baseId": "NANO",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NANOETH",
+		"symbol": "XRB/ETH",
+		"base": "XRB",
+		"quote": "ETH",
+		"baseId": "NANO",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NANOBNB",
+		"symbol": "XRB/BNB",
+		"base": "XRB",
+		"quote": "BNB",
+		"baseId": "NANO",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 4
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.0001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "VIABTC",
+		"symbol": "VIA/BTC",
+		"base": "VIA",
+		"quote": "BTC",
+		"baseId": "VIA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "VIAETH",
+		"symbol": "VIA/ETH",
+		"base": "VIA",
+		"quote": "ETH",
+		"baseId": "VIA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "VIABNB",
+		"symbol": "VIA/BNB",
+		"base": "VIA",
+		"quote": "BNB",
+		"baseId": "VIA",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "BLZBTC",
+		"symbol": "BLZ/BTC",
+		"base": "BLZ",
+		"quote": "BTC",
+		"baseId": "BLZ",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BLZETH",
+		"symbol": "BLZ/ETH",
+		"base": "BLZ",
+		"quote": "ETH",
+		"baseId": "BLZ",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BLZBNB",
+		"symbol": "BLZ/BNB",
+		"base": "BLZ",
+		"quote": "BNB",
+		"baseId": "BLZ",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "AEBTC",
+		"symbol": "AE/BTC",
+		"base": "AE",
+		"quote": "BTC",
+		"baseId": "AE",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "AEETH",
+		"symbol": "AE/ETH",
+		"base": "AE",
+		"quote": "ETH",
+		"baseId": "AE",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "AEBNB",
+		"symbol": "AE/BNB",
+		"base": "AE",
+		"quote": "BNB",
+		"baseId": "AE",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "RPXBTC",
+		"symbol": "RPX/BTC",
+		"base": "RPX",
+		"quote": "BTC",
+		"baseId": "RPX",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "RPXETH",
+		"symbol": "RPX/ETH",
+		"base": "RPX",
+		"quote": "ETH",
+		"baseId": "RPX",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "RPXBNB",
+		"symbol": "RPX/BNB",
+		"base": "RPX",
+		"quote": "BNB",
+		"baseId": "RPX",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "NCASHBTC",
+		"symbol": "NCASH/BTC",
+		"base": "NCASH",
+		"quote": "BTC",
+		"baseId": "NCASH",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "NCASHETH",
+		"symbol": "NCASH/ETH",
+		"base": "NCASH",
+		"quote": "ETH",
+		"baseId": "NCASH",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "NCASHBNB",
+		"symbol": "NCASH/BNB",
+		"base": "NCASH",
+		"quote": "BNB",
+		"baseId": "NCASH",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "POABTC",
+		"symbol": "POA/BTC",
+		"base": "POA",
+		"quote": "BTC",
+		"baseId": "POA",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "POAETH",
+		"symbol": "POA/ETH",
+		"base": "POA",
+		"quote": "ETH",
+		"baseId": "POA",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "POABNB",
+		"symbol": "POA/BNB",
+		"base": "POA",
+		"quote": "BNB",
+		"baseId": "POA",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ZILBTC",
+		"symbol": "ZIL/BTC",
+		"base": "ZIL",
+		"quote": "BTC",
+		"baseId": "ZIL",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ZILETH",
+		"symbol": "ZIL/ETH",
+		"base": "ZIL",
+		"quote": "ETH",
+		"baseId": "ZIL",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ZILBNB",
+		"symbol": "ZIL/BNB",
+		"base": "ZIL",
+		"quote": "BNB",
+		"baseId": "ZIL",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "ONTBTC",
+		"symbol": "ONT/BTC",
+		"base": "ONT",
+		"quote": "BTC",
+		"baseId": "ONT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "ONTETH",
+		"symbol": "ONT/ETH",
+		"base": "ONT",
+		"quote": "ETH",
+		"baseId": "ONT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ONTBNB",
+		"symbol": "ONT/BNB",
+		"base": "ONT",
+		"quote": "BNB",
+		"baseId": "ONT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "STORMBTC",
+		"symbol": "STORM/BTC",
+		"base": "STORM",
+		"quote": "BTC",
+		"baseId": "STORM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "STORMETH",
+		"symbol": "STORM/ETH",
+		"base": "STORM",
+		"quote": "ETH",
+		"baseId": "STORM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "STORMBNB",
+		"symbol": "STORM/BNB",
+		"base": "STORM",
+		"quote": "BNB",
+		"baseId": "STORM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "QTUMBNB",
+		"symbol": "QTUM/BNB",
+		"base": "QTUM",
+		"quote": "BNB",
+		"baseId": "QTUM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "QTUMUSDT",
+		"symbol": "QTUM/USDT",
+		"base": "QTUM",
+		"quote": "USDT",
+		"baseId": "QTUM",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.001,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 3,
+			"price": 3
+		},
+		"limits": {
+			"amount": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"price": {
+				"min": 0.001,
+				"max": 10000000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "XEMBTC",
+		"symbol": "XEM/BTC",
+		"base": "XEM",
+		"quote": "BTC",
+		"baseId": "XEM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "XEMETH",
+		"symbol": "XEM/ETH",
+		"base": "XEM",
+		"quote": "ETH",
+		"baseId": "XEM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "XEMBNB",
+		"symbol": "XEM/BNB",
+		"base": "XEM",
+		"quote": "BNB",
+		"baseId": "XEM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "WANBTC",
+		"symbol": "WAN/BTC",
+		"base": "WAN",
+		"quote": "BTC",
+		"baseId": "WAN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WANETH",
+		"symbol": "WAN/ETH",
+		"base": "WAN",
+		"quote": "ETH",
+		"baseId": "WAN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "WANBNB",
+		"symbol": "WAN/BNB",
+		"base": "WAN",
+		"quote": "BNB",
+		"baseId": "WAN",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "WPRBTC",
+		"symbol": "WPR/BTC",
+		"base": "WPR",
+		"quote": "BTC",
+		"baseId": "WPR",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "WPRETH",
+		"symbol": "WPR/ETH",
+		"base": "WPR",
+		"quote": "ETH",
+		"baseId": "WPR",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "QLCBTC",
+		"symbol": "QLC/BTC",
+		"base": "QLC",
+		"quote": "BTC",
+		"baseId": "QLC",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "QLCETH",
+		"symbol": "QLC/ETH",
+		"base": "QLC",
+		"quote": "ETH",
+		"baseId": "QLC",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SYSBTC",
+		"symbol": "SYS/BTC",
+		"base": "SYS",
+		"quote": "BTC",
+		"baseId": "SYS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "SYSETH",
+		"symbol": "SYS/ETH",
+		"base": "SYS",
+		"quote": "ETH",
+		"baseId": "SYS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "SYSBNB",
+		"symbol": "SYS/BNB",
+		"base": "SYS",
+		"quote": "BNB",
+		"baseId": "SYS",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "QLCBNB",
+		"symbol": "QLC/BNB",
+		"base": "QLC",
+		"quote": "BNB",
+		"baseId": "QLC",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "GRSBTC",
+		"symbol": "GRS/BTC",
+		"base": "GRS",
+		"quote": "BTC",
+		"baseId": "GRS",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GRSETH",
+		"symbol": "GRS/ETH",
+		"base": "GRS",
+		"quote": "ETH",
+		"baseId": "GRS",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "ADAUSDT",
+		"symbol": "ADA/USDT",
+		"base": "ADA",
+		"quote": "USDT",
+		"baseId": "ADA",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "ADABNB",
+		"symbol": "ADA/BNB",
+		"base": "ADA",
+		"quote": "BNB",
+		"baseId": "ADA",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "CLOAKBTC",
+		"symbol": "CLOAK/BTC",
+		"base": "CLOAK",
+		"quote": "BTC",
+		"baseId": "CLOAK",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 7
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-7,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "CLOAKETH",
+		"symbol": "CLOAK/ETH",
+		"base": "CLOAK",
+		"quote": "ETH",
+		"baseId": "CLOAK",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "GNTBTC",
+		"symbol": "GNT/BTC",
+		"base": "GNT",
+		"quote": "BTC",
+		"baseId": "GNT",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "GNTETH",
+		"symbol": "GNT/ETH",
+		"base": "GNT",
+		"quote": "ETH",
+		"baseId": "GNT",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "GNTBNB",
+		"symbol": "GNT/BNB",
+		"base": "GNT",
+		"quote": "BNB",
+		"baseId": "GNT",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "LOOMBTC",
+		"symbol": "LOOM/BTC",
+		"base": "LOOM",
+		"quote": "BTC",
+		"baseId": "LOOM",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "LOOMETH",
+		"symbol": "LOOM/ETH",
+		"base": "LOOM",
+		"quote": "ETH",
+		"baseId": "LOOM",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "LOOMBNB",
+		"symbol": "LOOM/BNB",
+		"base": "LOOM",
+		"quote": "BNB",
+		"baseId": "LOOM",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	},
+	{
+		"id": "XRPUSDT",
+		"symbol": "XRP/USDT",
+		"base": "XRP",
+		"quote": "USDT",
+		"baseId": "XRP",
+		"quoteId": "USDT",
+		"info": null,
+		"lot": 0.01,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 2,
+			"price": 5
+		},
+		"limits": {
+			"amount": {
+				"min": 0.01,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.00001,
+				"max": 100000
+			},
+			"cost": {
+				"min": 10
+			}
+		}
+	},
+	{
+		"id": "BCNBTC",
+		"symbol": "BCN/BTC",
+		"base": "BCN",
+		"quote": "BTC",
+		"baseId": "BCN",
+		"quoteId": "BTC",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.001
+			}
+		}
+	},
+	{
+		"id": "BCNETH",
+		"symbol": "BCN/ETH",
+		"base": "BCN",
+		"quote": "ETH",
+		"baseId": "BCN",
+		"quoteId": "ETH",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 8
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 1e-8,
+				"max": 100000
+			},
+			"cost": {
+				"min": 0.01
+			}
+		}
+	},
+	{
+		"id": "BCNBNB",
+		"symbol": "BCN/BNB",
+		"base": "BCN",
+		"quote": "BNB",
+		"baseId": "BCN",
+		"quoteId": "BNB",
+		"info": null,
+		"lot": 1,
+		"active": true,
+		"precision": {
+			"base": 8,
+			"quote": 8,
+			"amount": 0,
+			"price": 6
+		},
+		"limits": {
+			"amount": {
+				"min": 1,
+				"max": 90000000
+			},
+			"price": {
+				"min": 0.000001,
+				"max": 10000
+			},
+			"cost": {
+				"min": 1
+			}
+		}
+	}
+]

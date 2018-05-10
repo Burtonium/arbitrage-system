@@ -1,5 +1,5 @@
 const { Model } = require('../database');
-const _ = require('lodash');
+const { omit } = require('lodash');
 
 class ExchangeSettings extends Model {
   static get tableName() {
@@ -11,11 +11,24 @@ class ExchangeSettings extends Model {
   }
 
   static get hidden() {
-    return ['secret', 'password'];
+    return ['secret', 'password', 'id', 'exchangeId', 'twofa'];
   }
   
   $formatJson(json) {
-    return _.omit(json, ExchangeSettings.hidden());
+    const f = omit(json, ExchangeSettings.hidden);
+    f.buyMarginPercent = parseFloat(f.buyMarginPercent);
+    f.sellMarginPercent = parseFloat(f.sellMarginPercent);
+    return f;
+  }
+  
+  static get jsonSchema () {
+    return {
+      type: 'object',
+      properties: {
+        sellMarginPercent: { type: 'number' },
+        buyMarginPercent: { type: 'number' },
+      }
+    };
   }
 
   static get relationMappings() {

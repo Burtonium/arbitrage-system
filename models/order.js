@@ -15,7 +15,7 @@ class Order extends Model {
   }
 
   get filled() {
-    return (this.trades || []).map(t => t.filled).reduce((a, b) => a + b, 0);
+    return (this.trades || []).map(t => t.filled).reduce((a, b) => parseFloat(a) + parseFloat(b), 0);
   }
 
   get cost() {
@@ -30,7 +30,7 @@ class Order extends Model {
   }
 
   async updateInfo() {
-    const market = await this.$relatedQuery('market').eager('exchange.settings').first();
+    const market = this.market || await this.$relatedQuery('market').eager('exchange.settings').first();
     await market.exchange.loadSettings();
 
     let info = null;
@@ -78,9 +78,8 @@ class Order extends Model {
   }
 
   async cancel() {
-    const { exchangeSettings } = await this.$relatedQuery('user').eager('exchangeSettings');
-    const exchange = await (this.exchange || await this.$relatedQuery('exchange'));
-    exchange.userSettings = exchangeSettings.find(s => s.exchangeId === exchange.id);
+    const exchange = await this.$relatedQuery('exchange').eager('settings');
+    await exchange.loadSettings();
     await exchange.ccxt.cancelOrder(this.orderId);
     return Order.query().patch({ status: 'canceled' }).where({ id: this.id });
   }

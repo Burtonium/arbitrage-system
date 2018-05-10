@@ -1,8 +1,23 @@
 [
-
 	{
 		"name": "Binance",
 		"ccxtId": "binance",
+		"settings": {
+			"apiKey": "testkey",
+			"secret": "testsecret"
+		}
+	},
+	{
+		"name": "Bitstamp",
+		"ccxtId": "bitstamp",
+		"settings": {
+			"apiKey": "testkey",
+			"secret": "testsecret"
+		}
+	},
+	{
+		"name": "Poloniex",
+		"ccxtId": "poloniex",
 		"settings": {
 			"apiKey": "testkey",
 			"secret": "testsecret"

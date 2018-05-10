@@ -69,9 +69,15 @@ class Exchange extends Model {
     Object.assign(this.instance, _.pick(settings, ['secret', 'apiKey', 'uid', 'password']));
   }
   
+  loadRequirements() {
+    this.lazyLoadCcxt();
+    this.requires = this.instance.requiredCredentials;
+  }
+  
 
   $formatJson(json) {
-    return _.omit(json, ['ccxt', 'instance']);
+    json.id = json.ccxtId;
+    return _.omit(json, ['ccxt', 'ccxtId', 'instance']);
   }
   
   lazyLoadCcxt() {
