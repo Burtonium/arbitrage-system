@@ -21,7 +21,7 @@ This API does not currently:
 # Routes
 
 ## Create quote
-----
+
   Creates a quote according to the criterion provided.
 
 * **URL**
@@ -66,7 +66,7 @@ This API does not currently:
 
 
 ## Place order
-----
+
   Creates an order on the exchange quoted exchange
 
 * **URL**
@@ -109,7 +109,7 @@ This API does not currently:
 
 
 ## Get exchanges
-----
+
   Returns all available exchanges, their required credentials, settings and available markets
 
 * **URL**
@@ -129,7 +129,7 @@ This API does not currently:
    ```
 
 ## Create exchange settings
-----
+
   Creates an exchange setting required for arbitrage
 
 * **URL**
