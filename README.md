@@ -58,6 +58,11 @@ any of the markets your app depends on become unsupported.
 npm run update-markets
 ```
 
+Run your app
+```shell
+npm start
+```
+
 # Routes
 
 ## Create quote
