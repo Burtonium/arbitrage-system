@@ -7,6 +7,7 @@ const CurrencyPair = require('../models/currency_pair');
 const _ = require('lodash');
 
 (async () =>{
+  await Market.query().del();
   for (let i = 0; i < ccxt.exchanges.length; i++) {
     const e = ccxt.exchanges[i];
     console.log(`Loading ${e} markets (${i + 1} of ${ccxt.exchanges.length})`);

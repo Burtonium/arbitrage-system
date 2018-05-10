@@ -4,7 +4,8 @@
   "description": "Arbing system for ezbtc",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test --exit --slow 0",
+    "update-markets": "node scripts/update_markets",
+    "test": "PORT=1234 NODE_ENV=test mocha test --exit --slow 0",
     "dev": "nodemon index.js"
   },
   "author": "",

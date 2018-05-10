@@ -14,7 +14,7 @@ class Quote extends guid(Model) {
   }
   
   static get expiryTime() {
-    return new Date(Date.now() - 30000);
+    return new Date(Date.now() - ((process.env.QUOTE_EXPIRY_SECONDS || 30) * 1000));
   }
   
     

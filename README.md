@@ -18,6 +18,46 @@ This API does not currently:
 - Lock balances for the duration of the quote
 - Encrypt or cipher any of the exchange credentials
 
+## Install
+
+Clone it locally first:
+```shell
+https://github.com/teamezrepo/new-alts.git new-alts
+```
+
+Install required dependencies
+```shell
+npm install
+```
+
+Copy the .example.env file. Remember to fill in your environment variables for 
+your setup. Leaving proxies variable empty just means your app will not be using any proxies.
+```shell
+cd new-alts && cp .env.example ./.env
+```
+
+Make a .env.test file and enter in the name of a test database. This will ensure none of the
+development data is lost when testing. You may also override any other environment variables here.
+```shell 
+echo 'DB_NAME=test' > .env.test 
+```
+
+Migrate the database to the latest version
+```shell
+knex migrate:latest
+```
+
+Seed the database with all the supported currencies
+```shell
+knex seed:run
+```
+
+Fetch all markets supported by the ccxt library. This should be done periodically if the 
+any of the markets your app depends on become unsupported.
+```shell
+npm run update-markets
+```
+
 # Routes
 
 ## Create quote
@@ -159,3 +199,13 @@ This API does not currently:
   
   * **HTTP Status Code:** 500 Error <br />
     **Message** Something Went Wrong <br />
+
+## Contributors
+
+[Matt Burton](https://github.com/burtonium)
+
+## License
+
+***Internal Use Only***
+
+All rights reserved by 1081627 BC Ltd
