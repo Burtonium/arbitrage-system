@@ -33,7 +33,7 @@ npm install
 Copy the .example.env file. Remember to fill in your environment variables for 
 your setup. Leaving proxies variable empty just means your app will not be using any proxies.
 ```shell
-cd new-alts && cp .env.example ./.env
+cd new-alts && cp .example.env ./.env
 ```
 
 Make a .env.test file and enter in the name of a test database. This will ensure none of the
