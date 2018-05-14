@@ -1,14 +1,12 @@
-const Currencies = require('../../models/currency');
+const currencies = require('../currencies');
 const CurrencyPairs = require('../../models/currency_pair');
 const Markets = require('../../models/market');
 const Exchange = require('../../models/exchange');
 
-const _ = require('lodash');
-const currencies = require('../data/currencies');
+const { flatten } = require('lodash');
+
 exports.seed = async (knex) => {
-  await CurrencyPairs.query().del();
-  await Currencies.query().del();
-  await Currencies.query().insert(currencies);
+  await currencies.seed(knex);
   
   const pairs = await CurrencyPairs.query().insert([{
       base: 'ETH',
@@ -24,7 +22,7 @@ exports.seed = async (knex) => {
   const exchangeData = require('./data/exchanges');
   const exchanges = await Exchange.query().insertGraph(exchangeData);
   
-  await Promise.all(_.flatten(pairs.map((pair) => {
+  await Promise.all(flatten(pairs.map((pair) => {
     return exchanges.map((exchange) => {
       return Markets.query().insert([{
         currencyPairId: pair.id,

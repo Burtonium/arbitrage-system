@@ -1,10 +1,8 @@
 const ccxt = require('ccxt');
-const { knex } = require('../database');
+
 const Market = require('../models/market');
 const Exchange = require('../models/exchange');
 const CurrencyPair = require('../models/currency_pair');
-
-const _ = require('lodash');
 
 (async () =>{
   await Market.query().del();
@@ -25,15 +23,25 @@ const _ = require('lodash');
       const exchangeId = record.id;
       if (exchangeId) {
         await Promise.all(Object.values(exchange.markets).map(async (market) => {
-          let pair = await CurrencyPair.query().where({ quote: market.quote, base: market.base }).first();
+          let pair = await CurrencyPair.query().where({ 
+            quote: market.quote, 
+            base: market.base 
+          }).first();
           if (!pair) {
             try {
-              pair = await CurrencyPair.query().insert({ quote: market.quote, base: market.base });
+              pair = await CurrencyPair.query().insert({ 
+                quote: market.quote, 
+                base: market.base 
+              });
             } catch (error) {
               console.warn(`Warning: Unsupported pair ${market.base}/${market.quote}`);
             }
           }
-          return pair && Market.query().insert({ symbol: market.symbol, currencyPairId: pair.id, exchangeId }).catch(e => e);
+          return pair && Market.query().insert({ 
+            symbol: market.symbol, 
+            currencyPairId: pair.id, 
+            exchangeId 
+          }).catch(e => e);
         }));
       }
     } catch (e) {

@@ -16,7 +16,7 @@ class Exchange extends Model {
   static get timestamp() {
     return false;
   }
-
+  
   static get relationMappings() {
     return {
       markets: {
@@ -43,6 +43,11 @@ class Exchange extends Model {
     this.cycleProxy();
     return this.instance;
   }
+  
+  get has() {
+    this.lazyLoadCcxt();
+    return this.instance.has;
+  }
 
   lazyLoadCcxt() {
     if (!this.instance) {
@@ -58,11 +63,6 @@ class Exchange extends Model {
     }
   }
   
-  get has() {
-    this.lazyLoadCcxt();
-    return this.instance.has;
-  }
-  
   async loadSettings() {
     this.lazyLoadCcxt();
     const settings = this.settings || await this.$relatedQuery('settings');
@@ -74,6 +74,9 @@ class Exchange extends Model {
     this.requires = this.instance.requiredCredentials;
   }
   
+  loadMarkets() {
+    return this.ccxt.loadMarkets();
+  }
 
   $formatJson(json) {
     json.id = json.ccxtId;
