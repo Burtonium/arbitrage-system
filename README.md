@@ -22,12 +22,12 @@ This API does not currently:
 
 Clone it locally first:
 ```shell
-https://github.com/teamezrepo/new-alts.git new-alts
+git clone https://github.com/Burtonium/arbitrage-system.git
 ```
 
 Install required dependencies
 ```shell
-npm install
+cd arbitrage-system && npm install
 ```
 
 Copy the .example.env file. Remember to fill in your environment variables for 
