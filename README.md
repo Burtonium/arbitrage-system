@@ -1,6 +1,6 @@
 # Arbitrage System
 
-A Javascript library for for arbitrage of cryptocurrency sales on ezbtc.ca 
+A Javascript library for for arbitrage of cryptocurrency sales.
 
 This API is meant to be consumed by private networking since **no security features are implemented**.
 
