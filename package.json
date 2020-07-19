@@ -20,7 +20,7 @@
     "express-async-errors": "^2.1.2",
     "helmet": "^3.12.0",
     "knex": "^0.14.6",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.19",
     "node-persist": "2.1.0",
     "objection": "^1.1.7",
     "objection-guid": "^3.0.1",
